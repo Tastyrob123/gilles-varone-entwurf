@@ -1,0 +1,146 @@
+[
+ {
+  "name": "Nacht",
+  "hex": "#0b1315",
+  "rgb": [
+   11,
+   19,
+   21
+  ],
+  "rolle": "Grund der dunklen Flächen, mit dem Flechtmuster in Gold Ton in Ton",
+  "gruppe": "nacht",
+  "woher": "Farbe der Website (--nuit), aus dem Stil des Hauses"
+ },
+ {
+  "name": "Nacht zwei",
+  "hex": "#111b1d",
+  "rgb": [
+   17,
+   27,
+   29
+  ],
+  "rolle": "zweite dunkle Fläche: Tafeln, Leiste, Abschnitte auf Nacht",
+  "gruppe": "nacht",
+  "woher": "Farbe der Website (--nuit2), aus dem Stil des Hauses"
+ },
+ {
+  "name": "Nacht tief",
+  "hex": "#070c0d",
+  "rgb": [
+   7,
+   12,
+   13
+  ],
+  "rolle": "tiefste Fläche: Fuss und Schatten",
+  "gruppe": "nacht",
+  "woher": "Farbe der Website (--nuit3), aus dem Stil des Hauses"
+ },
+ {
+  "name": "Gold",
+  "hex": "#c9ab81",
+  "rgb": [
+   201,
+   171,
+   129
+  ],
+  "rolle": "Monogramm, Wortmarke, Zierde, Linien und Knöpfe",
+  "gruppe": "or",
+  "woher": "Farbe der Website (--or), aus dem Stil des Hauses"
+ },
+ {
+  "name": "Gold hell",
+  "hex": "#dcc3a0",
+  "rgb": [
+   220,
+   195,
+   160
+  ],
+  "rolle": "Glanz der Knöpfe und Betonung auf Nacht",
+  "gruppe": "or",
+  "woher": "Farbe der Website (--or-hell), aus dem Stil des Hauses"
+ },
+ {
+  "name": "Gold dunkel",
+  "hex": "#9c7c57",
+  "rgb": [
+   156,
+   124,
+   87
+  ],
+  "rolle": "Zeichen und Betonung auf Papier",
+  "gruppe": "or",
+  "woher": "Farbe der Website (--or2), aus dem Stil des Hauses"
+ },
+ {
+  "name": "Bronze",
+  "hex": "#755c3a",
+  "rgb": [
+   117,
+   92,
+   58
+  ],
+  "rolle": "kleine Zeilen und feine Linien auf Papier",
+  "gruppe": "or",
+  "woher": "Farbe der Website (--bronze), aus dem Stil des Hauses"
+ },
+ {
+  "name": "Papier",
+  "hex": "#f7f3ec",
+  "rgb": [
+   247,
+   243,
+   236
+  ],
+  "rolle": "Grund der hellen Flächen, mit dem Flechtmuster",
+  "gruppe": "papier",
+  "woher": "Farbe der Website (--papier), aus dem Stil des Hauses"
+ },
+ {
+  "name": "Sand",
+  "hex": "#eee6d8",
+  "rgb": [
+   238,
+   230,
+   216
+  ],
+  "rolle": "zweite helle Fläche: Abschnitte und Felder",
+  "gruppe": "papier",
+  "woher": "Farbe der Website (--sable), aus dem Stil des Hauses"
+ },
+ {
+  "name": "Crème",
+  "hex": "#f4ecdf",
+  "rgb": [
+   244,
+   236,
+   223
+  ],
+  "rolle": "Schrift und Linien auf Nacht",
+  "gruppe": "papier",
+  "woher": "Farbe der Website (--creme), aus dem Stil des Hauses"
+ },
+ {
+  "name": "Tinte",
+  "hex": "#0b1315",
+  "rgb": [
+   11,
+   19,
+   21
+  ],
+  "rolle": "Lesetext auf Papier und Sand, nie reines Schwarz (gleich wie Nacht)",
+  "gruppe": "schrift",
+  "woher": "Farbe der Website (--encre), aus dem Stil des Hauses"
+ },
+ {
+  "name": "Tinte leise",
+  "hex": "#3b4446",
+  "rgb": [
+   59,
+   68,
+   70
+  ],
+  "rolle": "leise Zeilen auf Papier",
+  "gruppe": "schrift",
+  "woher": "Farbe der Website (--encre2), aus dem Stil des Hauses"
+ }
+]

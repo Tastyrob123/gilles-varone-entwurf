@@ -1,0 +1,76 @@
+/* Die Speisekarten · Restaurant Gilles Varone, Savièse — Satz der Karten (09.11.2026). Stil des Hauses (CHARAKTER.md, Website assets/gv.css):
+   Papier #F7F3EC, Nacht #0b1315, Gold #C9AB81 / dunkel #9C7C57; Titel Gill Sans Nova Book 400 (nie fett, nie kursiv), kleine Zeilen Caviar Dreams
+   in gesperrten Versalien; Flechtstreifen oben und unten wie an den Menükarten der Website, Zierde «xx» zwischen den Gängen, Monogramm GV.
+   Masse in mm, Schrift in pt über --s (blatt.js passt je Seite an, damit nichts überläuft). Die Seite ist immer gefüllt: der Inhalt verteilt sich
+   über die ganze Höhe (kein leerer unterer Teil). Zierde, Streifen und Zeichen kommen aus satz/gv/ (Kopie aus _werkzeuge/assets/). */
+@font-face{font-family:'GV Gill';font-style:normal;font-weight:400;src:url('../fonts/GillSansNova-Book.woff2') format('woff2')}
+@font-face{font-family:'GV Caviar';font-style:normal;font-weight:400;src:url('../fonts/CaviarDreams.woff2') format('woff2')}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#ddd3c3;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.blatt{--s:1;position:relative;overflow:hidden;margin:8mm auto;background:#F7F3EC;color:#0b1315;display:flex;flex-direction:column;
+  font-family:'GV Gill',Georgia,serif;font-weight:400;font-size:calc(10pt*var(--s));line-height:1.42;text-align:center;page-break-after:always;break-after:page}
+:where(.blatt) :where(h1,h2,h3,h4,p,ul){margin:0;padding:0;font-weight:400}
+/* Flechtstreifen oben und unten (Flechtmuster des Hauses, Gold auf Papier) */
+.blatt::before,.blatt::after{content:'';flex:none;height:11mm;background:url('gv/geflecht.png') 0 0/24mm auto repeat;opacity:.55}
+.gv-a5::before,.gv-a5::after{height:8.5mm;background-size:19mm auto}
+.blatt::before{border-bottom:.25mm solid rgba(201,171,129,.7)}
+.blatt::after{border-top:.25mm solid rgba(201,171,129,.7)}
+/* Kopf: Monogramm und Zeile des Hauses */
+.gv-kopf{flex:none;display:flex;flex-direction:column;align-items:center;padding:7mm 16mm 0}
+.gv-zeichen{display:block;width:12mm;height:12mm;background:url('gv/zeichen.svg') 50% 50%/contain no-repeat}
+.gv-a5 .gv-zeichen{width:10mm;height:10mm}
+.gv-kicker{margin-top:2.6mm;font-family:'GV Caviar','GV Gill',sans-serif;font-size:6.6pt;letter-spacing:.28em;text-transform:uppercase;color:#9C7C57}
+.gv-a5 .gv-kicker{font-size:5.8pt;letter-spacing:.24em}
+/* Inhalt: verteilt über die ganze Höhe */
+.inhalt{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:space-between;align-items:stretch;padding:calc(5mm*var(--s)) 15mm calc(4mm*var(--s))}
+.gv-a5 .inhalt{padding:calc(5mm*var(--s)) 12mm calc(4mm*var(--s))}
+.gv-titel{font-family:'GV Gill',Georgia,serif;font-size:calc(34pt*var(--s));line-height:1.04;letter-spacing:.004em;color:#0b1315}
+.gv-a5 .gv-titel{font-size:calc(30pt*var(--s))}
+.gv-lead{margin:calc(2.6mm*var(--s)) auto 0;max-width:150mm;font-size:calc(11.4pt*var(--s));line-height:1.4;color:#2a3234}
+.gv-a5 .gv-lead{max-width:118mm;font-size:calc(11pt*var(--s));line-height:1.45}
+/* Die drei Menükarten nebeneinander (wie die Website), jede mit eigenem Flechtstreifen */
+.gv-menus{display:flex;flex-wrap:wrap;align-items:stretch;gap:0 4.5mm}
+.gv-menus>.rubrik,.gv-menus>.gv-text{flex:0 0 100%}
+.rubrik{font-family:'GV Gill',Georgia,serif;font-size:calc(17pt*var(--s));line-height:1.15;color:#0b1315}
+.gv-text{margin:calc(1.6mm*var(--s)) 0 calc(4.6mm*var(--s));padding:0 18mm;font-size:calc(9.2pt*var(--s));line-height:1.45;color:#4a4740}
+.gv-menu{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;background:#fbf8f2;border:.25mm solid rgba(201,171,129,.6);border-radius:1.2mm;overflow:hidden}
+.gv-menu::before,.gv-menu::after{content:'';align-self:stretch;flex:none;height:5mm;background:url('gv/geflecht.png') 0 0/16mm auto repeat;opacity:.5}
+.gv-menu h4{margin:calc(5mm*var(--s)) 3mm 0;font-size:calc(12.6pt*var(--s));line-height:1.2;color:#0b1315}
+.sb-p{font-family:'GV Gill',Georgia,serif;color:#9C7C57;line-height:1.1}
+.sb-p b{font-weight:400}
+.sb-p small{font-family:'GV Caviar','GV Gill',sans-serif;font-size:.36em;letter-spacing:.2em;margin-left:.15em}
+.gv-menu .sb-p{margin-top:calc(1.8mm*var(--s));font-size:calc(25pt*var(--s))}
+.gv-menu .sb-p::after{content:'';display:block;width:13mm;height:2.8mm;margin:calc(2.6mm*var(--s)) auto 0;background:url('gv/zierde.svg') 50% 50%/contain no-repeat}
+/* Gänge: Zierde «xx» zwischen den Gängen, die Liste füllt die Karte bis unten */
+.gv-gaenge{flex:1;align-self:stretch;display:flex;flex-direction:column;justify-content:space-evenly;padding:calc(3mm*var(--s)) 3mm calc(4.4mm*var(--s))}
+.gv-gang{font-size:calc(10.2pt*var(--s));line-height:1.3;color:#1d2224}
+.gv-gang+.gv-gang::before{content:'';display:block;width:7mm;height:1.6mm;margin:calc(1.5mm*var(--s)) auto calc(1.5mm*var(--s));background:url('gv/zierde.svg') 50% 50%/contain no-repeat;opacity:.85}
+/* Chasse locale, végétariennes, groupes: drei Felder in einer Tafel, goldene Fugen */
+.gv-plus{display:flex;align-items:stretch;background:#fbf8f2;border:.25mm solid rgba(201,171,129,.6);border-radius:1.2mm}
+.gv-zusatz{flex:1 1 0;min-width:0;display:flex;flex-direction:column;justify-content:center;padding:calc(4mm*var(--s)) 4mm}
+.gv-zusatz+.gv-zusatz{border-left:.25mm solid rgba(201,171,129,.6)}
+.gv-zusatz h4{font-size:calc(11pt*var(--s));line-height:1.2}
+.gv-zusatz .sb-p{margin-top:calc(1mm*var(--s));font-size:calc(12pt*var(--s))}
+.gv-zusatz .sb-p small{font-size:.62em}
+.sb-t{font-size:calc(8.6pt*var(--s));line-height:1.45;color:#4a4740}
+.gv-zusatz .sb-t{margin-top:calc(1.2mm*var(--s))}
+/* Hinweise des Hauses */
+.gv-hinweise{display:flex;flex-direction:column;align-items:center;gap:calc(1.3mm*var(--s))}
+.gv-hinweise::before{content:'';display:block;width:12mm;height:2.6mm;margin-bottom:calc(1.6mm*var(--s));background:url('gv/zierde.svg') 50% 50%/contain no-repeat}
+.gv-hin{max-width:172mm;font-size:calc(8.4pt*var(--s));line-height:1.45;color:#4a4740}
+.gv-a5 .gv-hin{max-width:122mm;font-size:calc(8.8pt*var(--s))}
+/* Chasse locale als Tischkarte (A5) */
+.gv-solo{flex:1;display:flex;align-items:stretch;padding:calc(5mm*var(--s)) 0 calc(5mm*var(--s))}
+.gv-saison{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;padding:calc(7mm*var(--s)) 7mm;background:#fbf8f2;border:.25mm solid rgba(201,171,129,.6);border-radius:1.2mm}
+.gv-saison h4{font-size:calc(27pt*var(--s));line-height:1.12}
+.gv-saison .sb-p{margin-top:calc(4mm*var(--s));font-size:calc(40pt*var(--s))}
+.gv-saison .sb-p::after{content:'';display:block;width:16mm;height:3.4mm;margin:calc(5mm*var(--s)) auto 0;background:url('gv/zierde.svg') 50% 50%/contain no-repeat}
+.gv-saison .sb-t{margin-top:calc(5mm*var(--s));max-width:92mm;font-size:calc(12.4pt*var(--s));line-height:1.45;color:#2a3234}
+/* Les accords (A5): Satz der Cheffe sommelière */
+.gv-zitat{flex:1;margin:calc(5mm*var(--s)) 0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:calc(6mm*var(--s)) 7mm;background:#fbf8f2;border:.25mm solid rgba(201,171,129,.6);border-radius:1.2mm}
+.gv-zitat .sb-t{font-size:calc(13.4pt*var(--s));line-height:1.5;color:#1d2224}
+.gv-zitat h4{margin-top:calc(5mm*var(--s));font-family:'GV Caviar','GV Gill',sans-serif;font-size:calc(7pt*var(--s));letter-spacing:.24em;text-transform:uppercase;color:#9C7C57}
+/* Fusszeile */
+.gv-fuss{flex:none;padding:0 12mm calc(3.4mm*var(--s));font-family:'GV Caviar','GV Gill',sans-serif;font-size:5.8pt;letter-spacing:.22em;text-transform:uppercase;color:#9C7C57}
+.gv-a5 .gv-fuss{font-size:5pt;letter-spacing:.16em}
+@media print{html,body{background:none}.blatt{margin:0}}

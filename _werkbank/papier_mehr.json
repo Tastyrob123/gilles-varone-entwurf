@@ -1,0 +1,480 @@
+{
+ "druck": [
+  {
+   "id": "horaires",
+   "name": "Aushang Horaires",
+   "titel": [
+    "Quand nous",
+    "vous accueillons."
+   ],
+   "satz": "Ihre Zeiten von Donnerstag bis Sonntag und die Ruhetage, so wie sie auf Ihrer Website stehen. Für die Tür und den Comptoir.",
+   "format": "A4 hoch",
+   "pdf": "gilles-varone-horaires.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-horaires",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-horaires": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-009"
+  },
+  {
+   "id": "a-votre-table",
+   "name": "Aushang «À votre table»",
+   "titel": [
+    "Der Chef",
+    "am Tisch."
+   ],
+   "satz": "Ihr Satz vom Servieren am Tisch über dem Angiessen eines Desserts, für den Eingang.",
+   "format": "A4 hoch",
+   "pdf": "gilles-varone-a-votre-table.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-a-votre-table",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-a-votre-table": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-003"
+  },
+  {
+   "id": "distinctions",
+   "name": "Aushang Distinctions",
+   "titel": [
+    "Die Auszeichnungen,",
+    "ruhig gesetzt."
+   ],
+   "satz": "Zwei Sterne, 18 Punkte, der Young Chef Award und die Découverte romande, jede mit Jahr, ohne Requisiten.",
+   "format": "A4 hoch",
+   "pdf": "gilles-varone-distinctions.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-distinctions",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-distinctions": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "aushang-012"
+  },
+  {
+   "id": "plakat-18-points",
+   "name": "Plakat 18 points",
+   "titel": [
+    "Achtzehn Punkte,",
+    "im Saal."
+   ],
+   "satz": "Plakat A3 mit dem Saal und dem Satz Ihrer Seite zu GaultMillau seit Oktober 2026.",
+   "format": "A3 hoch",
+   "pdf": "gilles-varone-plakat-18-points.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-plakat-18-points",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-plakat-18-points": [
+     640,
+     900
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "plakat-004"
+  },
+  {
+   "id": "plakat-saint-germain",
+   "name": "Plakat Saint Germain",
+   "titel": [
+    "So finden",
+    "Gäste zu Ihnen."
+   ],
+   "satz": "Plakat A3 mit dem Saal bei Tag, dem Parking und den Buslinien 341 und 342 ab Sion.",
+   "format": "A3 hoch",
+   "pdf": "gilles-varone-plakat-saint-germain.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-plakat-saint-germain",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-plakat-saint-germain": [
+     640,
+     900
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "plakat-016"
+  },
+  {
+   "id": "menu-du-soir",
+   "name": "Menükarte des Abends",
+   "titel": [
+    "Le menu",
+    "du soir."
+   ],
+   "satz": "Für den Tisch am Abend: die Gänge der Expérience, Zeile für Zeile, mit Datum und Ihrer Zierde.",
+   "format": "A5 hoch",
+   "pdf": "gilles-varone-menu-du-soir.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-menu-du-soir",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-menu-du-soir": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "menueeinleger-001"
+  },
+  {
+   "id": "einladung-18-points",
+   "name": "Einladung 18 points",
+   "titel": [
+    "Eine Einladung",
+    "zum Anstossen."
+   ],
+   "satz": "Quadratische Karte für Stammgäste und Partner, mit dem Satz Ihrer Seite zu den 18 Punkten.",
+   "format": "quadratisch 148 mm",
+   "pdf": "gilles-varone-einladung-18-points.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-einladung-18-points",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-einladung-18-points": [
+     640,
+     640
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "einladung-004"
+  },
+  {
+   "id": "einladung-chasse",
+   "name": "Einladung Chasse locale",
+   "titel": [
+    "Die Chasse locale",
+    "im Oktober."
+   ],
+   "satz": "Karte für die Expérience chasse locale, nur im Oktober, mit Ihrem Satz zum Terroir.",
+   "format": "quadratisch 148 mm",
+   "pdf": "gilles-varone-einladung-chasse.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-einladung-chasse",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-einladung-chasse": [
+     640,
+     640
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "einladung-006"
+  },
+  {
+   "id": "flyer-experiences",
+   "name": "Flyer Les expériences",
+   "titel": [
+    "Die Expériences",
+    "zum Mitnehmen."
+   ],
+   "satz": "Flyer A5, vorne ein Teller, hinten die Expériences in fünf, sechs und sieben Services.",
+   "format": "A5 hoch",
+   "pdf": "gilles-varone-flyer-experiences.pdf",
+   "seiten": 2,
+   "karton": [
+    [
+     "w-flyer-experiences",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-flyer-experiences": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "flyer-001"
+  },
+  {
+   "id": "mets-et-vins",
+   "name": "Karte Mets et vins",
+   "titel": [
+    "Mets",
+    "et vins."
+   ],
+   "satz": "Kleine Karte für den Tisch zu den Accords mets et vins, mit dem Namen der Cheffe sommelière.",
+   "format": "A6 hoch",
+   "pdf": "gilles-varone-mets-et-vins.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-mets-et-vins",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-mets-et-vins": [
+     640,
+     888
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "weinempfehlung-001"
+  },
+  {
+   "id": "sans-alcool",
+   "name": "Karte Créations sans alcool",
+   "titel": [
+    "Mets et créations",
+    "sans alcool."
+   ],
+   "satz": "Dieselbe Karte für die Accords ohne Alkohol, hell auf Sand.",
+   "format": "A6 hoch",
+   "pdf": "gilles-varone-sans-alcool.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-sans-alcool",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-sans-alcool": [
+     640,
+     888
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "weinempfehlung-002"
+  },
+  {
+   "id": "le-terroir",
+   "name": "Tischaufsteller Le terroir",
+   "titel": [
+    "Le",
+    "terroir."
+   ],
+   "satz": "Aufsteller für den Tisch mit dem ersten Ihrer drei Werte und einem Teller dazu.",
+   "format": "A6 hoch",
+   "pdf": "gilles-varone-le-terroir.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-le-terroir",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-le-terroir": [
+     640,
+     888
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "tisch-006"
+  },
+  {
+   "id": "le-partage",
+   "name": "Tischaufsteller Le partage",
+   "titel": [
+    "Le",
+    "partage."
+   ],
+   "satz": "Der dritte Wert, Ihr Satz vom Willkommen, dazu das Angiessen am Tisch.",
+   "format": "A6 hoch",
+   "pdf": "gilles-varone-le-partage.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-le-partage",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-le-partage": [
+     640,
+     888
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "tisch-008"
+  },
+  {
+   "id": "presse-young-chef",
+   "name": "Pressemappe Young Chef",
+   "titel": [
+    "Für die",
+    "Presse."
+   ],
+   "satz": "Ein Blatt für die Pressemappe zum Meilleur Jeune Chef Suisse 2024, im Wortlaut Ihrer Seite.",
+   "format": "A4 hoch",
+   "pdf": "gilles-varone-presse-young-chef.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-presse-young-chef",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-presse-young-chef": [
+     640,
+     898
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "pressemappe-001"
+  },
+  {
+   "id": "a-bientot",
+   "name": "Beileger «À bientôt»",
+   "titel": [
+    "Zur Rechnung,",
+    "ein Gruss."
+   ],
+   "satz": "Ein schmales Blatt zur Rechnung, mit einem Dessert und Ihrem Satz vom Moment authentique.",
+   "format": "DIN lang hoch",
+   "pdf": "gilles-varone-a-bientot.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-a-bientot",
+     46,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-a-bientot": [
+     640,
+     1316
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "beileger-002"
+  },
+  {
+   "id": "bienvenue",
+   "name": "Karte «Bienvenue»",
+   "titel": [
+    "Bienvenue",
+    "am Tisch."
+   ],
+   "satz": "Eine Karte, die schon auf dem Tisch liegt, wenn die Gäste Platz nehmen.",
+   "format": "A6 quer",
+   "pdf": "gilles-varone-bienvenue.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-bienvenue",
+     88,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-bienvenue": [
+     1000,
+     721
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "zimmerkarte-001"
+  },
+  {
+   "id": "namensschild",
+   "name": "Namensschild",
+   "titel": [
+    "Ein Name",
+    "am Revers."
+   ],
+   "satz": "Namensschilder für Ihr Team, hier für Gilles Varone, Chef & patron.",
+   "format": "Namensschild",
+   "pdf": "gilles-varone-namensschild.pdf",
+   "seiten": 1,
+   "karton": [
+    [
+     "w-namensschild",
+     88,
+     ""
+    ]
+   ],
+   "masse": {
+    "w-namensschild": [
+     643,
+     409
+    ]
+   },
+   "schatten": true,
+   "haengt": false,
+   "vorlage": "namensschild-003"
+  }
+ ]
+}

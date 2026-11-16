@@ -1,0 +1,9 @@
+# Drucksachen & Feed (Gilles Varone, 9717) gegen die laufende Vorlage Hausdruckerei (Wirtschaft am Schlössli, 9053). name | vorlage | neu
+# Die Übersicht hat keine Ansichten über die Adresse; die Bereiche (Anlässe, Abteilungen, Arten, Fotos, Markenbuch, Editor) sind im Prüfgang _pruefung-gv/ aufgenommen.
+uebersicht | http://127.0.0.1:9053/_werkzeuge/imprimerie/ | /_werkzeuge/imprimerie/
+fuehrung | http://127.0.0.1:9053/_werkzeuge/imprimerie/?hilfe=fuehrung | /_werkzeuge/imprimerie/?hilfe=fuehrung
+newsletter-erste | http://127.0.0.1:9053/_werkzeuge/imprimerie/mail.html?vorlage=ferien | /_werkzeuge/imprimerie/mail.html?vorlage=fermetures
+newsletter-zweite | http://127.0.0.1:9053/_werkzeuge/imprimerie/mail.html?vorlage=lunch | /_werkzeuge/imprimerie/mail.html?vorlage=experiences
+bestaetigung | http://127.0.0.1:9053/_werkzeuge/imprimerie/mail.html?vorlage=reservation | /_werkzeuge/imprimerie/mail.html?vorlage=reservation
+leere-mail | http://127.0.0.1:9053/_werkzeuge/imprimerie/mail.html?vorlage=leer | /_werkzeuge/imprimerie/mail.html?vorlage=leer
+pruefseite | http://127.0.0.1:9053/_werkzeuge/imprimerie/pruefung.html | /_werkzeuge/imprimerie/pruefung.html

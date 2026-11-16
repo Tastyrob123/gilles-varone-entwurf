@@ -1,0 +1,7 @@
+# Vorlage (Wirtschaft am Schlössli, läuft auf 9049) | Gilles Varone (9715)
+Übersicht | http://127.0.0.1:9049/_werkzeuge/livre/#start | /_werkzeuge/livre/#start
+Fotos | http://127.0.0.1:9049/_werkzeuge/livre/#bilder | /_werkzeuge/livre/#bilder
+Logo & Dateien | http://127.0.0.1:9049/_werkzeuge/livre/#dateien | /_werkzeuge/livre/#dateien
+Markenprüfung | http://127.0.0.1:9049/_werkzeuge/livre/#pruefung | /_werkzeuge/livre/#pruefung
+Markenbuch | http://127.0.0.1:9049/_werkzeuge/livre/buch.html | /_werkzeuge/livre/buch.html
+Anleitung | http://127.0.0.1:9049/_werkzeuge/livre/anleitung.html | /_werkzeuge/livre/anleitung.html

@@ -1,0 +1,10 @@
+# Website bearbeiten (Gilles Varone, 9712) gegen die laufende Vorlage (9035). name | vorlage | neu
+uebersicht | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=start | /_werkzeuge/bureau/?ansicht=start
+bereich-start | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=b:start | /_werkzeuge/bureau/?ansicht=b:start
+bereich-zweiter | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=b:essen | /_werkzeuge/bureau/?ansicht=b:experiences
+zeiten-preise | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=zahlen | /_werkzeuge/bureau/?ansicht=zahlen
+team | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=haus:team | /_werkzeuge/bureau/?ansicht=haus:team
+hinweis | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=hinweis | /_werkzeuge/bureau/?ansicht=hinweis
+entwurf | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=entwurf | /_werkzeuge/bureau/?ansicht=entwurf
+fruehere-fassungen | http://127.0.0.1:9035/_werkzeuge/bureau/?ansicht=verlauf | /_werkzeuge/bureau/?ansicht=verlauf
+pruefseite | http://127.0.0.1:9035/werkzeuge/website/pruefung.html?haus=schloessli | /werkzeuge/website/pruefung.html?haus=varone

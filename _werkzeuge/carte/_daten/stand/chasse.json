@@ -1,0 +1,148 @@
+{
+ "art": "satz",
+ "ziel": "chasse",
+ "name": "Chasse locale",
+ "unter": "",
+ "gruppe": "Saison",
+ "quelle": "experiences.html",
+ "schema": 1,
+ "format": [
+  148,
+  210
+ ],
+ "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Chasse locale · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:148mm 210mm;margin:0}</style></head><body>",
+ "fuss": "</body></html>",
+ "seiten": [
+  {
+   "fn": "seite",
+   "a": [
+    " data-max=\"1\" class=\"blatt gv-blatt gv-a5\" data-b=\"148\" data-h=\"210\" style=\"width:148mm;height:210mm\"",
+    {
+     "fn": "el",
+     "a": [
+      "header",
+      " class=\"gv-kopf\"",
+      {
+       "fn": "el",
+       "a": [
+        "span",
+        " class=\"gv-zeichen\""
+       ]
+      },
+      {
+       "fn": "el",
+       "a": [
+        "p",
+        " class=\"gv-kicker\"",
+        "Restaurant Gilles Varone · Saint-Germain, Savièse"
+       ]
+      }
+     ]
+    },
+    {
+     "fn": "el",
+     "a": [
+      "div",
+      " class=\"inhalt\"",
+      {
+       "fn": "el",
+       "a": [
+        "div",
+        " class=\"gv-solo\"",
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-g gv-saison\"",
+          {
+           "fn": "el",
+           "a": [
+            "h4",
+            "",
+            "L’expérience chasse locale"
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "p",
+            " class=\"sb-p\"",
+            {
+             "fn": "el",
+             "a": [
+              "b",
+              "",
+              "299"
+             ]
+            },
+            " ",
+            {
+             "fn": "el",
+             "a": [
+              "small",
+              "",
+              "CHF"
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "p",
+            " class=\"sb-t\"",
+            "Uniquement durant le mois d’octobre, selon les disponibilités"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "fn": "el",
+       "a": [
+        "div",
+        " class=\"gv-hinweise\"",
+        {
+         "fn": "el",
+         "a": [
+          "p",
+          " class=\"gv-hin\"",
+          "Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table."
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "p",
+          " class=\"gv-hin\"",
+          "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "p",
+          " class=\"gv-hin\"",
+          "– Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation –"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "fn": "el",
+     "a": [
+      "footer",
+      " class=\"gv-fuss\"",
+      "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+     ]
+    }
+   ]
+  }
+ ],
+ "teile": [],
+ "veroeffentlicht": "2026-11-09 15:09:35",
+ "wer": "Einlesen"
+}

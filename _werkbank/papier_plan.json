@@ -1,0 +1,247 @@
+{
+ "druck": [
+  {
+   "id": "ansichtskarten",
+   "name": "Ansichtskarten",
+   "format": "A6 quer, vier Motive",
+   "vorschau": [
+    [
+     "ansichtskarte-1",
+     1
+    ],
+    [
+     "ansichtskarte-2",
+     3
+    ],
+    [
+     "ansichtskarte-3",
+     5
+    ],
+    [
+     "ansichtskarte-4",
+     7
+    ],
+    [
+     "ansichtskarte-r",
+     2
+    ]
+   ],
+   "satz": "Vier Karten aus Saint-Germain, mit dem Saal, der offenen Küche und Ihrem Monogramm an der Wand. Der Ort steht im Bild, die Bildzeile auf Französisch.",
+   "quelle": "Fotos Ihrer Website",
+   "seiten": 8
+  },
+  {
+   "id": "experience",
+   "name": "Carte de l’expérience",
+   "format": "A5 hoch, zwei Seiten",
+   "vorschau": [
+    [
+     "experience",
+     1
+    ],
+    [
+     "experience-r",
+     2
+    ]
+   ],
+   "satz": "Eine Karte für den Tisch mit den drei Expériences, Service für Service im Wortlaut Ihrer Seite, ohne Preise. Hinten Ihr Satz zum Moment am Tisch und die Accords.",
+   "quelle": "Les expériences, Ihre Website",
+   "seiten": 2
+  },
+  {
+   "id": "bon-cadeau",
+   "name": "Bon cadeau",
+   "format": "DIN lang quer, 210 × 100 mm",
+   "vorschau": [
+    [
+     "bon-cadeau",
+     1
+    ],
+    [
+     "bon-cadeau-r",
+     2
+    ]
+   ],
+   "satz": "Der Bon cadeau zum Verschenken: für wen, von wem, ein Wort dazu und der Betrag, denn die Montants sind à choix. Hinten Adresse und Horaires.",
+   "quelle": "Bon cadeau und Infos, Ihre Website",
+   "seiten": 2
+  },
+  {
+   "id": "tischkarte",
+   "name": "Tischkarte",
+   "format": "A6 quer, zum Aufstellen",
+   "vorschau": [
+    [
+     "tischkarte",
+     1
+    ],
+    [
+     "tischkarte-r",
+     2
+    ]
+   ],
+   "satz": "Für reservierte Tische im Saal. Hinten steht Ihr Satz, dass Sie selbst an den Tisch kommen.",
+   "quelle": "Startseite Ihrer Website",
+   "seiten": 2
+  },
+  {
+   "id": "fermetures",
+   "name": "Aushang Fermetures",
+   "format": "A4 hoch",
+   "vorschau": [
+    [
+     "fermetures",
+     1
+    ]
+   ],
+   "satz": "Ein Blatt für die Tür, wenn das Restaurant über die Feiertage Pause macht, mit beiden Daten und Ihren Horaires.",
+   "quelle": "Infos, Ihre Website",
+   "seiten": 1
+  },
+  {
+   "id": "allergies",
+   "name": "Karte für Allergien",
+   "format": "A6 hoch, zwei Seiten",
+   "vorschau": [
+    [
+     "allergies",
+     1
+    ],
+    [
+     "allergies-r",
+     2
+    ]
+   ],
+   "satz": "Ihr Hinweis «Merci de nous signaler les allergies …» als Karte für die Reservation: Name, Datum, Gäste, Allergien und Régime. Hinten die vegetarischen Expériences.",
+   "quelle": "Les expériences, Ihre Website",
+   "seiten": 2
+  },
+  {
+   "id": "briefpapier",
+   "name": "Briefpapier",
+   "format": "Briefbogen A4, Couvert C6/5",
+   "vorschau": [
+    [
+     "briefbogen",
+     1
+    ],
+    [
+     "couvert",
+     2
+    ]
+   ],
+   "satz": "Briefbogen mit Ihrer Wortmarke und ein Couvert in Nacht mit dem Flechtmuster und dem Monogramm.",
+   "quelle": "Infos, Ihre Website",
+   "seiten": 2
+  }
+ ],
+ "etiketten": [
+  {
+   "id": "u01",
+   "b": 100,
+   "h": 100,
+   "name": "Le monogramme",
+   "satz": "Das Monogramm GV in Gold, darum das Flechtmuster Ihrer Wände.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u02",
+   "b": 100,
+   "h": 100,
+   "name": "La signature",
+   "satz": "Ihre Wortmarke auf Papier, unten rundherum Name und Ort.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u03",
+   "b": 94,
+   "h": 94,
+   "name": "Le terroir",
+   "satz": "Der erste Ihrer drei Werte, mit seinem Zeichen und den Saveurs les plus locales possibles.",
+   "form": "M3 0H91A3 3 0 0 1 94 3V91A3 3 0 0 1 91 94H3A3 3 0 0 1 0 91V3A3 3 0 0 1 3 0Z"
+  },
+  {
+   "id": "u04",
+   "b": 94,
+   "h": 94,
+   "name": "La haute cuisine",
+   "satz": "Der zweite Wert, Ihr Satz vom Gleichgewicht der Aromen.",
+   "form": "M3 0H91A3 3 0 0 1 94 3V91A3 3 0 0 1 91 94H3A3 3 0 0 1 0 91V3A3 3 0 0 1 3 0Z"
+  },
+  {
+   "id": "u05",
+   "b": 94,
+   "h": 94,
+   "name": "Le partage",
+   "satz": "Der dritte Wert: Sie bringen den Teller selbst an den Tisch.",
+   "form": "M3 0H91A3 3 0 0 1 94 3V91A3 3 0 0 1 91 94H3A3 3 0 0 1 0 91V3A3 3 0 0 1 3 0Z"
+  },
+  {
+   "id": "u06",
+   "b": 100,
+   "h": 100,
+   "name": "Des saveurs & des valeurs",
+   "satz": "Der Satz aus dem Fuss Ihrer Seite, auf Gold.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u07",
+   "b": 100,
+   "h": 100,
+   "name": "Deux étoiles",
+   "satz": "Die zweite Michelin-Auszeichnung, nur in Worten, ohne fremdes Zeichen.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u08",
+   "b": 100,
+   "h": 100,
+   "name": "18 points",
+   "satz": "Die 18 Punkte im GaultMillau, seit Oktober 2026.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u09",
+   "b": 94,
+   "h": 94,
+   "name": "Savièse",
+   "satz": "Das Flechtmuster als ganze Fläche, in der Mitte der Ort.",
+   "form": "M3 0H91A3 3 0 0 1 94 3V91A3 3 0 0 1 91 94H3A3 3 0 0 1 0 91V3A3 3 0 0 1 3 0Z"
+  },
+  {
+   "id": "u10",
+   "b": 94,
+   "h": 94,
+   "name": "Une expérience différente",
+   "satz": "Der erste Satz Ihrer Startseite.",
+   "form": "M3 0H91A3 3 0 0 1 94 3V91A3 3 0 0 1 91 94H3A3 3 0 0 1 0 91V3A3 3 0 0 1 3 0Z"
+  },
+  {
+   "id": "u11",
+   "b": 100,
+   "h": 100,
+   "name": "Accords",
+   "satz": "Ihre Begleitung zu jeder Expérience, mit Wein oder ohne Alkohol.",
+   "form": "M50 1A49 49 0 1 1 50 99A49 49 0 1 1 50 1Z"
+  },
+  {
+   "id": "u12",
+   "b": 94,
+   "h": 94,
+   "name": "Une vue imprenable",
+   "satz": "Ihr Satz zum Saal im Erdgeschoss, mit Blick auf die Walliser Alpen.",
+   "form": "M3 0H91A3 3 0 0 1 94 3V91A3 3 0 0 1 91 94H3A3 3 0 0 1 0 91V3A3 3 0 0 1 3 0Z"
+  }
+ ],
+ "boegen": 2,
+ "meins": [
+  "Bildzeilen der Ansichtskarten",
+  "Feldnamen auf Bon cadeau, Tischkarte und Karte für Allergien, das Wort «Réservé»",
+  "Der Satz zur Wiedereröffnung auf dem Aushang der Fermetures",
+  "Auswahl der Sätze auf den Untersetzern"
+ ],
+ "masse": [
+  94,
+  100
+ ]
+}

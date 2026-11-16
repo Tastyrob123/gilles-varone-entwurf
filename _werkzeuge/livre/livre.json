@@ -1,0 +1,1876 @@
+{
+ "haus": "Restaurant Gilles Varone",
+ "ort": "Savièse",
+ "fotos": [
+  {
+   "k": "saal-kueche",
+   "t": {
+    "de": "Der Saal mit offener Küche am Abend"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/saal-kueche-1800.webp",
+   "fm": "../../assets/img/saal-kueche-1200.webp",
+   "fs": "../../assets/img/saal-kueche-600.webp"
+  },
+  {
+   "k": "salle-gv",
+   "t": {
+    "de": "Der Saal mit dem Zeichen GV an der Wand"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1770,
+   "h": 1416,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/salle-gv-1200.webp",
+   "fm": "../../assets/img/salle-gv-1200.webp",
+   "fs": "../../assets/img/salle-gv-600.webp"
+  },
+  {
+   "k": "salle-jour",
+   "t": {
+    "de": "Der Saal bei Tag",
+    "fr": "La salle du restaurant"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/salle-jour-1800.webp",
+   "fm": "../../assets/img/salle-jour-1200.webp",
+   "fs": "../../assets/img/salle-jour-600.webp"
+  },
+  {
+   "k": "comptoir-2",
+   "t": {
+    "de": "Der Comptoir vor der offenen Küche",
+    "fr": "Le comptoir face à la cuisine"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/comptoir-2-1800.webp",
+   "fm": "../../assets/img/comptoir-2-1200.webp",
+   "fs": "../../assets/img/comptoir-2-600.webp"
+  },
+  {
+   "k": "comptoir",
+   "t": {
+    "de": "Der Comptoir, Blick in die Küche"
+   },
+   "b": "saal",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 1000,
+   "h": 1000,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/comptoir-600.webp",
+   "fm": "../../assets/img/comptoir-600.webp",
+   "fs": "../../assets/img/comptoir-600.webp"
+  },
+  {
+   "k": "teller-gross",
+   "t": {
+    "de": "Teller des Chefs, gross aufgelöst",
+    "fr": "Assiette signature du chef"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 4588,
+   "h": 3670,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen. «Druck» liefert das Original des Hauses in voller Grösse",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-gross-1800.webp",
+   "fm": "../../assets/img/teller-gross-1200.webp",
+   "fs": "../../assets/img/teller-gross-600.webp"
+  },
+  {
+   "k": "noir-1",
+   "t": {
+    "de": "Teller auf schwarzem Porzellan, von oben",
+    "fr": "Assiette sur porcelaine noire, vue de dessus"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2560,
+   "h": 2560,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/noir-1-1800.webp",
+   "fm": "../../assets/img/noir-1-1200.webp",
+   "fs": "../../assets/img/noir-1-600.webp"
+  },
+  {
+   "k": "jus",
+   "t": {
+    "de": "Der Jus wird angegossen",
+    "fr": "Le jus coule sur l’assiette"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2560,
+   "h": 2560,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/jus-1800.webp",
+   "fm": "../../assets/img/jus-1200.webp",
+   "fs": "../../assets/img/jus-600.webp"
+  },
+  {
+   "k": "poisson",
+   "t": {
+    "de": "Fisch und Püree",
+    "fr": "Le poisson et sa purée"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2560,
+   "h": 2560,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/poisson-1800.webp",
+   "fm": "../../assets/img/poisson-1200.webp",
+   "fs": "../../assets/img/poisson-600.webp"
+  },
+  {
+   "k": "soupe",
+   "t": {
+    "de": "Bouillon mit Blüten",
+    "fr": "Un bouillon aux fleurs"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 1785,
+   "h": 1785,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/soupe-1200.webp",
+   "fm": "../../assets/img/soupe-1200.webp",
+   "fs": "../../assets/img/soupe-600.webp"
+  },
+  {
+   "k": "assiette-table",
+   "t": {
+    "de": "Ein Teller auf dem Holztisch",
+    "fr": "Une assiette sur la table en bois"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2464,
+   "h": 2464,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/assiette-table-1800.webp",
+   "fm": "../../assets/img/assiette-table-1200.webp",
+   "fs": "../../assets/img/assiette-table-600.webp"
+  },
+  {
+   "k": "dessert-holz",
+   "t": {
+    "de": "Dessert auf Holz im Kerzenlicht"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/dessert-holz-1800.webp",
+   "fm": "../../assets/img/dessert-holz-1200.webp",
+   "fs": "../../assets/img/dessert-holz-600.webp"
+  },
+  {
+   "k": "dessert-cuillere",
+   "t": {
+    "de": "Das Dessert, mit dem Löffel serviert",
+    "fr": "Le dessert servi à la cuillère"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2560,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/dessert-cuillere-1800.webp",
+   "fm": "../../assets/img/dessert-cuillere-1200.webp",
+   "fs": "../../assets/img/dessert-cuillere-600.webp"
+  },
+  {
+   "k": "bougie-1",
+   "t": {
+    "de": "Ein Gang im Kerzenlicht",
+    "fr": "Un plat à la lumière de la bougie"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2500,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/bougie-1-1800.webp",
+   "fm": "../../assets/img/bougie-1-1200.webp",
+   "fs": "../../assets/img/bougie-1-600.webp"
+  },
+  {
+   "k": "noir-2",
+   "t": {
+    "de": "Teller auf schwarzem Porzellan",
+    "fr": "Assiette sur porcelaine noire"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 2526,
+   "h": 2526,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/noir-2-1800.webp",
+   "fm": "../../assets/img/noir-2-1200.webp",
+   "fs": "../../assets/img/noir-2-600.webp"
+  },
+  {
+   "k": "bougie-2",
+   "t": {
+    "de": "Ein Gang im Kerzenlicht, schwarze Schale",
+    "fr": "Un plat à la lumière de la bougie"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2500,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/bougie-2-1800.webp",
+   "fm": "../../assets/img/bougie-2-1200.webp",
+   "fs": "../../assets/img/bougie-2-600.webp"
+  },
+  {
+   "k": "verse-1",
+   "t": {
+    "de": "Die Sauce wird über das Dessert gegossen",
+    "fr": "La sauce versée sur le dessert"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2560,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/verse-1-1800.webp",
+   "fm": "../../assets/img/verse-1-1200.webp",
+   "fs": "../../assets/img/verse-1-600.webp"
+  },
+  {
+   "k": "verse-2",
+   "t": {
+    "de": "Die Sauce wird über die Randen gegossen",
+    "fr": "La sauce versée sur la betterave"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2560,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/verse-2-1800.webp",
+   "fm": "../../assets/img/verse-2-1200.webp",
+   "fs": "../../assets/img/verse-2-600.webp"
+  },
+  {
+   "k": "verse-3",
+   "t": {
+    "de": "Die Sauce wird angegossen",
+    "fr": "La sauce versée sur l’assiette"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1707,
+   "h": 2560,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/verse-3-1200.webp",
+   "fm": "../../assets/img/verse-3-1200.webp",
+   "fs": "../../assets/img/verse-3-600.webp"
+  },
+  {
+   "k": "verse-4",
+   "t": {
+    "de": "Randen und Blüten, die Sauce kommt"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 1000,
+   "h": 1000,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/verse-4-600.webp",
+   "fm": "../../assets/img/verse-4-600.webp",
+   "fs": "../../assets/img/verse-4-600.webp"
+  },
+  {
+   "k": "teller-1",
+   "t": {
+    "de": "Ein Gang mit Brot und einem Glas Weisswein"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 793,
+   "h": 991,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-1-600.webp",
+   "fm": "../../assets/img/teller-1-600.webp",
+   "fs": "../../assets/img/teller-1-600.webp"
+  },
+  {
+   "k": "teller-2",
+   "t": {
+    "de": "Ein Teller von oben, Kräuter und Körner"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 793,
+   "h": 991,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-2-600.webp",
+   "fm": "../../assets/img/teller-2-600.webp",
+   "fs": "../../assets/img/teller-2-600.webp"
+  },
+  {
+   "k": "teller-3",
+   "t": {
+    "de": "Randen und Blüten in der weissen Schale"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2560,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen. «Druck» liefert das Original des Hauses in voller Grösse",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-3-600.webp",
+   "fm": "../../assets/img/teller-3-600.webp",
+   "fs": "../../assets/img/teller-3-600.webp"
+  },
+  {
+   "k": "teller-4",
+   "t": {
+    "de": "Die Sauce wird angegossen, weisse Schale"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 793,
+   "h": 991,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-4-600.webp",
+   "fm": "../../assets/img/teller-4-600.webp",
+   "fs": "../../assets/img/teller-4-600.webp"
+  },
+  {
+   "k": "teller-5",
+   "t": {
+    "de": "Ein Törtchen auf goldener Sauce"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 724,
+   "h": 1086,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-5-600.webp",
+   "fm": "../../assets/img/teller-5-600.webp",
+   "fs": "../../assets/img/teller-5-600.webp"
+  },
+  {
+   "k": "teller-6",
+   "t": {
+    "de": "Ein Gang auf dem gewellten Teller, ein Glas daneben"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 793,
+   "h": 991,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-6-600.webp",
+   "fm": "../../assets/img/teller-6-600.webp",
+   "fs": "../../assets/img/teller-6-600.webp"
+  },
+  {
+   "k": "teller-7",
+   "t": {
+    "de": "Ein Gang der Saison, Gemüse und Blüten",
+    "fr": "Assiette de saison, légumes et fleurs de la région"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 793,
+   "h": 991,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-7-600.webp",
+   "fm": "../../assets/img/teller-7-600.webp",
+   "fs": "../../assets/img/teller-7-600.webp"
+  },
+  {
+   "k": "teller-8",
+   "t": {
+    "de": "Ein angerichteter Teller, viel Weiss",
+    "fr": "Assiette dressée"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1376,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-8-1200.webp",
+   "fm": "../../assets/img/teller-8-1200.webp",
+   "fs": "../../assets/img/teller-8-600.webp"
+  },
+  {
+   "k": "teller-9",
+   "t": {
+    "de": "Feine Scheiben auf grüner Sauce"
+   },
+   "b": "teller",
+   "s": "jahr",
+   "f": "quadrat",
+   "w": 724,
+   "h": 724,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/teller-9-600.webp",
+   "fm": "../../assets/img/teller-9-600.webp",
+   "fs": "../../assets/img/teller-9-600.webp"
+  },
+  {
+   "k": "cuisine",
+   "t": {
+    "de": "Die offene Küche",
+    "fr": "La cuisine ouverte"
+   },
+   "b": "kueche",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1536,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/cuisine-1800.webp",
+   "fm": "../../assets/img/cuisine-1200.webp",
+   "fs": "../../assets/img/cuisine-600.webp"
+  },
+  {
+   "k": "mains",
+   "t": {
+    "de": "Die Hände des Chefs beim Anrichten",
+    "fr": "Les mains du chef dressent l’assiette"
+   },
+   "b": "kueche",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2560,
+   "h": 2048,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/mains-1800.webp",
+   "fm": "../../assets/img/mains-1200.webp",
+   "fs": "../../assets/img/mains-600.webp"
+  },
+  {
+   "k": "cuisine-2",
+   "t": {
+    "de": "Die Brigade in der offenen Küche",
+    "fr": "La brigade en cuisine"
+   },
+   "b": "kueche",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1536,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/cuisine-2-1800.webp",
+   "fm": "../../assets/img/cuisine-2-1200.webp",
+   "fs": "../../assets/img/cuisine-2-600.webp"
+  },
+  {
+   "k": "chef-herd",
+   "t": {
+    "de": "Gilles Varone am Herd mit der Brigade"
+   },
+   "b": "kueche",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1380,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/chef-herd-1200.webp",
+   "fm": "../../assets/img/chef-herd-1200.webp",
+   "fs": "../../assets/img/chef-herd-600.webp"
+  },
+  {
+   "k": "chef-anrichten",
+   "t": {
+    "de": "Ein Teller wird angerichtet"
+   },
+   "b": "kueche",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1380,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/chef-anrichten-1200.webp",
+   "fm": "../../assets/img/chef-anrichten-1200.webp",
+   "fs": "../../assets/img/chef-anrichten-600.webp"
+  },
+  {
+   "k": "chef-pass",
+   "t": {
+    "de": "Gilles Varone am Pass vor der Küche"
+   },
+   "b": "kueche",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1376,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/chef-pass-1200.webp",
+   "fm": "../../assets/img/chef-pass-1200.webp",
+   "fs": "../../assets/img/chef-pass-600.webp"
+  },
+  {
+   "k": "brigade",
+   "t": {
+    "de": "Die ganze Équipe",
+    "fr": "L’équipe du restaurant"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/brigade-1800.webp",
+   "fm": "../../assets/img/brigade-1200.webp",
+   "fs": "../../assets/img/brigade-600.webp"
+  },
+  {
+   "k": "couple",
+   "t": {
+    "de": "Gilles und Letizia Varone in der Küche",
+    "fr": "Gilles et Letizia Varone en cuisine"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1698,
+   "h": 1835,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/couple-1200.webp",
+   "fm": "../../assets/img/couple-1200.webp",
+   "fs": "../../assets/img/couple-600.webp"
+  },
+  {
+   "k": "gilles-letizia",
+   "t": {
+    "de": "Gilles und Letizia Varone"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1380,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/gilles-letizia-1200.webp",
+   "fm": "../../assets/img/gilles-letizia-1200.webp",
+   "fs": "../../assets/img/gilles-letizia-600.webp"
+  },
+  {
+   "k": "chef-saal",
+   "t": {
+    "de": "Gilles Varone im Saal",
+    "fr": "Gilles Varone dans la salle"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1380,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/chef-saal-1200.webp",
+   "fm": "../../assets/img/chef-saal-1200.webp",
+   "fs": "../../assets/img/chef-saal-600.webp"
+  },
+  {
+   "k": "chef-fenster",
+   "t": {
+    "de": "Gilles Varone am Tisch"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1380,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/chef-fenster-1200.webp",
+   "fm": "../../assets/img/chef-fenster-1200.webp",
+   "fs": "../../assets/img/chef-fenster-600.webp"
+  },
+  {
+   "k": "chef-glas",
+   "t": {
+    "de": "Gilles Varone mit einem Einmachglas"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1380,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/chef-glas-1200.webp",
+   "fm": "../../assets/img/chef-glas-1200.webp",
+   "fs": "../../assets/img/chef-glas-600.webp"
+  },
+  {
+   "k": "chef-schuerze",
+   "t": {
+    "de": "Gilles Varone in der Schürze"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1380,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/chef-schuerze-1200.webp",
+   "fm": "../../assets/img/chef-schuerze-1200.webp",
+   "fs": "../../assets/img/chef-schuerze-600.webp"
+  },
+  {
+   "k": "chef-schwarz",
+   "t": {
+    "de": "Gilles Varone in Schwarz"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1376,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/chef-schwarz-1200.webp",
+   "fm": "../../assets/img/chef-schwarz-1200.webp",
+   "fs": "../../assets/img/chef-schwarz-600.webp"
+  },
+  {
+   "k": "chef-weiss",
+   "t": {
+    "de": "Gilles Varone in der Kochjacke"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1306,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/chef-weiss-1200.webp",
+   "fm": "../../assets/img/chef-weiss-1200.webp",
+   "fs": "../../assets/img/chef-weiss-600.webp"
+  },
+  {
+   "k": "chef-dunkel",
+   "t": {
+    "de": "Gilles Varone vor der Küche"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1514,
+   "h": 1100,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/chef-dunkel-1200.webp",
+   "fm": "../../assets/img/chef-dunkel-1200.webp",
+   "fs": "../../assets/img/chef-dunkel-600.webp"
+  },
+  {
+   "k": "letizia-saal",
+   "t": {
+    "de": "Letizia Varone, Cogérante"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1080,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/letizia-saal-600.webp",
+   "fm": "../../assets/img/letizia-saal-600.webp",
+   "fs": "../../assets/img/letizia-saal-600.webp"
+  },
+  {
+   "k": "p-gilles",
+   "t": {
+    "de": "Gilles Varone, Chef & patron (Porträt)",
+    "fr": "Gilles Varone, Chef & patron"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 690,
+   "h": 1227,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-gilles-600.webp",
+   "fm": "../../assets/img/p-gilles-600.webp",
+   "fs": "../../assets/img/p-gilles-600.webp"
+  },
+  {
+   "k": "p-letizia",
+   "t": {
+    "de": "Letizia Varone, Cogérante (Porträt)",
+    "fr": "Letizia Varone, Cogérante"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 690,
+   "h": 1227,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-letizia-600.webp",
+   "fm": "../../assets/img/p-letizia-600.webp",
+   "fs": "../../assets/img/p-letizia-600.webp"
+  },
+  {
+   "k": "p-andrea",
+   "t": {
+    "de": "Andrea Granzarolo, Chef de cuisine (Porträt)",
+    "fr": "Andrea Granzarolo, Chef de cuisine"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 572,
+   "h": 1024,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-andrea-600.webp",
+   "fm": "../../assets/img/p-andrea-600.webp",
+   "fs": "../../assets/img/p-andrea-600.webp"
+  },
+  {
+   "k": "p-wesley",
+   "t": {
+    "de": "Wesley Broden, Chef pâtissier (Porträt)",
+    "fr": "Wesley Broden, Chef pâtissier"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 572,
+   "h": 1024,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-wesley-600.webp",
+   "fm": "../../assets/img/p-wesley-600.webp",
+   "fs": "../../assets/img/p-wesley-600.webp"
+  },
+  {
+   "k": "p-lise",
+   "t": {
+    "de": "Lise Donier-Meroz, Cheffe sommelière (Porträt)",
+    "fr": "Lise Donier-Meroz, Cheffe sommelière"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 572,
+   "h": 1024,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-lise-600.webp",
+   "fm": "../../assets/img/p-lise-600.webp",
+   "fs": "../../assets/img/p-lise-600.webp"
+  },
+  {
+   "k": "p-ana",
+   "t": {
+    "de": "Ana Suarez, Restaurant manager (Porträt)",
+    "fr": "Ana Suarez, Restaurant manager"
+   },
+   "b": "equipe",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 572,
+   "h": 1024,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/p-ana-600.webp",
+   "fm": "../../assets/img/p-ana-600.webp",
+   "fs": "../../assets/img/p-ana-600.webp"
+  },
+  {
+   "k": "saal-alpen",
+   "t": {
+    "de": "Blick aus dem Saal auf die Walliser Alpen"
+   },
+   "b": "ort",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1920,
+   "h": 1280,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/saal-alpen-1800.webp",
+   "fm": "../../assets/img/saal-alpen-1200.webp",
+   "fs": "../../assets/img/saal-alpen-600.webp"
+  },
+  {
+   "k": "plan-saviese",
+   "t": {
+    "de": "Gezeichneter Ortsplan von Savièse mit dem Zeichen GV"
+   },
+   "b": "ort",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1669,
+   "h": 1251,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/plan-saviese-1200.webp",
+   "fm": "../../assets/img/plan-saviese-1200.webp",
+   "fs": "../../assets/img/plan-saviese-600.webp"
+  },
+  {
+   "k": "award-zu-dritt",
+   "t": {
+    "de": "Michelin Young Chef Award 2024, die Verleihung"
+   },
+   "b": "auszeichnungen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1500,
+   "h": 919,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/award-zu-dritt-1200.webp",
+   "fm": "../../assets/img/award-zu-dritt-1200.webp",
+   "fs": "../../assets/img/award-zu-dritt-600.webp"
+  },
+  {
+   "k": "chef-lachen",
+   "t": {
+    "de": "Gilles Varone an der Verleihung des Guide Michelin"
+   },
+   "b": "auszeichnungen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1380,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/chef-lachen-1200.webp",
+   "fm": "../../assets/img/chef-lachen-1200.webp",
+   "fs": "../../assets/img/chef-lachen-600.webp"
+  },
+  {
+   "k": "buehne-team",
+   "t": {
+    "de": "Die Équipe auf der Bühne des Guide Michelin 2024"
+   },
+   "b": "auszeichnungen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 1376,
+   "h": 921,
+   "art": "haus",
+   "q": "Website des Hauses (gillesvarone.ch); Rechte beim Haus oder den genannten Fotografen",
+   "u": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/img/buehne-team-1200.webp",
+   "fm": "../../assets/img/buehne-team-1200.webp",
+   "fs": "../../assets/img/buehne-team-600.webp"
+  }
+ ],
+ "dateien": [
+  {
+   "k": "zeichen",
+   "var": [
+    {
+     "k": "gold",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-zeichen-gold.svg",
+      "gilles-varone-zeichen-gold.png"
+     ],
+     "px": [
+      900,
+      900
+     ]
+    },
+    {
+     "k": "nacht",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-zeichen-nacht.svg",
+      "gilles-varone-zeichen-nacht.png"
+     ],
+     "px": [
+      900,
+      900
+     ]
+    },
+    {
+     "k": "goldd",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-zeichen-goldd.svg",
+      "gilles-varone-zeichen-goldd.png"
+     ],
+     "px": [
+      900,
+      900
+     ]
+    },
+    {
+     "k": "weiss",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-zeichen-weiss.svg",
+      "gilles-varone-zeichen-weiss.png"
+     ],
+     "px": [
+      900,
+      900
+     ]
+    }
+   ]
+  },
+  {
+   "k": "zierde",
+   "var": [
+    {
+     "k": "gold",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-zierde-gold.svg",
+      "gilles-varone-zierde-gold.png"
+     ],
+     "px": [
+      1200,
+      249
+     ]
+    },
+    {
+     "k": "nacht",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-zierde-nacht.svg",
+      "gilles-varone-zierde-nacht.png"
+     ],
+     "px": [
+      1200,
+      249
+     ]
+    },
+    {
+     "k": "goldd",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-zierde-goldd.svg",
+      "gilles-varone-zierde-goldd.png"
+     ],
+     "px": [
+      1200,
+      249
+     ]
+    },
+    {
+     "k": "weiss",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-zierde-weiss.svg",
+      "gilles-varone-zierde-weiss.png"
+     ],
+     "px": [
+      1200,
+      249
+     ]
+    }
+   ]
+  },
+  {
+   "k": "logo",
+   "var": [
+    {
+     "k": "gold",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-logo-gold.svg",
+      "gilles-varone-logo-gold.png"
+     ],
+     "px": [
+      1600,
+      595
+     ]
+    },
+    {
+     "k": "nacht",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-logo-nacht.svg",
+      "gilles-varone-logo-nacht.png"
+     ],
+     "px": [
+      1600,
+      595
+     ]
+    },
+    {
+     "k": "goldd",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-logo-goldd.svg",
+      "gilles-varone-logo-goldd.png"
+     ],
+     "px": [
+      1600,
+      595
+     ]
+    },
+    {
+     "k": "weiss",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-logo-weiss.svg",
+      "gilles-varone-logo-weiss.png"
+     ],
+     "px": [
+      1600,
+      595
+     ]
+    }
+   ]
+  },
+  {
+   "k": "name",
+   "var": [
+    {
+     "k": "gold",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-name-gold.svg",
+      "gilles-varone-name-gold.png"
+     ],
+     "px": [
+      1800,
+      184
+     ]
+    },
+    {
+     "k": "nacht",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-name-nacht.svg",
+      "gilles-varone-name-nacht.png"
+     ],
+     "px": [
+      1800,
+      184
+     ]
+    },
+    {
+     "k": "weiss",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-name-weiss.svg",
+      "gilles-varone-name-weiss.png"
+     ],
+     "px": [
+      1800,
+      184
+     ]
+    }
+   ]
+  },
+  {
+   "k": "zeichnungen",
+   "var": [
+    {
+     "k": "terroir",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-zeichnung-terroir.svg",
+      "gilles-varone-zeichnung-terroir.png"
+     ],
+     "px": [
+      1200,
+      600
+     ]
+    },
+    {
+     "k": "haute-cuisine",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-zeichnung-haute-cuisine.svg",
+      "gilles-varone-zeichnung-haute-cuisine.png"
+     ],
+     "px": [
+      1200,
+      600
+     ]
+    },
+    {
+     "k": "partage",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-zeichnung-partage.svg",
+      "gilles-varone-zeichnung-partage.png"
+     ],
+     "px": [
+      1200,
+      600
+     ]
+    }
+   ]
+  },
+  {
+   "k": "tapete",
+   "var": [
+    {
+     "k": "nacht",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-flechtmuster-nacht.png",
+      "gilles-varone-flechtmuster-nacht.webp"
+     ],
+     "px": [
+      262,
+      314
+     ],
+     "farbe": "#0b1315",
+     "vorschau": "listen/flechtmuster-nacht.webp"
+    },
+    {
+     "k": "papier",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-flechtmuster-papier.png",
+      "gilles-varone-flechtmuster-papier.webp"
+     ],
+     "px": [
+      262,
+      314
+     ],
+     "farbe": "#f7f3ec",
+     "vorschau": "listen/flechtmuster-papier.webp"
+    },
+    {
+     "k": "dunkel",
+     "grund": "dunkel",
+     "dateien": [
+      "gilles-varone-flechtmuster-dunkel.png",
+      "gilles-varone-flechtmuster-dunkel.webp"
+     ],
+     "px": [
+      262,
+      314
+     ],
+     "farbe": "#0b1315",
+     "vorschau": "listen/flechtmuster-dunkel.webp"
+    }
+   ]
+  },
+  {
+   "k": "farben",
+   "var": [
+    {
+     "k": "alle",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-farben.css",
+      "gilles-varone-farben.json",
+      "gilles-varone-farben.ase"
+     ]
+    }
+   ]
+  },
+  {
+   "k": "schriften",
+   "var": [
+    {
+     "k": "alle",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-schriften.zip"
+     ]
+    }
+   ]
+  },
+  {
+   "k": "ehre",
+   "var": [
+    {
+     "k": "michelin",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-auszeichnung-michelin.png"
+     ],
+     "px": [
+      620,
+      439
+     ],
+     "alt": "Deux étoiles MICHELIN 2025"
+    },
+    {
+     "k": "michelin-rond",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-auszeichnung-michelin-rond.png"
+     ],
+     "px": [
+      520,
+      520
+     ],
+     "alt": "Deux étoiles MICHELIN 2025, rund"
+    },
+    {
+     "k": "gaultmillau",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-auszeichnung-gaultmillau.svg",
+      "gilles-varone-auszeichnung-gaultmillau.png"
+     ],
+     "px": [
+      520,
+      351
+     ],
+     "alt": "GaultMillau 18 points"
+    },
+    {
+     "k": "young-chef",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-auszeichnung-young-chef.png"
+     ],
+     "px": [
+      420,
+      478
+     ],
+     "alt": "2024 Young Chef Award Winner"
+    }
+   ]
+  },
+  {
+   "k": "website",
+   "var": [
+    {
+     "k": "monogramm",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-original-monogramm.svg"
+     ],
+     "px": [
+      60,
+      60
+     ],
+     "satz": "Monogramm GV, so wie die Website des Hauses es liefert"
+    },
+    {
+     "k": "wortmarke",
+     "grund": "hell",
+     "dateien": [
+      "gilles-varone-original-wortmarke.svg"
+     ],
+     "px": [
+      414,
+      154
+     ],
+     "satz": "Wortmarke, so wie die Website des Hauses sie liefert"
+    }
+   ]
+  }
+ ],
+ "farben": [
+  {
+   "k": "nuit",
+   "n": "Nacht",
+   "h": "#0B1315",
+   "rgb": [
+    11,
+    19,
+    21
+   ],
+   "r": "Grund der dunklen Flächen, mit dem Flechtmuster in Gold Ton in Ton",
+   "g": "nacht",
+   "woher": "Farbe der Website (--nuit), aus dem Stil des Hauses"
+  },
+  {
+   "k": "nuit2",
+   "n": "Nacht zwei",
+   "h": "#111B1D",
+   "rgb": [
+    17,
+    27,
+    29
+   ],
+   "r": "zweite dunkle Fläche: Tafeln, Leiste, Abschnitte auf Nacht",
+   "g": "nacht",
+   "woher": "Farbe der Website (--nuit2), aus dem Stil des Hauses"
+  },
+  {
+   "k": "nuit3",
+   "n": "Nacht tief",
+   "h": "#070C0D",
+   "rgb": [
+    7,
+    12,
+    13
+   ],
+   "r": "tiefste Fläche: Fuss und Schatten",
+   "g": "nacht",
+   "woher": "Farbe der Website (--nuit3), aus dem Stil des Hauses"
+  },
+  {
+   "k": "or",
+   "n": "Gold",
+   "h": "#C9AB81",
+   "rgb": [
+    201,
+    171,
+    129
+   ],
+   "r": "Monogramm, Wortmarke, Zierde, Linien und Knöpfe",
+   "g": "or",
+   "woher": "Farbe der Website (--or), aus dem Stil des Hauses"
+  },
+  {
+   "k": "or-hell",
+   "n": "Gold hell",
+   "h": "#DCC3A0",
+   "rgb": [
+    220,
+    195,
+    160
+   ],
+   "r": "Glanz der Knöpfe und Betonung auf Nacht",
+   "g": "or",
+   "woher": "Farbe der Website (--or-hell), aus dem Stil des Hauses"
+  },
+  {
+   "k": "or2",
+   "n": "Gold dunkel",
+   "h": "#9C7C57",
+   "rgb": [
+    156,
+    124,
+    87
+   ],
+   "r": "Zeichen und Betonung auf Papier",
+   "g": "or",
+   "woher": "Farbe der Website (--or2), aus dem Stil des Hauses"
+  },
+  {
+   "k": "bronze",
+   "n": "Bronze",
+   "h": "#755C3A",
+   "rgb": [
+    117,
+    92,
+    58
+   ],
+   "r": "kleine Zeilen und feine Linien auf Papier",
+   "g": "or",
+   "woher": "Farbe der Website (--bronze), aus dem Stil des Hauses"
+  },
+  {
+   "k": "papier",
+   "n": "Papier",
+   "h": "#F7F3EC",
+   "rgb": [
+    247,
+    243,
+    236
+   ],
+   "r": "Grund der hellen Flächen, mit dem Flechtmuster",
+   "g": "papier",
+   "woher": "Farbe der Website (--papier), aus dem Stil des Hauses"
+  },
+  {
+   "k": "sable",
+   "n": "Sand",
+   "h": "#EEE6D8",
+   "rgb": [
+    238,
+    230,
+    216
+   ],
+   "r": "zweite helle Fläche: Abschnitte und Felder",
+   "g": "papier",
+   "woher": "Farbe der Website (--sable), aus dem Stil des Hauses"
+  },
+  {
+   "k": "creme",
+   "n": "Crème",
+   "h": "#F4ECDF",
+   "rgb": [
+    244,
+    236,
+    223
+   ],
+   "r": "Schrift und Linien auf Nacht",
+   "g": "papier",
+   "woher": "Farbe der Website (--creme), aus dem Stil des Hauses"
+  },
+  {
+   "k": "encre",
+   "n": "Tinte",
+   "h": "#0B1315",
+   "rgb": [
+    11,
+    19,
+    21
+   ],
+   "r": "Lesetext auf Papier und Sand, nie reines Schwarz (gleich wie Nacht)",
+   "g": "schrift",
+   "woher": "Farbe der Website (--encre), aus dem Stil des Hauses"
+  },
+  {
+   "k": "encre2",
+   "n": "Tinte leise",
+   "h": "#3B4446",
+   "rgb": [
+    59,
+    68,
+    70
+   ],
+   "r": "leise Zeilen auf Papier",
+   "g": "schrift",
+   "woher": "Farbe der Website (--encre2), aus dem Stil des Hauses"
+  }
+ ],
+ "gruppen": [
+  {
+   "k": "nacht",
+   "n": "Nacht",
+   "s": "Die dunklen Flächen des Hauses: der Saal am Abend, die Küche, das Kerzenlicht. Sie tragen das Flechtmuster in Gold, Ton in Ton.",
+   "bild": "../../assets/img/saal-kueche-1200.webp",
+   "bild_t": "Der Saal mit offener Küche am Abend: Nacht, Ton in Ton."
+  },
+  {
+   "k": "or",
+   "n": "Gold",
+   "s": "Das Gold des Monogramms und der Wortmarke. Es zeichnet: Linie, Zeichen, die Zierde «xx», Knöpfe in gesperrten Versalien.",
+   "bild": "../../assets/img/bougie-1-1200.webp",
+   "bild_t": "Ein Gang im Kerzenlicht: das warme Gold am Tisch."
+  },
+  {
+   "k": "papier",
+   "n": "Papier und Sand",
+   "s": "Die hellen Flächen, auf denen gelesen wird. Papier mit dem Flechtmuster, Sand für die Abschnitte darunter, Crème für die Schrift auf Nacht.",
+   "bild": "../../assets/img/salle-jour-1200.webp",
+   "bild_t": "Der Saal bei Tag: helle Flächen, ruhiges Licht."
+  },
+  {
+   "k": "schrift",
+   "n": "Schrift",
+   "s": "Tinte für den Lesetext, Tinte leise für Nebenzeilen. Nie reines Schwarz.",
+   "bild": "listen/farbe-tinte.webp",
+   "bild_t": "So steht Tinte auf Papier auf der Website."
+  }
+ ],
+ "glanz": [],
+ "groessen": {
+  "gilles-varone-auszeichnung-gaultmillau.png": 43953,
+  "gilles-varone-auszeichnung-gaultmillau.svg": 12488,
+  "gilles-varone-auszeichnung-michelin-rond.png": 49080,
+  "gilles-varone-auszeichnung-michelin.png": 45751,
+  "gilles-varone-auszeichnung-young-chef.png": 52431,
+  "gilles-varone-farben.ase": 520,
+  "gilles-varone-farben.css": 1058,
+  "gilles-varone-farben.json": 2776,
+  "gilles-varone-flechtmuster-dunkel.png": 5270,
+  "gilles-varone-flechtmuster-dunkel.webp": 2562,
+  "gilles-varone-flechtmuster-gold.png": 9821,
+  "gilles-varone-flechtmuster-gold.webp": 4702,
+  "gilles-varone-flechtmuster-hell.png": 4152,
+  "gilles-varone-flechtmuster-hell.webp": 2100,
+  "gilles-varone-flechtmuster-nacht.png": 12067,
+  "gilles-varone-flechtmuster-nacht.webp": 4678,
+  "gilles-varone-flechtmuster-papier.png": 9990,
+  "gilles-varone-flechtmuster-papier.webp": 4258,
+  "gilles-varone-logo-gold.png": 43822,
+  "gilles-varone-logo-gold.svg": 4630,
+  "gilles-varone-logo-goldd.png": 44327,
+  "gilles-varone-logo-goldd.svg": 4630,
+  "gilles-varone-logo-nacht.png": 42979,
+  "gilles-varone-logo-nacht.svg": 4630,
+  "gilles-varone-logo-weiss.png": 33410,
+  "gilles-varone-logo-weiss.svg": 4630,
+  "gilles-varone-marke.zip": 1199473,
+  "gilles-varone-name-gold.png": 32367,
+  "gilles-varone-name-gold.svg": 3284,
+  "gilles-varone-name-nacht.png": 31414,
+  "gilles-varone-name-nacht.svg": 3284,
+  "gilles-varone-name-weiss.png": 23835,
+  "gilles-varone-name-weiss.svg": 3284,
+  "gilles-varone-original-monogramm.svg": 1325,
+  "gilles-varone-original-wortmarke.svg": 4592,
+  "gilles-varone-schriften.zip": 194774,
+  "gilles-varone-zeichen-gold.png": 37537,
+  "gilles-varone-zeichen-gold.svg": 1341,
+  "gilles-varone-zeichen-goldd.png": 38204,
+  "gilles-varone-zeichen-goldd.svg": 1341,
+  "gilles-varone-zeichen-nacht.png": 37300,
+  "gilles-varone-zeichen-nacht.svg": 1341,
+  "gilles-varone-zeichen-weiss.png": 29522,
+  "gilles-varone-zeichen-weiss.svg": 1341,
+  "gilles-varone-zeichnung-haute-cuisine.png": 98262,
+  "gilles-varone-zeichnung-haute-cuisine.svg": 1237,
+  "gilles-varone-zeichnung-partage.png": 55016,
+  "gilles-varone-zeichnung-partage.svg": 2801,
+  "gilles-varone-zeichnung-terroir.png": 117478,
+  "gilles-varone-zeichnung-terroir.svg": 4073,
+  "gilles-varone-zierde-gold.png": 24953,
+  "gilles-varone-zierde-gold.svg": 423,
+  "gilles-varone-zierde-goldd.png": 25504,
+  "gilles-varone-zierde-goldd.svg": 423,
+  "gilles-varone-zierde-nacht.png": 23500,
+  "gilles-varone-zierde-nacht.svg": 423,
+  "gilles-varone-zierde-weiss.png": 18047,
+  "gilles-varone-zierde-weiss.svg": 423
+ },
+ "bereiche": [
+  "saal",
+  "kueche",
+  "teller",
+  "equipe",
+  "auszeichnungen",
+  "ort"
+ ],
+ "schriften": [
+  {
+   "k": "t",
+   "n": "Gill Sans Nova Book",
+   "d": "GillSansNova-Book.woff2",
+   "r": "Titel und Lesetext, die Schrift der Wortmarke",
+   "e": "400, nie fett, nie kursiv · Lesetext 18 px, Zeilenabstand 1,64",
+   "p": "Des saveurs & des valeurs.",
+   "w": 400,
+   "bild": "listen/schrift-t.webp"
+  },
+  {
+   "k": "m",
+   "n": "Caviar Dreams",
+   "d": "CaviarDreams.woff2",
+   "r": "Kleine Zeilen, Leiste und Knöpfe",
+   "e": "400, Versalien, 12,5 px, 0,2 em gesperrt",
+   "p": "Restaurant · Saint-Germain, Savièse",
+   "w": 400,
+   "bild": "listen/schrift-m.webp"
+  }
+ ],
+ "namen": {
+  "zentrale": "Kontrollpanel",
+  "website": "Website bearbeiten",
+  "karten": "Karten & Preislisten",
+  "gaeste": "Anfragen & Chat",
+  "marke": "Markenbuch",
+  "besuche": "Besucher",
+  "druck": "Drucksachen & Feed"
+ },
+ "stand": {
+  "fotos": 57,
+  "haus": 57,
+  "frei": 0,
+  "ki": 0,
+  "fremd": 0,
+  "partner": 0,
+  "ue": 0,
+  "vn": 0,
+  "gross": 23,
+  "original": 57,
+  "dateien": 58,
+  "datum": "09.11.2026"
+ }
+}

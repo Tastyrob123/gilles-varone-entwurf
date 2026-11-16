@@ -1,0 +1,7 @@
+# Vorlage (Wirtschaft am Schlössli, 9031) | Gilles Varone (9713). Je Ansicht bei 1440 und 390.
+Erste Karte, Einfach | http://127.0.0.1:9031/_werkzeuge/carte/#speisekarte | /_werkzeuge/carte/#experiences
+Zweite Karte, Bar oder Tischkarte Chasse | http://127.0.0.1:9031/_werkzeuge/carte/#laestermeile | /_werkzeuge/carte/#chasse
+Dritte Karte, Bankett oder Accords | http://127.0.0.1:9031/_werkzeuge/carte/#bankett | /_werkzeuge/carte/#accords
+Anleitung | http://127.0.0.1:9031/_werkzeuge/carte/anleitung.html | /_werkzeuge/carte/anleitung.html
+Prüfung | http://127.0.0.1:9031/_werkzeuge/carte/pruefung.html | /_werkzeuge/carte/pruefung.html
+Druckblatt der ersten Karte | http://127.0.0.1:9031/_werkzeuge/carte/satz/blatt.html?druck=1&z=speisekarte&q=stand | /_werkzeuge/carte/satz/blatt.html?druck=1&z=experiences&q=stand

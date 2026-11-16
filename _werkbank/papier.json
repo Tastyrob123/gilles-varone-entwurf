@@ -1,0 +1,174 @@
+{
+ "druck": [
+  {
+   "id": "ansichtskarten",
+   "name": "Ansichtskarten",
+   "seiten": 8
+  },
+  {
+   "id": "experience",
+   "name": "Carte de l’expérience",
+   "seiten": 2
+  },
+  {
+   "id": "bon-cadeau",
+   "name": "Bon cadeau",
+   "seiten": 2
+  },
+  {
+   "id": "tischkarte",
+   "name": "Tischkarte",
+   "seiten": 2
+  },
+  {
+   "id": "fermetures",
+   "name": "Aushang Fermetures",
+   "seiten": 1
+  },
+  {
+   "id": "allergies",
+   "name": "Karte für Allergien",
+   "seiten": 2
+  },
+  {
+   "id": "briefpapier",
+   "name": "Briefpapier",
+   "seiten": 2
+  },
+  {
+   "id": "horaires",
+   "name": "Aushang Horaires",
+   "seiten": 1
+  },
+  {
+   "id": "a-votre-table",
+   "name": "Aushang «À votre table»",
+   "seiten": 1
+  },
+  {
+   "id": "distinctions",
+   "name": "Aushang Distinctions",
+   "seiten": 1
+  },
+  {
+   "id": "plakat-18-points",
+   "name": "Plakat 18 points",
+   "seiten": 1
+  },
+  {
+   "id": "plakat-saint-germain",
+   "name": "Plakat Saint Germain",
+   "seiten": 1
+  },
+  {
+   "id": "menu-du-soir",
+   "name": "Menükarte des Abends",
+   "seiten": 1
+  },
+  {
+   "id": "einladung-18-points",
+   "name": "Einladung 18 points",
+   "seiten": 1
+  },
+  {
+   "id": "einladung-chasse",
+   "name": "Einladung Chasse locale",
+   "seiten": 1
+  },
+  {
+   "id": "flyer-experiences",
+   "name": "Flyer Les expériences",
+   "seiten": 2
+  },
+  {
+   "id": "mets-et-vins",
+   "name": "Karte Mets et vins",
+   "seiten": 1
+  },
+  {
+   "id": "sans-alcool",
+   "name": "Karte Créations sans alcool",
+   "seiten": 1
+  },
+  {
+   "id": "le-terroir",
+   "name": "Tischaufsteller Le terroir",
+   "seiten": 1
+  },
+  {
+   "id": "le-partage",
+   "name": "Tischaufsteller Le partage",
+   "seiten": 1
+  },
+  {
+   "id": "presse-young-chef",
+   "name": "Pressemappe Young Chef",
+   "seiten": 1
+  },
+  {
+   "id": "a-bientot",
+   "name": "Beileger «À bientôt»",
+   "seiten": 1
+  },
+  {
+   "id": "bienvenue",
+   "name": "Karte «Bienvenue»",
+   "seiten": 1
+  },
+  {
+   "id": "namensschild",
+   "name": "Namensschild",
+   "seiten": 1
+  }
+ ],
+ "etiketten": [
+  {
+   "id": "u01",
+   "name": "Le monogramme"
+  },
+  {
+   "id": "u02",
+   "name": "La signature"
+  },
+  {
+   "id": "u03",
+   "name": "Le terroir"
+  },
+  {
+   "id": "u04",
+   "name": "La haute cuisine"
+  },
+  {
+   "id": "u05",
+   "name": "Le partage"
+  },
+  {
+   "id": "u06",
+   "name": "Des saveurs & des valeurs"
+  },
+  {
+   "id": "u07",
+   "name": "Deux étoiles"
+  },
+  {
+   "id": "u08",
+   "name": "18 points"
+  },
+  {
+   "id": "u09",
+   "name": "Savièse"
+  },
+  {
+   "id": "u10",
+   "name": "Une expérience différente"
+  },
+  {
+   "id": "u11",
+   "name": "Accords"
+  },
+  {
+   "id": "u12",
+   "name": "Une vue imprenable"
+  }
+ ]
+}

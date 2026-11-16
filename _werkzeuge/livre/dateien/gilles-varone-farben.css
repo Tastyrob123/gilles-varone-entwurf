@@ -1,0 +1,15 @@
+/* Restaurant Gilles Varone · Farben der Marke (Das Markenbuch, 09.11.2026), Werte der Website */
+:root{
+  --nuit:#0b1315; /* Nacht: Grund der dunklen Flächen, mit dem Flechtmuster in Gold Ton in Ton */
+  --nuit2:#111b1d; /* Nacht zwei: zweite dunkle Fläche: Tafeln, Leiste, Abschnitte auf Nacht */
+  --nuit3:#070c0d; /* Nacht tief: tiefste Fläche: Fuss und Schatten */
+  --or:#c9ab81; /* Gold: Monogramm, Wortmarke, Zierde, Linien und Knöpfe */
+  --or-hell:#dcc3a0; /* Gold hell: Glanz der Knöpfe und Betonung auf Nacht */
+  --or2:#9c7c57; /* Gold dunkel: Zeichen und Betonung auf Papier */
+  --bronze:#755c3a; /* Bronze: kleine Zeilen und feine Linien auf Papier */
+  --papier:#f7f3ec; /* Papier: Grund der hellen Flächen, mit dem Flechtmuster */
+  --sable:#eee6d8; /* Sand: zweite helle Fläche: Abschnitte und Felder */
+  --creme:#f4ecdf; /* Crème: Schrift und Linien auf Nacht */
+  --encre:#0b1315; /* Tinte: Lesetext auf Papier und Sand, nie reines Schwarz (gleich wie Nacht) */
+  --encre2:#3b4446; /* Tinte leise: leise Zeilen auf Papier */
+}

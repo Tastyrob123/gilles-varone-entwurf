@@ -1,0 +1,122 @@
+{
+ "art": "satz",
+ "ziel": "accords",
+ "name": "Les accords",
+ "unter": "",
+ "gruppe": "Cave",
+ "quelle": "experiences.html",
+ "schema": 1,
+ "format": [
+  148,
+  210
+ ],
+ "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Les accords · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:148mm 210mm;margin:0}</style></head><body>",
+ "fuss": "</body></html>",
+ "seiten": [
+  {
+   "fn": "seite",
+   "a": [
+    " data-max=\"1\" class=\"blatt gv-blatt gv-a5\" data-b=\"148\" data-h=\"210\" style=\"width:148mm;height:210mm\"",
+    {
+     "fn": "el",
+     "a": [
+      "header",
+      " class=\"gv-kopf\"",
+      {
+       "fn": "el",
+       "a": [
+        "span",
+        " class=\"gv-zeichen\""
+       ]
+      },
+      {
+       "fn": "el",
+       "a": [
+        "p",
+        " class=\"gv-kicker\"",
+        "Restaurant Gilles Varone · Saint-Germain, Savièse"
+       ]
+      }
+     ]
+    },
+    {
+     "fn": "el",
+     "a": [
+      "div",
+      " class=\"inhalt\"",
+      {
+       "fn": "el",
+       "a": [
+        "div",
+        " class=\"gv-auftakt\"",
+        {
+         "fn": "el",
+         "a": [
+          "h1",
+          " class=\"gv-titel\"",
+          "Les accords."
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "p",
+          " class=\"gv-lead\"",
+          "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+         ]
+        }
+       ]
+      },
+      {
+       "fn": "el",
+       "a": [
+        "div",
+        " class=\"sb-g gv-zitat\"",
+        {
+         "fn": "el",
+         "a": [
+          "p",
+          " class=\"sb-t\"",
+          "« J’aime mettre en avant le travail magnifique des vigneronnes et vignerons tout autour de la Suisse, et raconter leurs histoires ainsi que dégoter des accords parfaits et originaux qui sublimeront les produits travaillés par le chef. »"
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "h4",
+          "",
+          "Lise Donier-Meroz · Cheffe sommelière"
+         ]
+        }
+       ]
+      },
+      {
+       "fn": "el",
+       "a": [
+        "div",
+        " class=\"gv-hinweise\"",
+        {
+         "fn": "el",
+         "a": [
+          "p",
+          " class=\"gv-hin\"",
+          "La carte des vins est régulièrement sujette à modifications."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "fn": "el",
+     "a": [
+      "footer",
+      " class=\"gv-fuss\"",
+      "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+     ]
+    }
+   ]
+  }
+ ],
+ "teile": []
+}

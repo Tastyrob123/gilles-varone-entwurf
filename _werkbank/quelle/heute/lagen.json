@@ -1,0 +1,139 @@
+{
+ "experiences": {
+  "x0": 170,
+  "x1": 1270,
+  "y0": 1959.421875,
+  "y1": 3052.421875,
+  "text": "UN MENU UNIQUE, CHANGEANT AU GRÉ DE LA QUALITÉ ET DE LA SAISONNALITÉ DES PRODUITS\n\nLes expériences que je vous propose se différencient par le nombre de services qu’elles incluent.\nVeuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table.\nJe vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences.\n\n \n\nL'EXPÉRIENCE EN 5 SERVICES\n199 CHF\n\nAmuse-Bouche – Première Entrée – Deuxième Entrée – Plat Principal – Dessert\n\n\nL'EXPÉRIENCE EN 6 SERVICES\n229 CHF\n\nAmuse-Bouche – Entrée – Poisson – Plat Principal – Pré-Dessert – Dessert\n\n\nL'EXPÉRIENCE EN 7 SERVICES\n259 CHF\n\nAmuse-Bouche – Première Entrée – Deuxième Entrée – Poisson – Plat Principal – Pré-Dessert – Dessert\n\n\nL'EXPÉRIENCE CHASSE LOCALE\n299 CHF\n\nUniquement durant le mois d'octobre, selon les disponibilités\n\n\nLES EXPÉRIENCES VÉGÉTARIENNES\n\nSur demande préalable uniquement, retrouvez toutes les expériences dans leurs versions végétariennes\n\nPOUR LES GROUPES\n\nLes expériences destinées à plus de 8 personnes s'effectuent par le biais de demandes spéciales\n\n– Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation –\n\nLa carte des vins est régulièrement sujette à modifications.\n\n— BONS CADEAUX —\n\nIl est possible de commander des bons cadeaux personnalisés avec des montants à choix.\n\n– Format physique: vous pouvez passer au restaurant le jeudi entre 10h et 17h, vendredi/samedi entre 9h et 11h, 16h30-17h30 et le dimanche entre 9h et 11h\n\n– Format électronique: directement via notre boutique en ligne\n\nFaire Un Bon Cadeau",
+  "clip": {
+   "x": 170,
+   "y": 1959.421875,
+   "width": 1100,
+   "height": 1093
+  }
+ },
+ "intro": {
+  "x0": 417.28125,
+  "x1": 1022.703125,
+  "y0": 2030.421875,
+  "y1": 2055.421875,
+  "text": "Les expériences que je vous propose se différencient par le nombre de services qu’elles incluent.",
+  "clip": {
+   "x": 170,
+   "y": 2022.421875,
+   "width": 1100,
+   "height": 41
+  }
+ },
+ "identique": {
+  "x0": 380.796875,
+  "x1": 1059.203125,
+  "y0": 2059.421875,
+  "y1": 2084.421875,
+  "text": "Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table.",
+  "clip": {
+   "x": 170,
+   "y": 2051.421875,
+   "width": 1100,
+   "height": 41
+  }
+ },
+ "accords": {
+  "x0": 258.703125,
+  "x1": 1181.296875,
+  "y0": 2088.421875,
+  "y1": 2113.421875,
+  "text": "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences.",
+  "clip": {
+   "x": 170,
+   "y": 2080.421875,
+   "width": 1100,
+   "height": 41
+  }
+ },
+ "chasse": {
+  "x0": 192,
+  "x1": 1248,
+  "y0": 2588.421875,
+  "y1": 2657.421875,
+  "text": "L'EXPÉRIENCE CHASSE LOCALE\n299 CHF\n\nUniquement durant le mois d'octobre, selon les disponibilités\n",
+  "clip": {
+   "x": 170,
+   "y": 2580.421875,
+   "width": 1100,
+   "height": 85
+  }
+ },
+ "allergies": {
+  "x0": 365.71875,
+  "x1": 1074.265625,
+  "y0": 2956.421875,
+  "y1": 2981.421875,
+  "text": "Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation",
+  "clip": {
+   "x": 170,
+   "y": 2948.421875,
+   "width": 1100,
+   "height": 41
+  }
+ },
+ "vins": {
+  "x0": 535.484375,
+  "x1": 904.515625,
+  "y0": 3025.421875,
+  "y1": 3050.421875,
+  "text": "La carte des vins est régulièrement sujette à modifications.",
+  "clip": {
+   "x": 170,
+   "y": 3017.421875,
+   "width": 1100,
+   "height": 41
+  }
+ },
+ "zitat": {
+  "x0": 909.96875,
+  "x1": 1289.953125,
+  "y0": 7897.265625,
+  "y1": 8014.046875,
+  "text": "J’aime mettre en avant le travail magnifique des vigneronnes et vignerons tout autour de la Suisse, et raconter leurs histoires ainsi que dégoter des accords parfaits et originaux qui sublimeront les produits travaillés par le chef.",
+  "clip": {
+   "x": 909.96875,
+   "y": 7889.265625,
+   "width": 379.984375,
+   "height": 132.78125
+  }
+ },
+ "name": {
+  "x0": 980.5,
+  "x1": 1219.421875,
+  "y0": 7354.046875,
+  "y1": 7378.046875,
+  "text": "Lise Donier-Meroz",
+  "clip": {
+   "x": 909.96875,
+   "y": 7346.046875,
+   "width": 379.984375,
+   "height": 40
+  }
+ },
+ "rolle": {
+  "x0": 1008.765625,
+  "x1": 1191.140625,
+  "y0": 7386.546875,
+  "y1": 7402.546875,
+  "text": "Cheffe sommelière",
+  "clip": {
+   "x": 909.96875,
+   "y": 7378.546875,
+   "width": 379.984375,
+   "height": 32
+  }
+ },
+ "spalte": {
+  "x0": 909.96875,
+  "x1": 1289.953125,
+  "y0": 6731.765625,
+  "y1": 8058.234375,
+  "text": "LISE DONIER-MEROZ\nCHEFFE SOMMELIÈRE\nSON PARCOURS\n\nMon travail dans l’univers de la haute gastronomie a commencé en Angleterre en 2017 au restaurant L’Enclume. En 2019, je débute la quête du prestigieux Master Sommelier grâce à l’influence de mon mentor Pierre Brunelli MS. Début 2020 à Londres, je deviens la première lauréate de la Gérard Basset Travel Scholarship, qui me permettra de découvrir les vignobles sud-américains pendant plusieurs mois. En 2021, je me rapproche de ma famille jurassienne en rejoignant le Valais, une région dont je tombe amoureuse dès les premières semaines. \n2023 fût une année pleine de succès, obtenant le niveau Advanced du Court of Master Sommelier et gagnant le titre de championne du Ruinart Challenge Switzerland.\nJ’aime mettre en avant le travail magnifique des vigneronnes et vignerons tout autour de la Suisse, et raconter leurs histoires ainsi que dégoter des accords parfaits et originaux qui sublimeront les produits travaillés par le chef.\n\n "
+ }
+}

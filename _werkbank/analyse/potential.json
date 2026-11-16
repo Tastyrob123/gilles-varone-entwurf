@@ -1,0 +1,105 @@
+{
+ "stand": "9. November 2026",
+ "entwurf": "Befunde zur heutigen Seite gillesvarone.ch (09.11.2026); Aufnahmen am Handy 390 × 844, doppelte Dichte, Chromium mit iPhone-Kennung; Belege in potential/belege/",
+ "befunde": [
+  {
+   "nr": "01",
+   "was": "Auf Ihrer Adresse liegen Tausende Seiten mit Casino-Werbung",
+   "wo": "Unsichtbar auf der Startseite: 15 Links zu Casino-Ratgebern auf Schweizerdeutsch und Deutsch, in weisser Schrift und 5500 Pixel links aus dem Bild geschoben. Dahinter unter gillesvarone.ch/online-casino/ 7’801 Seiten, unter /content/plateau-de-jeu/ weitere 5’104, dazu 15 Casino-Artikel; die Datei robots.txt meldet diese Listen den Suchmaschinen. Die Aufnahme zeigt gillesvarone.ch/online-casino/blackjack-online-spiel-in-der-schweiz-2024.html am Handy.",
+   "nutzen": "Gäste: Wer Sie über eine Suche findet, sieht unter Ihrem Namen nur Ihr Restaurant. Haus: Die Liste der Casino-Seiten trägt das Datum 12.07.2024, auf einigen steht der Serverpfad Ihres Hostings. Einmal bereinigt, steht unter Ihrem Namen wieder nur Ihr Restaurant, und Suchmaschinen und Schutzprogramme führen Gäste ohne Warnung zu Ihnen. Was wir tun würden: Mit Ihrem Hoster die Seite bereinigen und alle Zugänge erneuern, die neue Website auf frischer Grundlage aufsetzen und die fremden Adressen bei Google zur Entfernung melden.",
+   "beleg": "potential/belege/casino-handy-ganz.webp (+ -nah.webp), https://gillesvarone.ch/online-casino/blackjack-online-spiel-in-der-schweiz-2024.html; Quelltext https://gillesvarone.ch/ (Block «wp-block-navigation-extension», Stil «position:absolute; left:-5500px», Schrift rgb(255,255,255))",
+   "quellen": [
+    "https://gillesvarone.ch/ (Quelltext 09.11.2026: 14-mal «Casino», 15 Links auf gillesvarone.ch/beste-…-casinos-…; auch auf https://gillesvarone.ch/en/)",
+    "_material/roh/home.html und _material/roh/home_text.txt (gleicher Block, früher gesichert)",
+    "https://gillesvarone.ch/robots.txt (u. a. «Sitemap: https://gillesvarone.ch/online-casino/sitemap.xml» und «…/content/plateau-de-jeu/sitemap.xml»)",
+    "https://gillesvarone.ch/online-casino/sitemap.xml (7’801 Adressen, alle «lastmod 2024-07-12»)",
+    "https://gillesvarone.ch/content/plateau-de-jeu/sitemap.xml (5’104 Adressen), https://gillesvarone.ch/sitemap25.xml (15 Casino-Artikel)",
+    "Die Casino-Seiten laden ein Vollbild von eugamblers.org (Marke wechselt: LuckyGem, WinBeast) und Zähler von Yandex und convertagain.net (Messung Playwright, 09.11.2026)",
+    "https://gillesvarone.ch/live-baccarat-casinos-schweiz-2026-legale-anbieter-regeln-strategien-im-test/ (HTTP 500, Titel «… – Gilles Varone», «Fatal error» mit Pfad /home/clients/…/web/wp-content/themes/laurent/…)"
+   ]
+  },
+  {
+   "nr": "02",
+   "was": "Beim Öffnen begrüsst Sie ein Fenster mit einem abgelaufenen Angebot",
+   "wo": "Startseite, sofort beim Öffnen, am Handy und am Rechner: «Expérience chasse locale. Nous proposons une expérience chasse locale jusqu’au dimanche 8 octobre 2026.» In den Expériences steht die Chasse locale weiter mit «Uniquement durant le mois d'octobre».",
+   "nutzen": "Gäste: Das Erste, was sie sehen, ist Ihr Restaurant, mit Angeboten, die gerade gelten. Haus: Der 8. Oktober 2026 war ein Donnerstag; ein Sonntag war der 8. Oktober 2023. Mit Angeboten, die von selbst kommen und gehen, wirkt die Seite immer so frisch wie Ihre Küche. Was wir tun würden: Saisonangebote mit Anfangs- und Enddatum, die von selbst erscheinen und wieder verschwinden, an ihrem Platz auf der Seite statt in einem Fenster davor.",
+   "beleg": "potential/belege/chasse-handy-ganz.webp (+ -nah.webp), https://gillesvarone.ch/",
+   "quellen": [
+    "https://gillesvarone.ch/ (Elementor-Fenster «elementor-popup-modal-7350», 09.11.2026)",
+    "Für die Aufnahme wurde das Reservierungsfenster (Befund 03) geschlossen, damit das Fenster zur Chasse locale frei liegt",
+    "Suchvorschau DuckDuckGo zu https://gillesvarone.ch/haute-cuisine/: «Nous proposons une expérience chasse locale jusqu'au dimanche 8 octobre 2026» (09.11.2026)"
+   ]
+  },
+  {
+   "nr": "03",
+   "was": "Am Handy deckt nach drei Sekunden ein Reservierungsfenster die ganze Seite zu",
+   "wo": "Startseite am Handy. Das Fenster von Zenchef öffnet sich von selbst (Einstellung data-open=\"3000\") und legt sich über das Fenster zur Chasse locale. Oben steht: «Nous ouvrirons les réservations le 1er septembre 2026 à 8h pour le mois de décembre 2026.»",
+   "nutzen": "Gäste: Ihre Gäste sehen zuerst Bilder und Sätze von Ihnen und reservieren, wann sie möchten. Haus: Zenchef selbst arbeitet gut, der Kalender zeigt die freien Tage. Öffnet er sich erst auf Antippen, gehört der erste Eindruck ganz Ihrem Restaurant. Was wir tun würden: «Réserver» als fester Knopf, am Handy immer erreichbar; das Fenster von Zenchef öffnet sich erst auf Antippen, Hinweise bekommen ein Ablaufdatum. Reserviert wird weiter über Zenchef.",
+   "beleg": "potential/belege/fenster-handy-ganz.webp (+ -nah.webp), https://gillesvarone.ch/",
+   "quellen": [
+    "Quelltext https://gillesvarone.ch/: <div class='zc-widget-config' data-restaurant=\"360467\" data-open=\"3000\" data-position=\"right\">",
+    "Messung am Handy (390 × 844): Fenster 368 × 844 Pixel, also die ganze Höhe des Bildschirms; am Rechner 368 × 900 rechts (09.11.2026)"
+   ]
+  },
+  {
+   "nr": "04",
+   "was": "Oben zwei Sterne, weiter unten noch einer",
+   "wo": "Startseite: im Bildwechsel oben «Le restaurant et son équipe obtiennent leur deuxième étoile au Guide Michelin» (Michelin 2025), im Abschnitt zu den Auszeichnungen der Text zum Guide 2024: «Le chef et son équipe maintiennent une étoile et une étoile verte.» Im Fuss steht am Handy «© 2022», am Rechner «© 2025».",
+   "nutzen": "Gäste: Wer bis zu den Auszeichnungen liest, findet auch dort beide Sterne und die 18 Punkte. Haus: Im Quelltext stehen ausgeblendet noch ältere Angaben: die Anreise nach Chandolin, die Expériences «dès 2024», «15 points» aus dem GaultMillau 2023 und Öffnungszeiten «Dès Juillet 2023». Einmal gelöscht, lesen auch Suchmaschinen nur noch Ihre zwei Sterne und 18 Punkte. Was wir tun würden: Jede Angabe an genau einer Stelle pflegen, die Auszeichnungen mit Jahr und die neueste zuerst, und Altes löschen statt ausblenden.",
+   "beleg": "potential/belege/etoile-handy-ganz.webp (+ -nah.webp), https://gillesvarone.ch/; potential/belege/sterne-handy-ganz.webp (+ -nah.webp), https://gillesvarone.ch/",
+   "quellen": [
+    "https://gillesvarone.ch/ (Abschnitt #guidemichelin; Bildwechsel SR7, Folie «deuxième étoile»; 09.11.2026)",
+    "Ausgeblendet (display:none am Handy und am Rechner): «Chandolin centre», «— dès 2024 —», «score honorable de 15 points», «Dès Juillet 2023» (Messung Playwright, 09.11.2026)",
+    "Sichtbar oben: «Depuis début octobre 2026, le restaurant Gilles Varone est noté 18 points au GaultMillau.»"
+   ]
+  },
+  {
+   "nr": "05",
+   "was": "Am Handy bleibt der Bildschirm mehrere Sekunden schwarz",
+   "wo": "Startseite am Handy. Der Server antwortet erst nach rund drei Sekunden, der erste Inhalt erscheint nach 3,3 bis 4,0 Sekunden, fertig geladen ist die Seite nach 6,3 bis 8,9 Sekunden. Geladen werden 154 bis 161 Dateien mit 3,8 bis 6,6 MB, davon bis 4,5 MB Bilder. Die Aufnahme entstand rund 3,6 Sekunden nach dem Aufruf.",
+   "nutzen": "Gäste: Wer unterwegs auf Ihre Seite tippt, sieht zuerst eine schwarze Fläche und danach zwei Fenster. Haus: Google bezieht die Ladezeit am Handy in die Bewertung ein, und wer zu lange wartet, geht zurück zur Suche. Was wir tun würden: Eine schlanke Seite ohne die vielen Erweiterungen, Bilder in der Grösse, in der sie gezeigt werden, damit der erste Bildschirm sofort vollständig da ist.",
+   "beleg": "potential/belege/lade-handy-ganz.webp, https://gillesvarone.ch/",
+   "quellen": [
+    "Messung mit Playwright (Chromium), Handy 390 × 844, iPhone-Kennung, ohne Drosselung, drei Aufrufe am 09.11.2026: Serverantwort 2,96 / 3,26 / 3,60 s; erster Inhalt 3,32 / 3,61 / 4,00 s; fertig 6,33 / 8,71 / 8,92 s; 3,8 / 6,6 / 6,6 MB",
+    "Seitenhöhe am Handy 18’364 Pixel, rund 22 Bildschirmhöhen auf einer Seite"
+   ]
+  }
+ ],
+ "zahlen": [
+  {
+   "wert": "12’920",
+   "einheit": "Casino-Adressen auf gillesvarone.ch (7’801 + 5’104 + 15)",
+   "quelle": "Sitemaps aus https://gillesvarone.ch/robots.txt, 09.11.2026"
+  },
+  {
+   "wert": 15,
+   "einheit": "versteckte Casino-Links auf der Startseite",
+   "quelle": "Quelltext https://gillesvarone.ch/, 09.11.2026"
+  },
+  {
+   "wert": "12.07.2024",
+   "einheit": "Datum in der Liste der Casino-Seiten",
+   "quelle": "https://gillesvarone.ch/online-casino/sitemap.xml"
+  },
+  {
+   "wert": "8.10.2026",
+   "einheit": "Ende der Chasse locale laut Fenster beim Öffnen",
+   "quelle": "https://gillesvarone.ch/, 09.11.2026"
+  },
+  {
+   "wert": "3,3–4,0",
+   "einheit": "Sekunden bis zum ersten Inhalt am Handy",
+   "quelle": "Messung Playwright, 09.11.2026"
+  },
+  {
+   "wert": "6,6",
+   "einheit": "MB beim ersten Aufruf am Handy",
+   "quelle": "Messung Playwright, 09.11.2026"
+  }
+ ],
+ "nicht_belegt": [
+  "Google-Vorschau «site:gillesvarone.ch»: nicht abgefragt (kein Suchwerkzeug für Google, Firecrawl ohne Guthaben). DuckDuckGo zeigt bei «site:gillesvarone.ch» auf der ersten Seite keine Casino-Treffer, die Suche «site:gillesvarone.ch casino» blieb leer; ob Google die Casino-Seiten führt, ist offen.",
+  "Anreise nach Chandolin und Preise «dès 2024»: für Gäste ausgeblendet, nur im Quelltext (darum nur als Nebensatz in Befund 04).",
+  "Fehlende Sprachen: Französisch und Englisch (/en/) sind da, Deutsch fehlt; nicht als eigener Befund aufgenommen."
+ ]
+}

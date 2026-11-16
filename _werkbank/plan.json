@@ -1,0 +1,43 @@
+{
+ "port": 9718,
+ "base": "http://127.0.0.1:9718/",
+ "kurz": "gilles-varone",
+ "seiten": [
+  [
+   "index.html",
+   "Startseite",
+   8
+  ],
+  [
+   "restaurant.html",
+   "Le restaurant",
+   3
+  ],
+  [
+   "experiences.html",
+   "Les expériences",
+   3
+  ],
+  [
+   "equipe.html",
+   "L’équipe",
+   3
+  ],
+  [
+   "infos.html",
+   "Infos",
+   2
+  ]
+ ],
+ "wahl": "main > section",
+ "start_ms": 4200,
+ "heute": "https://gillesvarone.ch",
+ "etiketten_ordner": "untersetzer",
+ "name": "Gilles Varone",
+ "gold": "#c9ab81",
+ "punkt": "#9c7c57",
+ "tinte": "#0b1315",
+ "chat_frage": "Bis wann gibt es etwas zu essen?",
+ "chat_frage_h": "Kann ich meinen Hund mitbringen?",
+ "mappe": false
+}

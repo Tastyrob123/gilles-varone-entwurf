@@ -1,0 +1,3675 @@
+{
+ "werkzeug": "Karten & Preislisten · Restaurant Gilles Varone",
+ "zeit": "2026-11-09 16:09:43",
+ "schema": 1,
+ "karten": {
+  "experiences": {
+   "stand": {
+    "art": "satz",
+    "ziel": "experiences",
+    "name": "Les expériences",
+    "unter": "",
+    "gruppe": "Restaurant",
+    "quelle": "experiences.html",
+    "schema": 1,
+    "format": [
+     210,
+     297
+    ],
+    "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Les expériences · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:210mm 297mm;margin:0}</style></head><body>",
+    "fuss": "</body></html>",
+    "seiten": [
+     {
+      "fn": "seite",
+      "a": [
+       " data-max=\"1\" class=\"blatt gv-blatt\" data-b=\"210\" data-h=\"297\" style=\"width:210mm;height:297mm\"",
+       {
+        "fn": "el",
+        "a": [
+         "header",
+         " class=\"gv-kopf\"",
+         {
+          "fn": "el",
+          "a": [
+           "span",
+           " class=\"gv-zeichen\""
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "p",
+           " class=\"gv-kicker\"",
+           "Restaurant Gilles Varone · Saint-Germain, Savièse"
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "div",
+         " class=\"inhalt\"",
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-auftakt\"",
+           {
+            "fn": "el",
+            "a": [
+             "h1",
+             " class=\"gv-titel\"",
+             "Les expériences."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-lead\"",
+             "Un menu unique, changeant au gré de la qualité et de la saisonnalité des produits."
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-menus\"",
+           {
+            "fn": "el",
+            "a": [
+             "h2",
+             " class=\"rubrik\"",
+             "En cinq, six ou sept services."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-text\"",
+             "Les expériences que je vous propose se différencient par le nombre de services qu’elles incluent. Toujours servies par l’équipe de cuisine."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-menu\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience en 5 services"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "199"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "div",
+               " class=\"gv-gaenge\"",
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Amuse-Bouche"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Première Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Deuxième Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Plat Principal"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Dessert"
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-menu\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience en 6 services"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "12.50"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "div",
+               " class=\"gv-gaenge\"",
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Amuse-Bouche"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Poisson"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Plat Principal"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Pré-Dessert"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Dessert"
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-menu\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience en 7 services"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "259"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "div",
+               " class=\"gv-gaenge\"",
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Amuse-Bouche"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Première Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Deuxième Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Poisson"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Plat Principal"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Pré-Dessert"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Dessert"
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-menu\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "Prüfmenü Saison"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "19"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "div",
+               " class=\"gv-gaenge\"",
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Amuse-Bouche"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Première Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Deuxième Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Poisson"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Plat Principal"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Pré-Dessert"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Dessert"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-plus\"",
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-zusatz\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience chasse locale"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "299"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-t\"",
+               "Uniquement durant le mois d’octobre, selon les disponibilités"
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-zusatz\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "Les expériences végétariennes"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-t\"",
+               "Sur demande préalable uniquement, retrouvez toutes les expériences dans leurs versions végétariennes"
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-zusatz\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "Pour les groupes"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-t\"",
+               "Les expériences destinées à plus de 8 personnes s’effectuent par le biais de demandes spéciales"
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-hinweise\"",
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "– Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation –"
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "footer",
+         " class=\"gv-fuss\"",
+         "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+        ]
+       }
+      ]
+     }
+    ],
+    "teile": [],
+    "wer": "Team Gilles Varone",
+    "veroeffentlicht": "2026-11-09 16:08:55"
+   },
+   "entwurf": {
+    "art": "satz",
+    "ziel": "experiences",
+    "name": "Les expériences",
+    "unter": "",
+    "gruppe": "Restaurant",
+    "quelle": "experiences.html",
+    "schema": 1,
+    "format": [
+     210,
+     297
+    ],
+    "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Les expériences · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:210mm 297mm;margin:0}</style></head><body>",
+    "fuss": "</body></html>",
+    "seiten": [
+     {
+      "fn": "seite",
+      "a": [
+       " data-max=\"1\" class=\"blatt gv-blatt\" data-b=\"210\" data-h=\"297\" style=\"width:210mm;height:297mm\"",
+       {
+        "fn": "el",
+        "a": [
+         "header",
+         " class=\"gv-kopf\"",
+         {
+          "fn": "el",
+          "a": [
+           "span",
+           " class=\"gv-zeichen\""
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "p",
+           " class=\"gv-kicker\"",
+           "Restaurant Gilles Varone · Saint-Germain, Savièse"
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "div",
+         " class=\"inhalt\"",
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-auftakt\"",
+           {
+            "fn": "el",
+            "a": [
+             "h1",
+             " class=\"gv-titel\"",
+             "Les expériences."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-lead\"",
+             "Un menu unique, changeant au gré de la qualité et de la saisonnalité des produits."
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-menus\"",
+           {
+            "fn": "el",
+            "a": [
+             "h2",
+             " class=\"rubrik\"",
+             "En cinq, six ou sept services."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-text\"",
+             "Les expériences que je vous propose se différencient par le nombre de services qu’elles incluent. Toujours servies par l’équipe de cuisine."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-menu\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience en 5 services"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "199"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "div",
+               " class=\"gv-gaenge\"",
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Amuse-Bouche"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Première Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Deuxième Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Plat Principal"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Dessert"
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-menu\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience en 6 services"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "12.50"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "div",
+               " class=\"gv-gaenge\"",
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Amuse-Bouche"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Poisson"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Plat Principal"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Pré-Dessert"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Dessert"
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-menu\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience en 7 services"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "259"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "div",
+               " class=\"gv-gaenge\"",
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Amuse-Bouche"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Première Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Deuxième Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Poisson"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Plat Principal"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Pré-Dessert"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Dessert"
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-menu\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "Prüfmenü Saison"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "19"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "div",
+               " class=\"gv-gaenge\"",
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Amuse-Bouche"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Première Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Deuxième Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Poisson"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Plat Principal"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Pré-Dessert"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Dessert"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-plus\"",
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-zusatz\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience chasse locale"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "299"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-t\"",
+               "Uniquement durant le mois d’octobre, selon les disponibilités"
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-zusatz\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "Les expériences végétariennes"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-t\"",
+               "Sur demande préalable uniquement, retrouvez toutes les expériences dans leurs versions végétariennes"
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-zusatz\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "Pour les groupes Probe"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-t\"",
+               "Les expériences destinées à plus de 8 personnes s’effectuent par le biais de demandes spéciales"
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-hinweise\"",
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "– Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation –"
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "footer",
+         " class=\"gv-fuss\"",
+         "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+        ]
+       }
+      ]
+     }
+    ],
+    "teile": [],
+    "wer": "Team Gilles Varone",
+    "gespeichert": "2026-11-09 16:09:14"
+   },
+   "ursprung": {
+    "art": "satz",
+    "ziel": "experiences",
+    "name": "Les expériences",
+    "unter": "",
+    "gruppe": "Restaurant",
+    "quelle": "experiences.html",
+    "schema": 1,
+    "format": [
+     210,
+     297
+    ],
+    "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Les expériences · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:210mm 297mm;margin:0}</style></head><body>",
+    "fuss": "</body></html>",
+    "seiten": [
+     {
+      "fn": "seite",
+      "a": [
+       " data-max=\"1\" class=\"blatt gv-blatt\" data-b=\"210\" data-h=\"297\" style=\"width:210mm;height:297mm\"",
+       {
+        "fn": "el",
+        "a": [
+         "header",
+         " class=\"gv-kopf\"",
+         {
+          "fn": "el",
+          "a": [
+           "span",
+           " class=\"gv-zeichen\""
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "p",
+           " class=\"gv-kicker\"",
+           "Restaurant Gilles Varone · Saint-Germain, Savièse"
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "div",
+         " class=\"inhalt\"",
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-auftakt\"",
+           {
+            "fn": "el",
+            "a": [
+             "h1",
+             " class=\"gv-titel\"",
+             "Les expériences."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-lead\"",
+             "Un menu unique, changeant au gré de la qualité et de la saisonnalité des produits."
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-menus\"",
+           {
+            "fn": "el",
+            "a": [
+             "h2",
+             " class=\"rubrik\"",
+             "En cinq, six ou sept services."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-text\"",
+             "Les expériences que je vous propose se différencient par le nombre de services qu’elles incluent. Toujours servies par l’équipe de cuisine."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-menu\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience en 5 services"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "199"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "div",
+               " class=\"gv-gaenge\"",
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Amuse-Bouche"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Première Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Deuxième Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Plat Principal"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Dessert"
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-menu\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience en 6 services"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "229"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "div",
+               " class=\"gv-gaenge\"",
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Amuse-Bouche"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Poisson"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Plat Principal"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Pré-Dessert"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Dessert"
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-menu\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience en 7 services"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "259"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "div",
+               " class=\"gv-gaenge\"",
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Amuse-Bouche"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Première Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Deuxième Entrée"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Poisson"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Plat Principal"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Pré-Dessert"
+                ]
+               },
+               {
+                "fn": "el",
+                "a": [
+                 "p",
+                 " class=\"gv-gang\"",
+                 "Dessert"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-plus\"",
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-zusatz\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience chasse locale"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "299"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-t\"",
+               "Uniquement durant le mois d’octobre, selon les disponibilités"
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-zusatz\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "Les expériences végétariennes"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-t\"",
+               "Sur demande préalable uniquement, retrouvez toutes les expériences dans leurs versions végétariennes"
+              ]
+             }
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-zusatz\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "Pour les groupes"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-t\"",
+               "Les expériences destinées à plus de 8 personnes s’effectuent par le biais de demandes spéciales"
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-hinweise\"",
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "– Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation –"
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "footer",
+         " class=\"gv-fuss\"",
+         "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+        ]
+       }
+      ]
+     }
+    ],
+    "teile": []
+   },
+   "verlauf": {
+    "verworfen-20261109-160858.json": {
+     "art": "satz",
+     "ziel": "experiences",
+     "name": "Les expériences",
+     "unter": "",
+     "gruppe": "Restaurant",
+     "quelle": "experiences.html",
+     "schema": 1,
+     "format": [
+      210,
+      297
+     ],
+     "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Les expériences · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:210mm 297mm;margin:0}</style></head><body>",
+     "fuss": "</body></html>",
+     "seiten": [
+      {
+       "fn": "seite",
+       "a": [
+        " data-max=\"1\" class=\"blatt gv-blatt\" data-b=\"210\" data-h=\"297\" style=\"width:210mm;height:297mm\"",
+        {
+         "fn": "el",
+         "a": [
+          "header",
+          " class=\"gv-kopf\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"gv-zeichen\""
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "p",
+            " class=\"gv-kicker\"",
+            "Restaurant Gilles Varone · Saint-Germain, Savièse"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"inhalt\"",
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"gv-auftakt\"",
+            {
+             "fn": "el",
+             "a": [
+              "h1",
+              " class=\"gv-titel\"",
+              "Les expériences."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-lead\"",
+              "Un menu unique, changeant au gré de la qualité et de la saisonnalité des produits."
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"gv-menus\"",
+            {
+             "fn": "el",
+             "a": [
+              "h2",
+              " class=\"rubrik\"",
+              "En cinq, six ou sept services."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-text\"",
+              "Les expériences que je vous propose se différencient par le nombre de services qu’elles incluent. Toujours servies par l’équipe de cuisine."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-menu\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "L’expérience en 5 services"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "199"
+                 ]
+                },
+                " ",
+                {
+                 "fn": "el",
+                 "a": [
+                  "small",
+                  "",
+                  "CHF"
+                 ]
+                }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "div",
+                " class=\"gv-gaenge\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Amuse-Bouche"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Première Entrée"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Deuxième Entrée"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Plat Principal"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Dessert"
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-menu\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "L’expérience en 6 services"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "229"
+                 ]
+                },
+                " ",
+                {
+                 "fn": "el",
+                 "a": [
+                  "small",
+                  "",
+                  "CHF"
+                 ]
+                }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "div",
+                " class=\"gv-gaenge\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Amuse-Bouche"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Entrée"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Poisson"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Plat Principal"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Pré-Dessert"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Dessert"
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-menu\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "L’expérience en 7 services"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "259"
+                 ]
+                },
+                " ",
+                {
+                 "fn": "el",
+                 "a": [
+                  "small",
+                  "",
+                  "CHF"
+                 ]
+                }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "div",
+                " class=\"gv-gaenge\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Amuse-Bouche"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Première Entrée"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Deuxième Entrée"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Poisson"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Plat Principal"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Pré-Dessert"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Dessert"
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"gv-plus\"",
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-zusatz\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "L’expérience chasse locale"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "299"
+                 ]
+                },
+                " ",
+                {
+                 "fn": "el",
+                 "a": [
+                  "small",
+                  "",
+                  "CHF"
+                 ]
+                }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Uniquement durant le mois d’octobre, selon les disponibilités"
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-zusatz\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "Les expériences végétariennes"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Sur demande préalable uniquement, retrouvez toutes les expériences dans leurs versions végétariennes"
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-zusatz\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "Pour les groupes"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Les expériences destinées à plus de 8 personnes s’effectuent par le biais de demandes spéciales"
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"gv-hinweise\"",
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-hin\"",
+              "Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-hin\"",
+              "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-hin\"",
+              "– Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation –"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "footer",
+          " class=\"gv-fuss\"",
+          "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+         ]
+        }
+       ]
+      }
+     ],
+     "teile": [],
+     "gespeichert": "2026-11-09 16:08:56",
+     "wer": "Team Gilles Varone"
+    },
+    "20261109-160855.json": {
+     "art": "satz",
+     "ziel": "experiences",
+     "name": "Les expériences",
+     "unter": "",
+     "gruppe": "Restaurant",
+     "quelle": "experiences.html",
+     "schema": 1,
+     "format": [
+      210,
+      297
+     ],
+     "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Les expériences · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:210mm 297mm;margin:0}</style></head><body>",
+     "fuss": "</body></html>",
+     "seiten": [
+      {
+       "fn": "seite",
+       "a": [
+        " data-max=\"1\" class=\"blatt gv-blatt\" data-b=\"210\" data-h=\"297\" style=\"width:210mm;height:297mm\"",
+        {
+         "fn": "el",
+         "a": [
+          "header",
+          " class=\"gv-kopf\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"gv-zeichen\""
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "p",
+            " class=\"gv-kicker\"",
+            "Restaurant Gilles Varone · Saint-Germain, Savièse"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"inhalt\"",
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"gv-auftakt\"",
+            {
+             "fn": "el",
+             "a": [
+              "h1",
+              " class=\"gv-titel\"",
+              "Les expériences."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-lead\"",
+              "Un menu unique, changeant au gré de la qualité et de la saisonnalité des produits."
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"gv-menus\"",
+            {
+             "fn": "el",
+             "a": [
+              "h2",
+              " class=\"rubrik\"",
+              "En cinq, six ou sept services."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-text\"",
+              "Les expériences que je vous propose se différencient par le nombre de services qu’elles incluent. Toujours servies par l’équipe de cuisine."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-menu\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "L’expérience en 5 services"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "199"
+                 ]
+                },
+                " ",
+                {
+                 "fn": "el",
+                 "a": [
+                  "small",
+                  "",
+                  "CHF"
+                 ]
+                }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "div",
+                " class=\"gv-gaenge\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Amuse-Bouche"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Première Entrée"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Deuxième Entrée"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Plat Principal"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Dessert"
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-menu\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "L’expérience en 6 services"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "229"
+                 ]
+                },
+                " ",
+                {
+                 "fn": "el",
+                 "a": [
+                  "small",
+                  "",
+                  "CHF"
+                 ]
+                }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "div",
+                " class=\"gv-gaenge\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Amuse-Bouche"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Entrée"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Poisson"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Plat Principal"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Pré-Dessert"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Dessert"
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-menu\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "L’expérience en 7 services"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "259"
+                 ]
+                },
+                " ",
+                {
+                 "fn": "el",
+                 "a": [
+                  "small",
+                  "",
+                  "CHF"
+                 ]
+                }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "div",
+                " class=\"gv-gaenge\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Amuse-Bouche"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Première Entrée"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Deuxième Entrée"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Poisson"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Plat Principal"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Pré-Dessert"
+                 ]
+                },
+                {
+                 "fn": "el",
+                 "a": [
+                  "p",
+                  " class=\"gv-gang\"",
+                  "Dessert"
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"gv-plus\"",
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-zusatz\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "L’expérience chasse locale"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "299"
+                 ]
+                },
+                " ",
+                {
+                 "fn": "el",
+                 "a": [
+                  "small",
+                  "",
+                  "CHF"
+                 ]
+                }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Uniquement durant le mois d’octobre, selon les disponibilités"
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-zusatz\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "Les expériences végétariennes"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Sur demande préalable uniquement, retrouvez toutes les expériences dans leurs versions végétariennes"
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-zusatz\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "Pour les groupes"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Les expériences destinées à plus de 8 personnes s’effectuent par le biais de demandes spéciales"
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"gv-hinweise\"",
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-hin\"",
+              "Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-hin\"",
+              "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-hin\"",
+              "– Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation –"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "footer",
+          " class=\"gv-fuss\"",
+          "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+         ]
+        }
+       ]
+      }
+     ],
+     "teile": [],
+     "veroeffentlicht": "2026-11-09 16:07:27",
+     "wer": "Einlesen"
+    }
+   }
+  },
+  "chasse": {
+   "stand": {
+    "art": "satz",
+    "ziel": "chasse",
+    "name": "Chasse locale",
+    "unter": "",
+    "gruppe": "Saison",
+    "quelle": "experiences.html",
+    "schema": 1,
+    "format": [
+     148,
+     210
+    ],
+    "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Chasse locale · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:148mm 210mm;margin:0}</style></head><body>",
+    "fuss": "</body></html>",
+    "seiten": [
+     {
+      "fn": "seite",
+      "a": [
+       " data-max=\"1\" class=\"blatt gv-blatt gv-a5\" data-b=\"148\" data-h=\"210\" style=\"width:148mm;height:210mm\"",
+       {
+        "fn": "el",
+        "a": [
+         "header",
+         " class=\"gv-kopf\"",
+         {
+          "fn": "el",
+          "a": [
+           "span",
+           " class=\"gv-zeichen\""
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "p",
+           " class=\"gv-kicker\"",
+           "Restaurant Gilles Varone · Saint-Germain, Savièse"
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "div",
+         " class=\"inhalt\"",
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-solo\"",
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-saison\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience chasse locale"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "299"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-t\"",
+               "Uniquement durant le mois d’octobre, selon les disponibilités"
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-hinweise\"",
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "– Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation –"
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "footer",
+         " class=\"gv-fuss\"",
+         "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+        ]
+       }
+      ]
+     }
+    ],
+    "teile": [],
+    "veroeffentlicht": "2026-11-09 16:07:27",
+    "wer": "Einlesen"
+   },
+   "entwurf": null,
+   "ursprung": {
+    "art": "satz",
+    "ziel": "chasse",
+    "name": "Chasse locale",
+    "unter": "",
+    "gruppe": "Saison",
+    "quelle": "experiences.html",
+    "schema": 1,
+    "format": [
+     148,
+     210
+    ],
+    "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Chasse locale · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:148mm 210mm;margin:0}</style></head><body>",
+    "fuss": "</body></html>",
+    "seiten": [
+     {
+      "fn": "seite",
+      "a": [
+       " data-max=\"1\" class=\"blatt gv-blatt gv-a5\" data-b=\"148\" data-h=\"210\" style=\"width:148mm;height:210mm\"",
+       {
+        "fn": "el",
+        "a": [
+         "header",
+         " class=\"gv-kopf\"",
+         {
+          "fn": "el",
+          "a": [
+           "span",
+           " class=\"gv-zeichen\""
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "p",
+           " class=\"gv-kicker\"",
+           "Restaurant Gilles Varone · Saint-Germain, Savièse"
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "div",
+         " class=\"inhalt\"",
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-solo\"",
+           {
+            "fn": "el",
+            "a": [
+             "div",
+             " class=\"sb-g gv-saison\"",
+             {
+              "fn": "el",
+              "a": [
+               "h4",
+               "",
+               "L’expérience chasse locale"
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-p\"",
+               {
+                "fn": "el",
+                "a": [
+                 "b",
+                 "",
+                 "299"
+                ]
+               },
+               " ",
+               {
+                "fn": "el",
+                "a": [
+                 "small",
+                 "",
+                 "CHF"
+                ]
+               }
+              ]
+             },
+             {
+              "fn": "el",
+              "a": [
+               "p",
+               " class=\"sb-t\"",
+               "Uniquement durant le mois d’octobre, selon les disponibilités"
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-hinweise\"",
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "– Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation –"
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "footer",
+         " class=\"gv-fuss\"",
+         "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+        ]
+       }
+      ]
+     }
+    ],
+    "teile": []
+   },
+   "verlauf": {
+    "verworfen-20261109-160935.json": {
+     "art": "satz",
+     "ziel": "chasse",
+     "name": "Chasse locale",
+     "unter": "",
+     "gruppe": "Saison",
+     "quelle": "experiences.html",
+     "schema": 1,
+     "format": [
+      148,
+      210
+     ],
+     "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Chasse locale · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:148mm 210mm;margin:0}</style></head><body>",
+     "fuss": "</body></html>",
+     "seiten": [
+      {
+       "fn": "seite",
+       "a": [
+        " data-max=\"1\" class=\"blatt gv-blatt gv-a5\" data-b=\"148\" data-h=\"210\" style=\"width:148mm;height:210mm\"",
+        {
+         "fn": "el",
+         "a": [
+          "header",
+          " class=\"gv-kopf\"",
+          {
+           "fn": "el",
+           "a": [
+            "span",
+            " class=\"gv-zeichen\""
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "p",
+            " class=\"gv-kicker\"",
+            "Restaurant Gilles Varone · Saint-Germain, Savièse"
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"inhalt\"",
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"gv-solo\"",
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-g gv-saison\"",
+              {
+               "fn": "el",
+               "a": [
+                "h4",
+                "",
+                "L’expérience chasse locale"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "299"
+                 ]
+                },
+                " ",
+                {
+                 "fn": "el",
+                 "a": [
+                  "small",
+                  "",
+                  "CHF"
+                 ]
+                }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Uniquement durant le mois d’octobre"
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"gv-hinweise\"",
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-hin\"",
+              "Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-hin\"",
+              "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"gv-hin\"",
+              "– Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation –"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "footer",
+          " class=\"gv-fuss\"",
+          "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+         ]
+        }
+       ]
+      }
+     ],
+     "teile": [],
+     "wer": "Team Gilles Varone",
+     "gespeichert": "2026-11-09 16:09:34"
+    }
+   }
+  },
+  "accords": {
+   "stand": {
+    "art": "satz",
+    "ziel": "accords",
+    "name": "Les accords",
+    "unter": "",
+    "gruppe": "Cave",
+    "quelle": "experiences.html",
+    "schema": 1,
+    "format": [
+     148,
+     210
+    ],
+    "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Les accords · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:148mm 210mm;margin:0}</style></head><body>",
+    "fuss": "</body></html>",
+    "seiten": [
+     {
+      "fn": "seite",
+      "a": [
+       " data-max=\"1\" class=\"blatt gv-blatt gv-a5\" data-b=\"148\" data-h=\"210\" style=\"width:148mm;height:210mm\"",
+       {
+        "fn": "el",
+        "a": [
+         "header",
+         " class=\"gv-kopf\"",
+         {
+          "fn": "el",
+          "a": [
+           "span",
+           " class=\"gv-zeichen\""
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "p",
+           " class=\"gv-kicker\"",
+           "Restaurant Gilles Varone · Saint-Germain, Savièse"
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "div",
+         " class=\"inhalt\"",
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-auftakt\"",
+           {
+            "fn": "el",
+            "a": [
+             "h1",
+             " class=\"gv-titel\"",
+             "Les accords."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-lead\"",
+             "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"sb-g gv-zitat\"",
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"sb-t\"",
+             "« J’aime mettre en avant le travail magnifique des vigneronnes et vignerons tout autour de la Suisse, et raconter leurs histoires ainsi que dégoter des accords parfaits et originaux qui sublimeront les produits travaillés par le chef. »"
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "h4",
+             "",
+             "Lise Donier-Meroz · Cheffe sommelière"
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-hinweise\"",
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "La carte des vins est régulièrement sujette à modifications."
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "footer",
+         " class=\"gv-fuss\"",
+         "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+        ]
+       }
+      ]
+     }
+    ],
+    "teile": [],
+    "veroeffentlicht": "2026-11-09 16:07:27",
+    "wer": "Einlesen"
+   },
+   "entwurf": null,
+   "ursprung": {
+    "art": "satz",
+    "ziel": "accords",
+    "name": "Les accords",
+    "unter": "",
+    "gruppe": "Cave",
+    "quelle": "experiences.html",
+    "schema": 1,
+    "format": [
+     148,
+     210
+    ],
+    "kopf": "<!doctype html><html lang=\"fr-CH\"><head><meta charset=\"utf-8\"><title>Les accords · Restaurant Gilles Varone</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:148mm 210mm;margin:0}</style></head><body>",
+    "fuss": "</body></html>",
+    "seiten": [
+     {
+      "fn": "seite",
+      "a": [
+       " data-max=\"1\" class=\"blatt gv-blatt gv-a5\" data-b=\"148\" data-h=\"210\" style=\"width:148mm;height:210mm\"",
+       {
+        "fn": "el",
+        "a": [
+         "header",
+         " class=\"gv-kopf\"",
+         {
+          "fn": "el",
+          "a": [
+           "span",
+           " class=\"gv-zeichen\""
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "p",
+           " class=\"gv-kicker\"",
+           "Restaurant Gilles Varone · Saint-Germain, Savièse"
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "div",
+         " class=\"inhalt\"",
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-auftakt\"",
+           {
+            "fn": "el",
+            "a": [
+             "h1",
+             " class=\"gv-titel\"",
+             "Les accords."
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-lead\"",
+             "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences."
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"sb-g gv-zitat\"",
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"sb-t\"",
+             "« J’aime mettre en avant le travail magnifique des vigneronnes et vignerons tout autour de la Suisse, et raconter leurs histoires ainsi que dégoter des accords parfaits et originaux qui sublimeront les produits travaillés par le chef. »"
+            ]
+           },
+           {
+            "fn": "el",
+            "a": [
+             "h4",
+             "",
+             "Lise Donier-Meroz · Cheffe sommelière"
+            ]
+           }
+          ]
+         },
+         {
+          "fn": "el",
+          "a": [
+           "div",
+           " class=\"gv-hinweise\"",
+           {
+            "fn": "el",
+            "a": [
+             "p",
+             " class=\"gv-hin\"",
+             "La carte des vins est régulièrement sujette à modifications."
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "fn": "el",
+        "a": [
+         "footer",
+         " class=\"gv-fuss\"",
+         "Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20"
+        ]
+       }
+      ]
+     }
+    ],
+    "teile": []
+   },
+   "verlauf": {}
+  }
+ },
+ "einstellungen": {
+  "anschluss_pdf": false,
+  "demo": true
+ },
+ "protokoll": [
+  {
+   "zeit": "2026-11-09 16:09:41",
+   "wer": "Probe",
+   "rolle": "kueche",
+   "was": "probe",
+   "karte": "experiences",
+   "seiten": 1,
+   "art": "entwurf"
+  },
+  {
+   "zeit": "2026-11-09 16:09:35",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "verworfen",
+   "karte": "chasse",
+   "aufbewahrt": "verworfen-20261109-160935.json"
+  },
+  {
+   "zeit": "2026-11-09 16:09:34",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "chasse",
+   "text": "Eintrag gespeichert"
+  },
+  {
+   "zeit": "2026-11-09 16:09:15",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Im Entwurf gespeichert"
+  },
+  {
+   "zeit": "2026-11-09 16:08:58",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "verworfen",
+   "karte": "experiences",
+   "aufbewahrt": "verworfen-20261109-160858.json"
+  },
+  {
+   "zeit": "2026-11-09 16:08:56",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Fassung grundstand in den Entwurf geholt"
+  },
+  {
+   "zeit": "2026-11-09 16:08:55",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "veroeffentlicht",
+   "karte": "experiences",
+   "seiten": 1,
+   "woerter": 244,
+   "voriger": "verlauf/experiences/20261109-160855.json",
+   "anschluss": "demo"
+  },
+  {
+   "zeit": "2026-11-09 16:08:48",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "probe",
+   "karte": "experiences",
+   "seiten": 1,
+   "art": "entwurf"
+  },
+  {
+   "zeit": "2026-11-09 16:08:42",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Rubrik entfernt"
+  },
+  {
+   "zeit": "2026-11-09 16:08:37",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Rubrik auf der Karte"
+  },
+  {
+   "zeit": "2026-11-09 16:08:33",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Reihenfolge gespeichert"
+  },
+  {
+   "zeit": "2026-11-09 16:08:29",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Reihenfolge gespeichert"
+  },
+  {
+   "zeit": "2026-11-09 16:08:25",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Wieder auf der Karte"
+  },
+  {
+   "zeit": "2026-11-09 16:08:22",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Ausgeblendet"
+  },
+  {
+   "zeit": "2026-11-09 16:08:13",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Eintrag auf der Karte"
+  },
+  {
+   "zeit": "2026-11-09 16:08:06",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Zurückgenommen"
+  },
+  {
+   "zeit": "2026-11-09 16:08:06",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Eintrag gespeichert"
+  },
+  {
+   "zeit": "2026-11-09 16:08:01",
+   "wer": "Team Gilles Varone",
+   "rolle": "direktion",
+   "was": "entwurf",
+   "karte": "experiences",
+   "text": "Eintrag gespeichert"
+  }
+ ]
+}

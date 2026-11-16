@@ -1,0 +1,35 @@
+[
+ {
+  "ziel": "experiences",
+  "quelle": "_werkbank/quelle/experiences-heute.pdf",
+  "name": "Les expériences",
+  "gruppe": "Restaurant",
+  "seiten": 1,
+  "b": 210,
+  "h": 297,
+  "dazu": "Restaurant Gilles Varone · Saint-Germain, Savièse Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20 Les expériences. En cinq, six ou sept services. Toujours servies par l’équipe de cuisine.",
+  "fehlt": "La carte des vins est régulièrement sujette à modifications."
+ },
+ {
+  "ziel": "chasse",
+  "quelle": "_werkbank/quelle/chasse-heute.pdf",
+  "name": "Chasse locale",
+  "gruppe": "Saison",
+  "seiten": 1,
+  "b": 148,
+  "h": 210,
+  "dazu": "Restaurant Gilles Varone · Saint-Germain, Savièse Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20",
+  "fehlt": ""
+ },
+ {
+  "ziel": "accords",
+  "quelle": "_werkbank/quelle/accords-heute.pdf",
+  "name": "Les accords",
+  "gruppe": "Cave",
+  "seiten": 1,
+  "b": 148,
+  "h": 210,
+  "dazu": "Restaurant Gilles Varone · Saint-Germain, Savièse Restaurant Gilles Varone · Rue du Stade 5B · 1965 Savièse · 027 565 89 20 Les accords.",
+  "fehlt": ""
+ }
+]
