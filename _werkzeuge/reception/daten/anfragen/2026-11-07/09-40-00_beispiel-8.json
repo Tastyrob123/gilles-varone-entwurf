@@ -1,0 +1,44 @@
+{
+ "zeit": "2026-11-07T09:40:00+01:00",
+ "art": "tisch",
+ "name": "James Whitfield",
+ "kontakt": "james.whitfield@example.com",
+ "datum": "vendredi 4 décembre 2026",
+ "personen": 2,
+ "anliegen": "Table for two, 7 services with wine pairing, knew Gilles from Bibendum",
+ "sprache": "en",
+ "gespraech": "beispiel-8",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Équipe): Date: vendredi 4 décembre 2026\nHeure: 19h30\nConvives: 2\nExpérience: 7 services\nAccords: mets et vins\nMessage: I had the pleasure of dining at Bibendum when Gilles was second de cuisine there. My wife and I will be in Valais in early December and would love to come for the seven-course experience with the wine pairing."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "info@gillesvarone.ch",
+ "abteilung": "Reservation",
+ "seite": "/equipe.html",
+ "seite_name": "Équipe",
+ "web": true,
+ "nachricht": "Date: vendredi 4 décembre 2026\nHeure: 19h30\nConvives: 2\nExpérience: 7 services\nAccords: mets et vins\nMessage: I had the pleasure of dining at Bibendum when Gilles was second de cuisine there. My wife and I will be in Valais in early December and would love to come for the seven-course experience with the wine pairing.",
+ "formular": "reservation",
+ "uhrzeit": "19h30",
+ "bild": "verse-1",
+ "entwurf": {
+  "betreff": "Your evening with us on Friday, 4 December",
+  "text": "Dear Mr Whitfield,\n\nThank you very much for your kind message. It is a real pleasure to hear from a guest who remembers Gilles from his years at Bibendum.\n\nWe would be delighted to welcome you and your wife on Friday, 4 December at 7.30 pm [Table to confirm]. The seven-course experience changes with the quality and the season of the produce Gilles selects from producers in our region, and Lise Donier-Meroz, our head sommelier, will accompany each course with her wine pairing.\n\nAs always, Gilles will come to your table himself to share the details of each dish.\n\nMay we ask whether either of you has any allergies or dietary requirements?\n\nWe look forward to welcoming you to Savièse.\n\nWith warm regards,\n\n[First name Last name]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Accueil und Équipe (Bibendum, Second de Cuisine; Gilles serviert selbst), Expériences (7 services, Accords)\nOffen: Tisch bestätigen, Allergien erfragen",
+  "vorlage": "reservation",
+  "absender": "info@gillesvarone.ch",
+  "zeit": "2026-11-07T09:40:00+01:00",
+  "deutsch": {
+   "betreff": "Ihr Abend bei uns am Freitag, 4. Dezember",
+   "text": "Sehr geehrter Herr Whitfield\n\nVielen Dank für Ihre freundliche Nachricht. Es freut uns sehr, von einem Gast zu hören, der sich an Gilles aus seinen Jahren im Bibendum erinnert.\n\nGerne empfangen wir Sie und Ihre Frau am Freitag, 4. Dezember, um 19.30 Uhr [Tisch bestätigen]. Die Expérience mit sieben Gängen richtet sich nach Qualität und Saison der Produkte, die Gilles bei Produzenten unserer Region auswählt, und Lise Donier-Meroz, unsere Cheffe sommelière, begleitet jeden Gang mit ihrer Weinbegleitung.\n\nWie immer kommt Gilles selbst an Ihren Tisch und erzählt Ihnen von jedem Teller.\n\nDürfen wir fragen, ob jemand von Ihnen Allergien oder besondere Ernährungswünsche hat?\n\nWir freuen uns, Sie in Savièse zu empfangen.\n\nMit herzlichen Grüssen\n\n[Vorname Name]\nRestaurant Gilles Varone",
+   "quelle": "989bcaef6c01"
+  }
+ },
+ "verlauf_de": [
+  "Über ein Formular der Website (Seite Équipe): Date: vendredi 4 décembre 2026\nHeure: 19h30\nConvives: 2\nExpérience: 7 services\nAccords: mets et vins\nMessage: Ich hatte das Vergnügen, im Bibendum zu essen, als Gilles dort Second de cuisine war. Meine Frau und ich sind Anfang Dezember im Wallis und würden sehr gerne zur Expérience mit sieben Gängen und Weinbegleitung kommen."
+ ]
+}

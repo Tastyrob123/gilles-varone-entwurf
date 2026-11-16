@@ -1,0 +1,8 @@
+# Vorlage (Reservationsbuch der Vorlage, läuft auf 9047) | Anfragen & Chat Gilles Varone (Wegwerf-Daten auf 9714, gleicher Code wie 9714)
+Übersicht | http://127.0.0.1:9047/_werkzeuge/reception/#start | /_werkzeuge/reception/#start
+Eingang mit Brief | http://127.0.0.1:9047/_werkzeuge/reception/#eingang | /_werkzeuge/reception/#eingang
+Das wurde gefragt | http://127.0.0.1:9047/_werkzeuge/reception/#gefragt | /_werkzeuge/reception/#gefragt
+Vom Team nachgetragen | http://127.0.0.1:9047/_werkzeuge/reception/#nachgetragen | /_werkzeuge/reception/#nachgetragen
+Das weiss der Chat | http://127.0.0.1:9047/_werkzeuge/reception/#wissen | /_werkzeuge/reception/#wissen
+Anleitung | http://127.0.0.1:9047/_werkzeuge/reception/anleitung.html | /_werkzeuge/reception/anleitung.html
+Prüfung | http://127.0.0.1:9047/_werkzeuge/reception/pruefung.html | /_werkzeuge/reception/pruefung.html

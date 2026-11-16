@@ -1,0 +1,39 @@
+{
+ "zeit": "2026-11-08T18:05:00+01:00",
+ "art": "tisch",
+ "name": "Marc-Antoine Dubuis",
+ "kontakt": "ma.dubuis@example.com",
+ "datum": "dimanche 29 novembre 2026",
+ "personen": 2,
+ "anliegen": "Tisch für zwei am Sonntagmittag, beide essen vegetarisch",
+ "sprache": "fr",
+ "gespraech": "beispiel-3",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Expériences): Date: dimanche 29 novembre 2026\nHeure: 12h15\nConvives: 2\nExpérience: 6 services\nAllergies et régimes: végétarien\nMessage: Mon épouse et moi sommes végétariens tous les deux. Nous avons lu que vos expériences existent en version végétarienne et nous nous en réjouissons."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "info@gillesvarone.ch",
+ "abteilung": "Reservation",
+ "seite": "/experiences.html",
+ "seite_name": "Expériences",
+ "web": true,
+ "nachricht": "Date: dimanche 29 novembre 2026\nHeure: 12h15\nConvives: 2\nExpérience: 6 services\nAllergies et régimes: végétarien\nMessage: Mon épouse et moi sommes végétariens tous les deux. Nous avons lu que vos expériences existent en version végétarienne et nous nous en réjouissons.",
+ "formular": "reservation",
+ "allergene": [
+  "vegetarien"
+ ],
+ "uhrzeit": "12h15",
+ "bild": "soupe",
+ "entwurf": {
+  "betreff": "Votre déjeuner végétarien du dimanche 29 novembre",
+  "text": "Cher Monsieur Dubuis,\n\nNous vous remercions pour votre demande et pour l’intérêt que vous portez à notre cuisine.\n\nC’est avec plaisir que nous vous accueillerons le dimanche 29 novembre à 12h15, pour deux personnes [Table à confirmer]. Toutes nos expériences existent dans leur version végétarienne, sur demande préalable : votre demande nous parvient à temps, et notre cuisine préparera pour vous l’expérience en 6 services dans sa version végétarienne [Informer la cuisine].\n\nComme pour chacune de nos expériences, la cuisine compose ce menu au gré de la qualité et de la saisonnalité des produits que Gilles sélectionne auprès des producteurs de la région.\n\nSouhaitez-vous l’accompagner d’un accord mets et vins, ou d’un accord mets et créations sans alcool ?\n\nNous nous réjouissons de vous faire découvrir notre monde culinaire.\n\nAvec nos salutations chaleureuses,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Expériences (Les expériences végétariennes, sur demande préalable; 6 services)\nOffen: Tisch bestätigen, Küche über vegetarisch informieren, Accords erfragen",
+  "vorlage": "reservation",
+  "absender": "info@gillesvarone.ch",
+  "zeit": "2026-11-08T18:05:00+01:00"
+ }
+}

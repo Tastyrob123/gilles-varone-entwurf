@@ -1,0 +1,35 @@
+{
+ "_hinweis": "Tafeln «So geht’s» mit den echten Knopf-Namen («…»), gelesen im Code der Werkzeuge von Gilles Varone; bau.py prüft jeden Namen gegen den Code (stand_wege.json → code).",
+ "bureau": [
+  ["stift", "Text oder Foto ändern", "Links den Bereich wählen, in der Seite rechts auf einen Text oder ein Foto klicken, neu schreiben oder «Foto tauschen», dann «Speichern»."],
+  ["uhr", "Horaires und Fermetures", "Unter «Zeiten & Preise» stehen die Öffnungszeiten einmal für alle Seiten. Die Fermetures vom 21. Dezember bis 6. Januar gehen unter «Hinweis für Gäste»."],
+  ["waage", "Online stellen", "Gespeichert ist erst ein Entwurf. «Vorher, nachher» zeigt den Unterschied, «Veröffentlichen» bringt ihn auf die Website. Die Menükarten pflegen Sie in «Karten & Preislisten»."]
+ ],
+ "carte": [
+  ["stift", "Einen Gang ändern", "Die Karte wählen, im Modus «Einfach» den Gang anklicken, Name oder Beschreibung überschreiben. Daneben steht sofort die Karte."],
+  ["liste", "Ein Gang dazu", "Mit «Neuer Eintrag» oder bei der Rubrik mit «Eintrag hinzufügen» anlegen und an die richtige Stelle im Menü schieben."],
+  ["zurueck", "Bis zur nächsten Saison", "Ist die Chasse locale vorbei, nehmen Sie sie mit «Ausblenden» heraus. Sie bleibt gespeichert und kommt im Oktober zurück."],
+  ["pdf", "Neue Karte drucken", "«Probe-PDF» zeigt die Karte vorab, «Veröffentlichen» setzt die PDF neu. Die Karten auf der Website kommen aus derselben Quelle."]
+ ],
+ "imprimerie": [
+  ["satz", "Sagen, was Sie brauchen", "Oben einen Satz schreiben, etwa: Aushang für die Fermetures de fin d’année, und «Fünf Entwürfe» drücken. Oder unter «Arten und Vorlagen» eine fertige Vorlage mit den Texten des Hauses nehmen."],
+  ["fuenf", "Einen Entwurf wählen", "Sie bekommen fünf Entwürfe im Stil des Hauses, in Nacht und Gold. Den passenden anklicken."],
+  ["stift", "Anpassen", "Im Blatt auf einen Text oder ein Foto klicken und ändern. Unter «Fotos des Hauses» liegen alle Bilder der Website."],
+  ["druck", "Drucken", "Druckfertig als PDF speichern, mit Beschnitt für die Druckerei, oder selbst drucken."]
+ ],
+ "reception": [
+  ["eingang", "Anfragen beantworten", "Eine Gruppe ab acht Personen, eine vegetarische Expérience, ein Bon cadeau: jede Anfrage steht im «Eingang», mit Hinweisen zu Ruhetagen, Fermetures und Allergien und einem Brief auf Französisch im Ton des Hauses. «Text kopieren» oder «Als PDF speichern», verschickt wird nur, was Sie selbst schicken."],
+  ["blase", "Den Chat ausprobieren", "Mit «Chat ausprobieren» fragen Sie wie ein Gast und sehen, was er aus Ihren Seiten und Menüs antwortet, in der Sprache des Gastes."],
+  ["liste", "Lücken schliessen", "Wusste der Chat etwas nicht, steht die Frage unter «Das wurde gefragt». Mit «Antwort nachtragen» einmal eintragen, ab dann antwortet er selbst."]
+ ],
+ "livre": [
+  ["foto", "Ein Foto holen", "Unter «Fotos» ein Foto anklicken und die Grösse wählen: «Instagram-Beitrag», Website oder Druck. Jedes Foto trägt seine Herkunft."],
+  ["datei", "Monogramm weitergeben", "Unter «Logo & Dateien» liegen Monogramm, Wortmarke, Farben und Schriften. «Alle Dateien (ZIP)» gibt alles in einem Paket an Agentur oder Druckerei."],
+  ["farbe", "Einen Entwurf prüfen", "In der «Markenprüfung» mit «Datei wählen» ein Plakat oder einen Flyer laden. Sie sagt Punkt für Punkt, was zum Haus passt."]
+ ],
+ "registre": [
+  ["karte", "Woher die Gäste kommen", "Unter «Herkunft» stehen Länder und Orte der Besuche, ohne Cookies und nie mit Namen. Oben wählen Sie den «Zeitraum»."],
+  ["uhr", "Weiter zur Reservation", "«Zur Reservation» zeigt, wie oft ein Besuch zu «Réserver une table» bei Zenchef führt oder zum Bon cadeau."],
+  ["liste", "Zahlen weitergeben", "«Als Tabelle sichern» legt alle Besuche als Tabelle ab, zum Beispiel für die Buchhaltung oder eine Agentur."]
+ ]
+}

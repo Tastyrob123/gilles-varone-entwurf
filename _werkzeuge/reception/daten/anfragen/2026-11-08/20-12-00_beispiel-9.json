@@ -1,0 +1,35 @@
+{
+ "zeit": "2026-11-08T20:12:00+01:00",
+ "art": "nachricht",
+ "name": "Bernard Zufferey",
+ "kontakt": "b.zufferey@example.com",
+ "datum": "",
+ "personen": null,
+ "anliegen": "Dank für den Abend vom Samstag, fragt nach dem Wein zum Poisson",
+ "sprache": "fr",
+ "gespraech": "beispiel-9",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Accueil): Objet: merci pour samedi soir\nMessage: Nous avons passé samedi une soirée inoubliable, merci à toute l’équipe. Le vin blanc servi avec le poisson nous a beaucoup plu : pourriez-vous nous en rappeler le nom et le vigneron ?"
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "info@gillesvarone.ch",
+ "abteilung": "Reservation",
+ "seite": "/index.html",
+ "seite_name": "Accueil",
+ "web": true,
+ "nachricht": "Objet: merci pour samedi soir\nMessage: Nous avons passé samedi une soirée inoubliable, merci à toute l’équipe. Le vin blanc servi avec le poisson nous a beaucoup plu : pourriez-vous nous en rappeler le nom et le vigneron ?",
+ "formular": "allgemein",
+ "bild": "verse-3",
+ "entwurf": {
+  "betreff": "Merci pour votre message · le vin servi avec le poisson",
+  "text": "Cher Monsieur Zufferey,\n\nNous vous remercions chaleureusement pour votre message. Savoir que vous avez passé une si belle soirée parmi nous fait la joie de toute l’équipe, en cuisine comme en salle.\n\nLise Donier-Meroz, notre cheffe sommelière, aime mettre en avant le travail des vigneronnes et vignerons de Suisse et raconter leurs histoires. Elle vous transmet avec plaisir le nom du vin servi avec le poisson : [Nom du vin et du vigneron, à compléter par Lise].\n\nLa carte des vins évoluant régulièrement, nous vous conseillons de nous en parler lors de votre prochaine réservation : Lise sera heureuse de vous le faire découvrir à nouveau, ou de vous proposer une nouvelle trouvaille.\n\nAu plaisir de vous accueillir bientôt,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Expériences («Les accords», Zitat Lise Donier-Meroz; La carte des vins est régulièrement sujette à modifications)\nOffen: Wein und Weingut nennen (Lise), nichts erfinden",
+  "vorlage": "",
+  "absender": "info@gillesvarone.ch",
+  "zeit": "2026-11-08T20:12:00+01:00"
+ }
+}

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+<head><script data-wurzel>/* Wurzel-Weiche: Seite laeuft an der Wurzel einer Adresse oder in einem Unterordner (github.io/<repo>/) */(function(){var D=0,p=location.pathname.split('/');p.splice(p.length-1-D,D+1);var W=p.join('/')+'/';window.__W=W;if(W==='/')return;var O=location.origin;
+function f(u){if(typeof u!=='string')return u;if(u.indexOf(O+'/')===0)return O+f(u.slice(O.length));if(u.charAt(0)!=='/'||u.charAt(1)==='/'||u.indexOf(W)===0||u+'/'===W)return u;return W+u.slice(1)}
+function s(v){return typeof v!=='string'?v:v.replace(/(^|,)(\s*)(\S+)/g,function(m,a,b,u){return a+b+f(u)})}
+function c(v){return typeof v!=='string'?v:v.replace(/url\(\s*(['"]?)([^'")]+)/g,function(m,q,u){return 'url('+q+f(u)})}
+function h(v){return typeof v!=='string'?v:c(v.replace(/(\s(?:src|href|poster|action|data-src|data-href)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+f(u)+q}).replace(/(\s(?:srcset|imagesrcset|data-srcset)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+s(u)+q}))}
+function d(K,k,g){K=window[K];if(!K)return;var x=Object.getOwnPropertyDescriptor(K.prototype,k);if(!x||!x.set)return;Object.defineProperty(K.prototype,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,g(v))}})}
+[['HTMLImageElement','src'],['HTMLScriptElement','src'],['HTMLLinkElement','href'],['HTMLIFrameElement','src'],['HTMLSourceElement','src'],['HTMLMediaElement','src'],['HTMLVideoElement','poster'],['HTMLAnchorElement','href'],['HTMLAreaElement','href'],['HTMLFormElement','action'],['HTMLEmbedElement','src'],['HTMLObjectElement','data']].forEach(function(z){d(z[0],z[1],f)});
+[['HTMLImageElement','srcset'],['HTMLSourceElement','srcset'],['HTMLLinkElement','imageSrcset']].forEach(function(z){d(z[0],z[1],s)});
+d('Element','innerHTML',h);d('Element','outerHTML',h);var iah=Element.prototype.insertAdjacentHTML;Element.prototype.insertAdjacentHTML=function(w,v){return iah.call(this,w,h(v))};
+var sa=Element.prototype.setAttribute;Element.prototype.setAttribute=function(n,v){var l=String(n).toLowerCase();if(/^(src|href|poster|action|data|data-src|data-href)$/.test(l))v=f(v);else if(/srcset$/.test(l))v=s(v);else if(l==='style')v=c(v);return sa.call(this,n,v)};
+var st=CSSStyleDeclaration.prototype,sp=st.setProperty;st.setProperty=function(n,v,q){return sp.call(this,n,c(v),q)};['background','backgroundImage','cssText','maskImage','webkitMaskImage','listStyleImage','borderImageSource','content'].forEach(function(k){var x=Object.getOwnPropertyDescriptor(st,k);if(x&&x.set)Object.defineProperty(st,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,c(v))}})});
+var F=window.fetch;if(F)window.fetch=function(i,o){if(typeof i==='string')i=f(i);else if(i instanceof URL)i=f(i.href);return F.call(this,i,o)};
+var XO=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){var a=[].slice.call(arguments);a[1]=f(a[1] instanceof URL?a[1].href:a[1]);return XO.apply(this,a)};
+if(navigator.sendBeacon){var B=navigator.sendBeacon;navigator.sendBeacon=function(u,x){return B.call(navigator,f(u),x)}}
+var wo=window.open;window.open=function(u){var a=[].slice.call(arguments);a[0]=f(u);return wo.apply(window,a)};
+var dw=document.write,dl=document.writeln;document.write=function(){return dw.apply(document,[].map.call(arguments,h))};document.writeln=function(){return dl.apply(document,[].map.call(arguments,h))};
+['pushState','replaceState'].forEach(function(k){var o=history[k];history[k]=function(a,b,u){return o.call(history,a,b,u==null?u:f(String(u)))}});
+function e(el){if(!el||el.nodeType!==1)return;['src','href','poster','action'].forEach(function(a){var v=el.getAttribute(a);if(v&&v.charAt(0)==='/'){var z=f(v);if(z!==v)sa.call(el,a,z)}});var t=el.getAttribute('srcset');if(t&&/(^|,)\s*\/[^\/]/.test(t)){var z=s(t);if(z!==t)sa.call(el,'srcset',z)}t=el.getAttribute('style');if(t&&/url\(\s*['"]?\/[^\/]/.test(t)){z=c(t);if(z!==t)sa.call(el,'style',z)}}
+new MutationObserver(function(ms){ms.forEach(function(m){if(m.type==='attributes')e(m.target);else m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;e(n);var l=n.querySelectorAll('[src],[href],[srcset],[poster],[action],[style]');for(var i=0;i<l.length;i++)e(l[i])})})}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src','href','srcset','poster','action','style']})})();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>L’équipe – Gilles Varone</title>
+<meta name="description" content="Une équipe jeune et dynamique: Gilles Varone et l’équipe du restaurant à Savièse.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="bilder/zeichen.svg">
+<link rel="preload" href="schrift/GillSansNova-Book.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="schrift/CaviarDreams.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/gv.css?v=68">
+<link rel="preload" as="image" imagesrcset="bilder/brigade-m.webp?v=68 900w, bilder/brigade.webp?v=68 1920w" imagesizes="100vw" fetchpriority="high">
+<script>(function(){var d=document.documentElement;d.classList.add('vor');d.setAttribute('data-h','45');d.setAttribute('data-v','1');d.setAttribute('data-g','2')})()</script>
+<script src="assets/gv.js?v=68" defer></script>
+<script src="besuch.js" defer></script>
+</head>
+<body>
+<header class="leiste" data-seite="equipe">
+  <a class="leiste__gv" href="index.html" aria-label="Restaurant Gilles Varone, accueil"><img src="bilder/zeichen.svg" alt="" width="40" height="40"></a>
+  <nav class="leiste__nav" aria-label="Navigation"><a href="restaurant.html">Restaurant</a><a href="experiences.html">Expériences</a><a href="equipe.html" aria-current="page">Équipe</a><a href="infos.html">Infos</a></nav>
+  <div class="leiste__rechts">
+    <a class="knopf" href="https://bookings.zenchef.com/results?rid=360467" target="_blank" rel="noopener">Réserver</a>
+    <button class="leiste__menu" data-menu aria-label="Menu">Menu</button>
+  </div>
+</header>
+<div class="menu-voll" aria-hidden="true">
+  <button class="zu" data-menu>Fermer</button>
+  <a class="gross" href="index.html">Accueil</a><a class="gross" href="restaurant.html">Restaurant</a><a class="gross" href="experiences.html">Expériences</a><a class="gross" href="equipe.html">Équipe</a><a class="gross" href="infos.html">Infos</a>
+  <a class="knopf" href="https://bookings.zenchef.com/results?rid=360467" target="_blank" rel="noopener">Réserver une table</a>
+</div>
+<main>
+<section class="held held--seite" aria-label="L’équipe.">
+  <div class="held__flecht"></div><div class="held__film f-terre" style="--ab:#1b1712"><img data-src="film/terre.webp?v=68" data-srcset="film/terre-m.webp?v=68 1280w, film/terre.webp?v=68 1920w" sizes="100vw" width="1920" height="1080" alt=""><video muted playsinline loop preload="none" data-src="film/terre.mp4?v=68" data-src-m="film/terre-m.mp4?v=68" aria-hidden="true"></video></div><div class="held__film f-dressage" style="--ab:#1b1712"><img data-src="film/dressage.webp?v=68" data-srcset="film/dressage-m.webp?v=68 1280w, film/dressage.webp?v=68 1920w" sizes="100vw" width="1920" height="1080" alt=""><video muted playsinline loop preload="none" data-src="film/dressage.mp4?v=68" data-src-m="film/dressage-m.mp4?v=68" aria-hidden="true"></video></div><figure class="held__b s1" style="--ab:#40454a;--n:0"><img data-src="bilder/brigade.webp?v=68" data-srcset="bilder/brigade-m.webp?v=68 900w, bilder/brigade.webp?v=68 1920w" sizes="100vw" width="1920" height="1280" alt="L’équipe du restaurant" decoding="async"></figure><figure class="held__b s2" style="--ab:#4d4743;--n:1"><img data-src="bilder/couple.webp?v=68" data-srcset="bilder/couple-m.webp?v=68 900w, bilder/couple.webp?v=68 1698w" sizes="100vw" width="1698" height="1835" alt="Gilles et Letizia Varone en cuisine" decoding="async"></figure><figure class="held__b s3" style="--ab:#53473b;--n:2"><img data-src="bilder/bougie-2.webp?v=68" data-srcset="bilder/bougie-2-m.webp?v=68 900w, bilder/bougie-2.webp?v=68 2000w" sizes="100vw" width="2000" height="2500" alt="Un plat à la lumière de la bougie" decoding="async"></figure><figure class="held__b s4" style="--ab:#aaa69a;--n:0"><img data-src="bilder/verse-1.webp?v=68" data-srcset="bilder/verse-1-m.webp?v=68 900w, bilder/verse-1.webp?v=68 2048w" sizes="100vw" width="2048" height="2560" alt="La sauce versée sur le dessert" decoding="async"></figure><figure class="held__b s5" style="--ab:#6b594e;--n:1"><img data-src="bilder/verse-3.webp?v=68" data-srcset="bilder/verse-3-m.webp?v=68 900w, bilder/verse-3.webp?v=68 1707w" sizes="100vw" width="1707" height="2560" alt="La sauce versée sur l’assiette" decoding="async"></figure><figure class="held__b s6" style="--ab:#a38b82;--n:2"><img data-src="bilder/verse-2.webp?v=68" data-srcset="bilder/verse-2-m.webp?v=68 900w, bilder/verse-2.webp?v=68 2048w" sizes="100vw" width="2048" height="2560" alt="La sauce versée sur la betterave" decoding="async"></figure><figure class="held__b s7" style="--ab:#5c493d;--n:0"><img data-src="bilder/cuisine-2.webp?v=68" data-srcset="bilder/cuisine-2-m.webp?v=68 900w, bilder/cuisine-2.webp?v=68 1920w" sizes="100vw" width="1920" height="1536" alt="La brigade en cuisine" decoding="async"></figure><figure class="held__b s8" style="--ab:#7c6754;--n:1"><img data-src="bilder/mains.webp?v=68" data-srcset="bilder/mains-m.webp?v=68 900w, bilder/mains.webp?v=68 2560w" sizes="100vw" width="2560" height="2048" alt="Les mains du chef dressent l’assiette" decoding="async"></figure><div class="held__hof"></div><div class="held__linie"></div><div class="held__linie2"></div>
+  <div class="held__text"><img class="held__gv" src="bilder/zeichen.svg" alt="" width="60" height="60"><h1>L’équipe.</h1><p class="held__ort">Restaurant Gilles Varone · Saint-Germain, Savièse</p><p class="satz">Une équipe jeune &amp; dynamique.</p></div>
+</section>
+<section class="abschnitt papier geflecht"><div class="innen"><article class="person">
+  <div class="person__bild"><figure class="rahmen " data-r="b" style="--ab:#c6bcb6;"><img data-src="bilder/p-gilles.webp?v=68" data-srcset="bilder/p-gilles-m.webp?v=68 900w, bilder/p-gilles.webp?v=68 690w" sizes="(max-width:860px) 100vw, 40vw" width="690" height="1227" alt="Gilles Varone, Chef &amp; patron" decoding="async"></figure></div>
+  <div><h2>Gilles Varone</h2><span class="rolle klein">Chef &amp; patron</span><p class="lauf" data-r="t" style="--i:0">Ma relation à la cuisine a commencé par un apprentissage à la CRR SUVA de Sion. Afin de parfaire mon art, j’ai ensuite pris mon envol pour l’Angleterre où j’ai notamment pu y obtenir le titre de Meilleur Jeune Chef du pays octroyé par The Craft Guilds of Chefs.</p><p class="lauf" data-r="t" style="--i:1">Fort de cette expérience, j’ai par la suite eu la chance d’officier parmi les cuisines les plus réputées du pays.</p><p class="lauf" data-r="t" style="--i:2">Passionné par la cuisine et le monde qui l’entoure, j’aime constamment innover et chercher de nouvelles saveurs. J’ai ainsi décidé de lancer mon premier restaurant sur mes terres natales, afin de partager avec vous mes découvertes et mon savoir-faire.</p><div class="laufbahn" data-r="t"><div><span>Mosimann’s Private Club</span><span>Chef de Partie</span></div><div><span>Pétrus (*) de Gordon Ramsay</span><span>Senior Chef de Partie</span></div><div><span>Trivet (*) de Johny Lake</span><span>Senior Chef de Partie</span></div><div><span>Bibendum (**) de Claude Bosi</span><span>Second de Cuisine</span></div></div><div class="arbeit wand" data-r="b"><figure class="rahmen " style="--ab:#797060;"><img data-src="bilder/chef-herd.webp?v=68" data-srcset="bilder/chef-herd-m.webp?v=68 900w, bilder/chef-herd.webp?v=68 1380w" sizes="(max-width:860px) 50vw, 26vw" width="1380" height="921" alt="Gilles Varone en cuisine" decoding="async"></figure><figure class="rahmen " style="--ab:#5b4e41;"><img data-src="bilder/chef-glas.webp?v=68" data-srcset="bilder/chef-glas-m.webp?v=68 900w, bilder/chef-glas.webp?v=68 1380w" sizes="(max-width:860px) 50vw, 26vw" width="1380" height="921" alt="Le chef et ses conserves maison" decoding="async"></figure></div></div>
+</article>
+<article class="person">
+  <div class="person__bild"><figure class="rahmen " data-r="b" style="--ab:#7a7273;"><img data-src="bilder/p-letizia.webp?v=68" data-srcset="bilder/p-letizia-m.webp?v=68 900w, bilder/p-letizia.webp?v=68 690w" sizes="(max-width:860px) 100vw, 40vw" width="690" height="1227" alt="Letizia Varone, Cogérante" decoding="async"></figure></div>
+  <div><h2>Letizia Varone</h2><span class="rolle klein">Cogérante</span><p class="lauf" data-r="t" style="--i:0">Letizia a été baignée dans le domaine de la restauration dès sa rencontre avec Gilles.</p><p class="lauf" data-r="t" style="--i:1">Dotée d’expérience en comptabilité et finance, elle coordonne et gère conjointement avec Gilles le quotidien du restaurant.</p><div class="arbeit wand" data-r="b"><figure class="rahmen " style="--ab:#a3a2a6;"><img data-src="bilder/letizia-saal.webp?v=68" data-srcset="bilder/letizia-saal-m.webp?v=68 900w, bilder/letizia-saal.webp?v=68 1080w" sizes="(max-width:860px) 50vw, 26vw" width="1080" height="921" alt="Letizia Varone" decoding="async"></figure><figure class="rahmen " style="--ab:#9b8b89;"><img data-src="bilder/chef-lachen.webp?v=68" data-srcset="bilder/chef-lachen-m.webp?v=68 900w, bilder/chef-lachen.webp?v=68 1380w" sizes="(max-width:860px) 50vw, 26vw" width="1380" height="921" alt="Le Chef lors de la cérémonie de remise des prix" decoding="async"></figure></div></div>
+</article>
+<article class="person">
+  <div class="person__bild"><figure class="rahmen " data-r="b" style="--ab:#a89b93;"><img data-src="bilder/p-andrea.webp?v=68" data-srcset="bilder/p-andrea-m.webp?v=68 900w, bilder/p-andrea.webp?v=68 572w" sizes="(max-width:860px) 100vw, 40vw" width="572" height="1024" alt="Andrea Granzarolo, Chef de cuisine" decoding="async"></figure></div>
+  <div><h2>Andrea Granzarolo</h2><span class="rolle klein">Chef de cuisine</span><p class="lauf" data-r="t" style="--i:0">D’origine italienne, ma passion pour la cuisine remonte à mon enfance, transmise par ma grand-mère. De la préparation à la fin du repas, la cuisine a toujours été pour nous, un moment de partage et de convivialité qui rassemble.</p><p class="lauf" data-r="t" style="--i:1">Après une formation à l’Istituto Professionale Carlo Porta de Milan, j’ai fait mes premiers pas dans l’univers de la gastronomie au restaurant étoilé I Castagni * à Vigevano en Lombardie.</p><p class="lauf" data-r="t" style="--i:2">Mon besoin d’apprendre m’a ensuite conduit à Londres, où j’ai eu l’opportunité de travailler dans le Restaurant Greenhouse by Arnaud Bignon pendant cinq ans, puis durant six années aux côtés d’Hélène Darroze, entre San Sebastián, Paris et Londres.</p><p class="lauf" data-r="t" style="--i:3">L’envie d’adopter une approche plus éthique et durable de la cuisine m’a conduit ici, à Savièse, pour rejoindre Gilles et m’investir dans une gastronomie ancrée dans le respect des produits et de leur saisonnalité.</p></div>
+</article>
+<article class="person">
+  <div class="person__bild"><figure class="rahmen " data-r="b" style="--ab:#afa7a7;"><img data-src="bilder/p-wesley.webp?v=68" data-srcset="bilder/p-wesley-m.webp?v=68 900w, bilder/p-wesley.webp?v=68 572w" sizes="(max-width:860px) 100vw, 40vw" width="572" height="1024" alt="Wesley Broden, Chef pâtissier" decoding="async"></figure></div>
+  <div><h2>Wesley Broden</h2><span class="rolle klein">Chef pâtissier</span><p class="lauf" data-r="t" style="--i:0">Après un parcours à l’école hôtelière de la st union kain et un apprentissage constructif au restaurant «&#8239;Au petit château&#8239;», je me suis envolé pour Londres où j’ai pu apprendre et me spécialiser en pâtisserie à travers plusieurs grands restaurants renommés.</p><p class="lauf" data-r="t" style="--i:1">Après avoir travaillé avec Gilles durant 2 ans au restaurant Bibendum by Claude Bosi, j’ai décidé de le rejoindre dans son nouveau projet plein d’ambitions en tant que chef pâtissier.</p><div class="laufbahn" data-r="t"><div><span>Gauthier Soho</span><span></span></div><div><span>Greenhouse (**)</span><span></span></div><div><span>Bibendum (**)</span><span></span></div><div><span>Alex dilling at Cafe Royal (**)</span><span></span></div><div><span>The Connaught hotel (5* hotel)</span><span></span></div></div></div>
+</article>
+<article class="person">
+  <div class="person__bild"><figure class="rahmen " data-r="b" style="--ab:#645c5d;"><img data-src="bilder/p-lise.webp?v=68" data-srcset="bilder/p-lise-m.webp?v=68 900w, bilder/p-lise.webp?v=68 572w" sizes="(max-width:860px) 100vw, 40vw" width="572" height="1024" alt="Lise Donier-Meroz, Cheffe sommelière" decoding="async"></figure></div>
+  <div><h2>Lise Donier-Meroz</h2><span class="rolle klein">Cheffe sommelière</span><p class="lauf" data-r="t" style="--i:0">Mon travail dans l’univers de la haute gastronomie a commencé en Angleterre en 2017 au restaurant L’Enclume. En 2019, je débute la quête du prestigieux Master Sommelier grâce à l’influence de mon mentor Pierre Brunelli MS. Début 2020 à Londres, je deviens la première lauréate de la Gérard Basset Travel Scholarship, qui me permettra de découvrir les vignobles sud-américains pendant plusieurs mois. En 2021, je me rapproche de ma famille jurassienne en rejoignant le Valais, une région dont je tombe amoureuse dès les premières semaines.</p><p class="lauf" data-r="t" style="--i:1">2023 fût une année pleine de succès, obtenant le niveau Advanced du Court of Master Sommelier et gagnant le titre de championne du Ruinart Challenge Switzerland.</p><p class="lauf" data-r="t" style="--i:2">J’aime mettre en avant le travail magnifique des vigneronnes et vignerons tout autour de la Suisse, et raconter leurs histoires ainsi que dégoter des accords parfaits et originaux qui sublimeront les produits travaillés par le chef.</p></div>
+</article>
+<article class="person">
+  <div class="person__bild"><figure class="rahmen " data-r="b" style="--ab:#605452;"><img data-src="bilder/p-ana.webp?v=68" data-srcset="bilder/p-ana-m.webp?v=68 900w, bilder/p-ana.webp?v=68 572w" sizes="(max-width:860px) 100vw, 40vw" width="572" height="1024" alt="Ana Suarez, Restaurant manager" decoding="async"></figure></div>
+  <div><h2>Ana Suarez</h2><span class="rolle klein">Restaurant manager</span><p class="lauf" data-r="t" style="--i:0">Ma passion pour la gastronomie et le vin a commencé dès mon adolescence dans mon pays d’origine, l’Uruguay, où j’ai fait mes études en sommellerie. Afin de découvrir le vaste monde de l’hôtellerie, j’ai entrepris un voyage en Espagne pour travailler dans l’un des meilleurs restaurants du pays : Disfrutar à Barcelone (trois étoiles Michelin).</p><p class="lauf" data-r="t" style="--i:1">Mon ambition de connaissance m’a conduite à Londres, où j’ai travaillé avec Gilles au restaurant Bibendum. J’ai ensuite travaillé comme directeur adjoint sommelier au restaurant Dinner by Heston Blumental à Londres (2 étoiles Michelin). Ma passion pour la perfection et la recherches de nouvelles expériences m’a finalement amené à Savièse pour rejoindre Gilles et son équipe.</p></div>
+</article>
+</div></section><section class="abschnitt nacht" id="postuler">
+  <div class="innen">
+    <div class="stellen" data-r="b">
+      <figure class="rahmen " style="--ab:#7c7167;"><img data-src="bilder/chef-pass.webp?v=68" data-srcset="bilder/chef-pass-m.webp?v=68 900w, bilder/chef-pass.webp?v=68 1376w" sizes="(max-width:860px) 100vw, 56vw" width="1376" height="921" alt="Gilles Varone au passe, devant la cuisine ouverte" decoding="async"></figure>
+      <div class="stellen__tafel">
+        <h2>Nous sommes toujours à la recherche de talents.</h2>
+        <p>En salle et en cuisine. Nous sommes actuellement à la recherche des talents suivants:</p>
+        <dl><dt>En cuisine</dt><dd>Chef(fe) de partie</dd><dt>En salle</dt><dd>Chef(fe) de rang</dd></dl>
+        <p>N’hésitez pas à nous transmettre votre candidature complète.</p>
+        <div class="knopfreihe" style="margin-top:26px"><a class="knopf" href="mailto:restaurantgillesvarone@gmail.com?subject=Postulation">Postuler</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="fuss geflecht">
+  <div class="innen">
+    <div class="fuss__kopf">
+      <img src="bilder/wortmarke.svg" alt="Restaurant Gilles Varone" width="414" height="154">
+      <p>Des saveurs &amp; des valeurs.</p>
+    </div>
+    <div class="fuss__spalten">
+      <div>
+        <h4 class="klein">Restaurant Gilles Varone</h4>
+        <p>Rue du Stade 5B<br>1965 Savièse</p>
+        <p><a href="tel:+41275658920">027 565 89 20</a><br><a href="mailto:info@gillesvarone.ch">info@gillesvarone.ch</a></p>
+      </div>
+      <div>
+        <h4 class="klein">Horaires</h4>
+        <p>Lundi – Mercredi : fermé<br>Jeudi : 18h30 – 00h00<br>Vendredi &amp; Samedi : 12h00 – 16h00, 19h00 – 00h00<br>Dimanche : 12h00 – 16h00</p>
+      </div>
+      <div>
+        <h4 class="klein">Découvrir</h4>
+        <ul><li><a href="index.html">Accueil</a></li><li><a href="restaurant.html">Restaurant</a></li><li><a href="experiences.html">Expériences</a></li><li><a href="equipe.html">Équipe</a></li><li><a href="infos.html">Infos</a></li><li><a href="https://shop.e-guma.ch/gillesvarone/fr/bons-cadeaux/50226/bon-valeur" target="_blank" rel="noopener">Bon cadeau</a></li>
+        <li><a href="https://www.instagram.com/gillesvarone/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/restaurantgillesvarone" target="_blank" rel="noopener">Facebook</a></li></ul>
+      </div>
+    </div>
+  </div>
+  <div class="fuss__unten"><span>© Restaurant Gilles Varone</span><span>Étude de design de Tasty Studios, ce n’est pas le site officiel du restaurant.</span></div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+ "zeit": "2026-11-09T07:52:00+01:00",
+ "art": "tisch",
+ "name": "Sophie Bonvin",
+ "kontakt": "+41 79 000 12 34",
+ "datum": "jeudi 26 novembre 2026, 12h30",
+ "personen": 4,
+ "anliegen": "Geburtstag (40 Jahre des Mannes), Donnerstag 26. November mittags, 4 Personen, eine Person verträgt keine Laktose",
+ "sprache": "fr",
+ "gespraech": "beispiel-2",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Bonjour, je voudrais organiser un déjeuner surprise pour les 40 ans de mon mari, le jeudi 26 novembre à midi, pour 4 personnes. Ma belle-mère est intolérante au lactose, est-ce possible ?"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation : la cuisine en tient compte pour chaque convive.\n- Jeudi : le restaurant vous accueille le soir, de 18h30 à 00h00\n- Midi : vendredi, samedi et dimanche, de 12h00 à 16h00\nVolontiers, je transmets votre demande à l’équipe : pourriez-vous m’indiquer votre nom et un numéro de téléphone ou une adresse e-mail ?"
+  },
+  {
+   "rolle": "user",
+   "text": "Sophie Bonvin, 079 000 12 34. Si le jeudi midi ne va pas, le vendredi 27 midi nous irait aussi."
+  },
+  {
+   "rolle": "assistant",
+   "text": "Merci. Ceci est une ébauche de Tasty Studios : votre demande n’est pas transmise au restaurant, elle est seulement conservée pour être consultée."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "info@gillesvarone.ch",
+ "abteilung": "Reservation",
+ "allergene": [
+  "lactose"
+ ],
+ "bild": "dessert-cuillere",
+ "entwurf": {
+  "betreff": "Votre demande pour le jeudi 26 novembre 2026, 12h30 · Restaurant Gilles Varone",
+  "text": "Bonjour Sophie Bonvin,\n\nNous vous remercions de votre demande pour le jeudi 26 novembre 2026, 12h30 pour 4 personnes et du plaisir que vous nous faites en pensant à notre maison.\n\nÀ cette date, le restaurant n’est malheureusement pas ouvert à l’heure souhaitée. Nous vous accueillons le jeudi soir, le vendredi et le samedi midi et soir ainsi que le dimanche midi, et serions heureux de vous proposer un autre moment [Autre date à proposer].\n\nNous avons bien pris note des allergies et des régimes alimentaires de votre table ; la cuisine en tiendra compte avec le plus grand soin [Informer la cuisine].\n\nAfin de préparer votre venue au mieux, pourriez-vous nous préciser :\n- l’expérience souhaitée (5, 6 ou 7 services)\n- si vous désirez les accords mets et vins ou mets et créations sans alcool\n\nNous nous réjouissons de vous accueillir et de partager avec vous un moment authentique.\n\nAvec nos salutations chaleureuses,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Website des Hauses (Expériences, Infos), Demo ohne KI\nOffen: Donnerstag nur abends (18h30 bis 00h00); Allergien: Milch und Laktose",
+  "vorlage": "reservation",
+  "absender": "info@gillesvarone.ch",
+  "zeit": "2026-11-10T18:10:36+08:00",
+  "fassung": 1
+ }
+}

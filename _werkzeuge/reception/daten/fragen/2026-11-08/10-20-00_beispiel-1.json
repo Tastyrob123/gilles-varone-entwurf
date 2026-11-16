@@ -1,0 +1,13 @@
+{
+ "zeit": "2026-11-08T10:20:00+01:00",
+ "frage": "Êtes-vous ouverts le mardi ?",
+ "antwort": "Le restaurant est fermé du lundi au mercredi. Nous vous accueillons :\n- Jeudi : 18h30 – 00h00\n- Vendredi et samedi : 12h00 – 16h00 et 19h00 – 00h00\n- Dimanche : 12h00 – 16h00",
+ "belegt": true,
+ "thema": "",
+ "gruppe": "Reservation & Zeiten",
+ "sprache": "fr",
+ "buchung": false,
+ "mappe": false,
+ "anfrage": "",
+ "beispiel": true
+}

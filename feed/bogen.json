@@ -1,0 +1,527 @@
+{
+ "reihen": 20,
+ "stuecke": [
+  {
+   "id": "jus",
+   "r": 1,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/jus.webp"
+  },
+  {
+   "id": "salle",
+   "r": 1,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/salle-gv.webp"
+  },
+  {
+   "id": "verse",
+   "r": 1,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/verse-2.webp"
+  },
+  {
+   "id": "noir",
+   "r": 2,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/noir-1.webp"
+  },
+  {
+   "id": "cuillere",
+   "r": 2,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/dessert-cuillere.webp"
+  },
+  {
+   "id": "couple",
+   "r": 2,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/couple.webp"
+  },
+  {
+   "id": "nacre",
+   "r": 3,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/bilder_alle/2025_05_Gilles_Varone_Avril_2023_-76.jpg"
+  },
+  {
+   "id": "bocal",
+   "r": 3,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/chef-glas.webp"
+  },
+  {
+   "id": "rouge",
+   "r": 3,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/bilder_alle/2025_05_8EBE783C-81CE-4477-A1BC-069DF261CF60_1_105_c.jpeg"
+  },
+  {
+   "id": "andrea",
+   "r": 4,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/p-andrea.webp"
+  },
+  {
+   "id": "bouillon",
+   "r": 4,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/soupe.webp"
+  },
+  {
+   "id": "comptoir",
+   "r": 4,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/comptoir-2.webp"
+  },
+  {
+   "id": "printemps",
+   "r": 5,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/assiette-table.webp"
+  },
+  {
+   "id": "bougie",
+   "r": 5,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/bougie-2.webp"
+  },
+  {
+   "id": "wesley",
+   "r": 5,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/p-wesley.webp"
+  },
+  {
+   "id": "cuisine-ouverte",
+   "r": 6,
+   "c": 1,
+   "w": 3,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/saal-kueche.webp"
+  },
+  {
+   "id": "quenelle",
+   "r": 7,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/teller-gross.webp"
+  },
+  {
+   "id": "accueil",
+   "r": 7,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/chef-saal.webp"
+  },
+  {
+   "id": "sauce",
+   "r": 7,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/chef-anrichten.webp"
+  },
+  {
+   "id": "lise",
+   "r": 8,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/p-lise.webp"
+  },
+  {
+   "id": "poisson",
+   "r": 8,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/poisson.webp"
+  },
+  {
+   "id": "chocolat",
+   "r": 8,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/dessert-holz.webp"
+  },
+  {
+   "id": "accord",
+   "r": 9,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/bilder_alle/2025_05_Gilles_Varone_Octobre2024-4-scaled.jpg"
+  },
+  {
+   "id": "cuisine",
+   "r": 9,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/cuisine.webp"
+  },
+  {
+   "id": "passe",
+   "r": 9,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/mains.webp"
+  },
+  {
+   "id": "creme",
+   "r": 10,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/verse-3.webp"
+  },
+  {
+   "id": "ana",
+   "r": 10,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/p-ana.webp"
+  },
+  {
+   "id": "ondule",
+   "r": 10,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/teller-6.webp"
+  },
+  {
+   "id": "midi",
+   "r": 11,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/salle-jour.webp"
+  },
+  {
+   "id": "vert",
+   "r": 11,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/bilder_alle/2025_05_GillesVarone_aout_2023-56-scaled.jpg"
+  },
+  {
+   "id": "tablier",
+   "r": 11,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/chef-schuerze.webp"
+  },
+  {
+   "id": "coffret",
+   "r": 12,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/bilder_alle/2022_08_slider5_restaurant.png"
+  },
+  {
+   "id": "letizia",
+   "r": 12,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/p-letizia.webp"
+  },
+  {
+   "id": "terre",
+   "r": 12,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-terre.jpg"
+  },
+  {
+   "id": "champ",
+   "r": 13,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-champ.jpg"
+  },
+  {
+   "id": "pipette",
+   "r": 13,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-pipette.jpg"
+  },
+  {
+   "id": "comptoir-chef",
+   "r": 13,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/chef-pass.webp"
+  },
+  {
+   "id": "croustillant",
+   "r": 14,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/teller-2.webp"
+  },
+  {
+   "id": "four",
+   "r": 14,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-four.jpg"
+  },
+  {
+   "id": "letizia-dossier",
+   "r": 14,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/letizia-saal.webp"
+  },
+  {
+   "id": "recolte",
+   "r": 15,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-recolte.jpg"
+  },
+  {
+   "id": "tartelette",
+   "r": 15,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/bilder_alle/2026_02_Gilles_Varone_Oct_25-10.jpg"
+  },
+  {
+   "id": "dressage-gilles",
+   "r": 15,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/gilles-dressage.jpg"
+  },
+  {
+   "id": "gilles",
+   "r": 16,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/p-gilles.webp"
+  },
+  {
+   "id": "decoupe",
+   "r": 16,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-decoupe.jpg"
+  },
+  {
+   "id": "bibendum",
+   "r": 16,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/bilder_alle/2025_11_slider-nov-2.jpg"
+  },
+  {
+   "id": "sphere",
+   "r": 17,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-sphere.jpg"
+  },
+  {
+   "id": "tables",
+   "r": 17,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/bilder_alle/2024_05_Varone_April_2024-145-web-v2.jpg"
+  },
+  {
+   "id": "caisse",
+   "r": 17,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-caisse.jpg"
+  },
+  {
+   "id": "epluche",
+   "r": 18,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-epluche.jpg"
+  },
+  {
+   "id": "chef-salle",
+   "r": 18,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/chef-fenster.webp"
+  },
+  {
+   "id": "fleurs",
+   "r": 18,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/teller-8.webp"
+  },
+  {
+   "id": "noir-tshirt",
+   "r": 19,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/chef-schwarz.webp"
+  },
+  {
+   "id": "hache",
+   "r": 19,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-hache.jpg"
+  },
+  {
+   "id": "feuilles",
+   "r": 19,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-feuilles.jpg"
+  },
+  {
+   "id": "coffret-assiette",
+   "r": 20,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "bilder/teller-1.webp"
+  },
+  {
+   "id": "en-cuisine",
+   "r": 20,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-chef.jpg"
+  },
+  {
+   "id": "finition",
+   "r": 20,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "_material/feed_quelle/betterave-finition.jpg"
+  }
+ ]
+}

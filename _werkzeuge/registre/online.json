@@ -1,0 +1,37 @@
+{
+ "name": "Besucher",
+ "hinweis": "Restaurant Gilles Varone, 09.11.2026 (Form wie die Vorlage Wirtschaft am Schlössli, _werkzeuge/registre/online.json; nicht hochgeladen, nichts online). Oberfläche statisch unter /werkzeuge/registre/ (Vorführung liest beispiel/*.json, braucht keinen Dienst); /api/registre für «Kontrollpanel» (Beispielwerte, dieselbe Rechnung) und für echte Werte mit Schlüssel. Eigener Speicher nur über REGISTRE_READ_WRITE_TOKEN (fehlt er: /tmp/varone-saviese-registre-demo, nie der gemeinsame Speicher, nie der eines anderen Hauses). Braucht api/_speicher.py des gemeinsamen Online-Wegs. Rahmen aus der Oberfläche der Häuser (assets/oberflaeche/, Kleid varone, lokal unter _werkzeuge/oberflaeche/). Bühnenfotos und Seitenbilder aus /assets/img/ (lokal _werkzeuge/assets/img/: haus, salle-gv, plan-saviese, bougie-1, comptoir-2, salle-jour, assiette-table, cuisine, je -1200.webp; Seitenbilder -600.webp), Schriften /assets/fonts/. Die Zählung der Website (assets/js/messung.js, Vorschlag vorschlag/messung.js, nicht eingebaut) sendet an /api/registre. Die Website liegt im Projektstamm.",
+ "funktionen": {
+  "api/registre.py": {
+   "von": "_werkzeuge/registre/online/registre.py",
+   "dauer": 30
+  }
+ },
+ "lib": {
+  "_werkzeuge/registre/registre.py": "api/_lib/registre/registre.py",
+  "_werkzeuge/registre/beispiel": "api/_lib/registre/beispiel"
+ },
+ "statik": {
+  "assets/oberflaeche": "assets/oberflaeche",
+  "_werkzeuge/registre/index.html": "werkzeuge/registre/index.html",
+  "_werkzeuge/registre/registre.css": "werkzeuge/registre/registre.css",
+  "_werkzeuge/registre/registre.js": "werkzeuge/registre/registre.js",
+  "_werkzeuge/registre/auftakt.js": "werkzeuge/registre/auftakt.js",
+  "_werkzeuge/registre/rundgang.js": "werkzeuge/registre/rundgang.js",
+  "_werkzeuge/registre/zur-werkbank.js": "werkzeuge/registre/zur-werkbank.js",
+  "_werkzeuge/registre/fehler.js": "werkzeuge/registre/fehler.js",
+  "_werkzeuge/registre/seiten.json": "werkzeuge/registre/seiten.json",
+  "_werkzeuge/registre/anleitung.html": "werkzeuge/registre/anleitung.html",
+  "_werkzeuge/registre/anleitung.js": "werkzeuge/registre/anleitung.js",
+  "_werkzeuge/registre/anleitung": "werkzeuge/registre/anleitung",
+  "_werkzeuge/registre/beispiel": "werkzeuge/registre/beispiel",
+  "_werkzeuge/registre/seiten-bilder.json": "werkzeuge/registre/seiten-bilder.json",
+  "_werkzeuge/registre/varone.css": "werkzeuge/registre/varone.css"
+ },
+ "umleitungen": [],
+ "stand": "/api/registre?tage=30&beispiel=1",
+ "pruefung": {
+  "weg": "/werkzeuge/registre/",
+  "kurz": true
+ }
+}

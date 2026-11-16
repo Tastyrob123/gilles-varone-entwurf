@@ -1,0 +1,10 @@
+# Vorlage (Besucherliste Schlössli, läuft auf 8988) | Die Besucher Gilles Varone (9716)
+start | http://127.0.0.1:8988/_werkzeuge/registre/?gruss=tag#start | /_werkzeuge/registre/?gruss=tag#start
+besuche | http://127.0.0.1:8988/_werkzeuge/registre/?gruss=tag#besuche | /_werkzeuge/registre/?gruss=tag#besuche
+herkunft | http://127.0.0.1:8988/_werkzeuge/registre/?gruss=tag#herkunft | /_werkzeuge/registre/?gruss=tag#herkunft
+zeit | http://127.0.0.1:8988/_werkzeuge/registre/?gruss=tag#zeit | /_werkzeuge/registre/?gruss=tag#zeit
+seiten | http://127.0.0.1:8988/_werkzeuge/registre/?gruss=tag#seiten | /_werkzeuge/registre/?gruss=tag#seiten
+verlauf | http://127.0.0.1:8988/_werkzeuge/registre/?gruss=tag#verlauf | /_werkzeuge/registre/?gruss=tag#verlauf
+buchung | http://127.0.0.1:8988/_werkzeuge/registre/?gruss=tag#buchung | /_werkzeuge/registre/?gruss=tag#buchung
+zaehlung | http://127.0.0.1:8988/_werkzeuge/registre/?gruss=tag#zaehlung | /_werkzeuge/registre/?gruss=tag#zaehlung
+anleitung | http://127.0.0.1:8988/_werkzeuge/registre/anleitung.html | /_werkzeuge/registre/anleitung.html

@@ -1,0 +1,34 @@
+{
+ "_hinweis": "Je Werkzeug: Stand-Weg ab der Wurzel seines Servers (lokal über /_weiter/<werkzeug>/), Anleitung, Ordner mit seinem Code (Knopf-Namen der Tafel). Gelesen aus den Servern der Werkzeuge von Gilles Varone (Ports 9712–9717, HAUS-GV.md).",
+ "bureau": {
+  "stand": "/api/x/website/ueberblick/varone",
+  "pruefung": "/werkzeuge/website/pruefung.html?haus=varone",
+  "code": ["~/Desktop/Website-Projekte/Gilles Varone Savièse/_werkzeuge/bureau", "~/Desktop/Website-Projekte/_Werkzeuge/werkzeuge/website"]
+ },
+ "carte": {
+  "stand": "/_werkzeuge/carte/api/status",
+  "code": ["~/Desktop/Website-Projekte/Gilles Varone Savièse/_werkzeuge/carte"],
+  "anleitung": "/_werkzeuge/carte/anleitung.html"
+ },
+ "imprimerie": {
+  "stand": "/_werkzeuge/imprimerie/haeuser/varone/vorlagen/index.json",
+  "code": ["~/Desktop/Website-Projekte/Gilles Varone Savièse/_werkzeuge/imprimerie"]
+ },
+ "reception": {
+  "stand": "/_werkzeuge/reception/api/ueberblick",
+  "code": ["~/Desktop/Website-Projekte/Gilles Varone Savièse/_werkzeuge/reception"],
+  "anleitung": "/_werkzeuge/reception/anleitung.html",
+  "beispiel": true
+ },
+ "livre": {
+  "stand": "/marke/livre.json",
+  "livre_json": "_werkzeuge/livre/livre.json",
+  "code": ["~/Desktop/Website-Projekte/Gilles Varone Savièse/_werkzeuge/livre"],
+  "anleitung": "/_werkzeuge/livre/anleitung.html"
+ },
+ "registre": {
+  "stand": ["/api/registre?tage=30&beispiel=1"],
+  "code": ["~/Desktop/Website-Projekte/Gilles Varone Savièse/_werkzeuge/registre"],
+  "anleitung": "/_werkzeuge/registre/anleitung.html"
+ }
+}

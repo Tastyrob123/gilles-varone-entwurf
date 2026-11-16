@@ -1,0 +1,336 @@
+[
+ {
+  "vor": [
+   0,
+   9,
+   14
+  ],
+  "art": "tisch",
+  "status": "neu",
+  "abteilung": "Reservation",
+  "bild": "bougie-1",
+  "name": "Claire Rey",
+  "kontakt": "claire.rey@example.com",
+  "datum": "samedi 21 novembre 2026",
+  "uhrzeit": "19h30",
+  "personen": 2,
+  "allergene": [],
+  "sprache": "fr",
+  "anliegen": "Tisch für zwei, 10. Hochzeitstag, 7 services mit Accords",
+  "web": true,
+  "an": "info@gillesvarone.ch",
+  "formular": "reservation",
+  "seite": "/index.html",
+  "seite_name": "Accueil",
+  "nachricht": "Date: samedi 21 novembre 2026\nHeure: 19h30\nConvives: 2\nExpérience: 7 services\nAccords: mets et vins\nMessage: Nous fêtons nos dix ans de mariage. Nous avions dîné chez vous il y a deux ans et en gardons un souvenir merveilleux. Serait-il possible d’avoir une table un peu au calme ?",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Accueil): Date: samedi 21 novembre 2026\nHeure: 19h30\nConvives: 2\nExpérience: 7 services\nAccords: mets et vins\nMessage: Nous fêtons nos dix ans de mariage. Nous avions dîné chez vous il y a deux ans et en gardons un souvenir merveilleux. Serait-il possible d’avoir une table un peu au calme ?"
+   ]
+  ],
+  "betreff": "Votre soirée du samedi 21 novembre · dix ans de mariage",
+  "text": "Chère Madame Rey,\n\nNous vous remercions de tout cœur pour votre message et pour la fidélité que vous nous témoignez. Savoir que votre première soirée chez nous vous a laissé un si beau souvenir nous touche beaucoup.\n\nC’est avec une joie particulière que nous préparerons votre table pour le samedi 21 novembre à 19h30, afin de célébrer vos dix ans de mariage [Table à confirmer]. Nous veillerons à vous installer dans un coin plus calme de la salle [Table au calme à attribuer].\n\nVous avez choisi l’expérience en 7 services, accompagnée des accords mets et vins concoctés par Lise Donier-Meroz, notre cheffe sommelière. Comme toujours, Gilles viendra vous servir personnellement à votre table et vous dévoiler les subtilités de chacun de ses plats.\n\nAfin que tout soit parfait, pourriez-vous nous indiquer si l’un de vous a une allergie ou un régime alimentaire particulier ?\n\nNous nous réjouissons de vous accueillir à nouveau et de partager avec vous ce moment authentique.\n\nAvec nos salutations chaleureuses,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Accueil und Expériences (7 services, Accords mets et vins, Gilles serviert selbst am Tisch)\nOffen: Tisch bestätigen, ruhigen Tisch zuteilen; Allergien noch nicht genannt"
+ },
+ {
+  "vor": [
+   0,
+   7,
+   52
+  ],
+  "art": "tisch",
+  "status": "neu",
+  "abteilung": "Reservation",
+  "bild": "dessert-cuillere",
+  "name": "Sophie Bonvin",
+  "kontakt": "+41 79 000 12 34",
+  "datum": "jeudi 26 novembre 2026, 12h30",
+  "personen": 4,
+  "allergene": [
+   "lactose"
+  ],
+  "sprache": "fr",
+  "an": "info@gillesvarone.ch",
+  "anliegen": "Geburtstag (40 Jahre des Mannes), Donnerstag 26. November mittags, 4 Personen, eine Person verträgt keine Laktose",
+  "betreff": "",
+  "text": "",
+  "team": "",
+  "verlauf": [
+   [
+    "user",
+    "Bonjour, je voudrais organiser un déjeuner surprise pour les 40 ans de mon mari, le jeudi 26 novembre à midi, pour 4 personnes. Ma belle-mère est intolérante au lactose, est-ce possible ?"
+   ],
+   [
+    "assistant",
+    "Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation : la cuisine en tient compte pour chaque convive.\n- Jeudi : le restaurant vous accueille le soir, de 18h30 à 00h00\n- Midi : vendredi, samedi et dimanche, de 12h00 à 16h00\nVolontiers, je transmets votre demande à l’équipe : pourriez-vous m’indiquer votre nom et un numéro de téléphone ou une adresse e-mail ?"
+   ],
+   [
+    "user",
+    "Sophie Bonvin, 079 000 12 34. Si le jeudi midi ne va pas, le vendredi 27 midi nous irait aussi."
+   ],
+   [
+    "assistant",
+    "Merci. Ceci est une ébauche de Tasty Studios : votre demande n’est pas transmise au restaurant, elle est seulement conservée pour être consultée."
+   ]
+  ]
+ },
+ {
+  "vor": [
+   1,
+   18,
+   5
+  ],
+  "art": "tisch",
+  "status": "gelesen",
+  "abteilung": "Reservation",
+  "bild": "soupe",
+  "name": "Marc-Antoine Dubuis",
+  "kontakt": "ma.dubuis@example.com",
+  "datum": "dimanche 29 novembre 2026",
+  "uhrzeit": "12h15",
+  "personen": 2,
+  "allergene": [
+   "vegetarien"
+  ],
+  "sprache": "fr",
+  "anliegen": "Tisch für zwei am Sonntagmittag, beide essen vegetarisch",
+  "web": true,
+  "an": "info@gillesvarone.ch",
+  "formular": "reservation",
+  "seite": "/experiences.html",
+  "seite_name": "Expériences",
+  "nachricht": "Date: dimanche 29 novembre 2026\nHeure: 12h15\nConvives: 2\nExpérience: 6 services\nAllergies et régimes: végétarien\nMessage: Mon épouse et moi sommes végétariens tous les deux. Nous avons lu que vos expériences existent en version végétarienne et nous nous en réjouissons.",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Expériences): Date: dimanche 29 novembre 2026\nHeure: 12h15\nConvives: 2\nExpérience: 6 services\nAllergies et régimes: végétarien\nMessage: Mon épouse et moi sommes végétariens tous les deux. Nous avons lu que vos expériences existent en version végétarienne et nous nous en réjouissons."
+   ]
+  ],
+  "betreff": "Votre déjeuner végétarien du dimanche 29 novembre",
+  "text": "Cher Monsieur Dubuis,\n\nNous vous remercions pour votre demande et pour l’intérêt que vous portez à notre cuisine.\n\nC’est avec plaisir que nous vous accueillerons le dimanche 29 novembre à 12h15, pour deux personnes [Table à confirmer]. Toutes nos expériences existent dans leur version végétarienne, sur demande préalable : votre demande nous parvient à temps, et notre cuisine préparera pour vous l’expérience en 6 services dans sa version végétarienne [Informer la cuisine].\n\nComme pour chacune de nos expériences, la cuisine compose ce menu au gré de la qualité et de la saisonnalité des produits que Gilles sélectionne auprès des producteurs de la région.\n\nSouhaitez-vous l’accompagner d’un accord mets et vins, ou d’un accord mets et créations sans alcool ?\n\nNous nous réjouissons de vous faire découvrir notre monde culinaire.\n\nAvec nos salutations chaleureuses,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Expériences (Les expériences végétariennes, sur demande préalable; 6 services)\nOffen: Tisch bestätigen, Küche über vegetarisch informieren, Accords erfragen"
+ },
+ {
+  "vor": [
+   0,
+   8,
+   31
+  ],
+  "art": "tisch",
+  "status": "neu",
+  "abteilung": "Reservation",
+  "bild": "cuisine",
+  "name": "Isabelle Fournier",
+  "kontakt": "isabelle.fournier@example.com",
+  "datum": "jeudi 3 décembre 2026",
+  "uhrzeit": "19h00",
+  "personen": 3,
+  "allergene": [
+   "fruits-a-coque",
+   "crustaces"
+  ],
+  "sprache": "fr",
+  "anliegen": "Tisch für drei, schwere Allergie auf Nüsse und Krebstiere",
+  "web": true,
+  "an": "info@gillesvarone.ch",
+  "formular": "reservation",
+  "seite": "/infos.html",
+  "seite_name": "Infos",
+  "nachricht": "Date: jeudi 3 décembre 2026\nHeure: 19h00\nConvives: 3\nAllergies et régimes: fruits à coque, crustacés\nMessage: Ma fille de seize ans a une allergie sévère aux fruits à coque et aux crustacés. Nous aimerions beaucoup lui faire découvrir votre restaurant. La cuisine peut-elle en tenir compte pour toute l’expérience ?",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Infos): Date: jeudi 3 décembre 2026\nHeure: 19h00\nConvives: 3\nAllergies et régimes: fruits à coque, crustacés\nMessage: Ma fille de seize ans a une allergie sévère aux fruits à coque et aux crustacés. Nous aimerions beaucoup lui faire découvrir votre restaurant. La cuisine peut-elle en tenir compte pour toute l’expérience ?"
+   ]
+  ],
+  "betreff": "Votre table du jeudi 3 décembre · allergies de votre fille",
+  "text": "Chère Madame Fournier,\n\nNous vous remercions pour votre message et pour la confiance que vous nous accordez.\n\nNous avons bien pris note de l’allergie sévère de votre fille aux fruits à coque et aux crustacés. Notre chef de cuisine, Andrea Granzarolo, en est informé et l’expérience sera préparée pour elle en tenant compte de chacune de ces allergies, du premier amuse-bouche au dessert [Informer la cuisine] [Confirmation de la cuisine].\n\nNous serons heureux de vous accueillir tous les trois le jeudi 3 décembre à 19h00 [Table à confirmer]. Veuillez noter que l’expérience choisie sera identique pour tous les convives assis à une même table : nous vous proposons de la choisir ensemble le soir même.\n\nÀ votre arrivée, notre équipe en salle reviendra encore une fois avec vous sur les allergies, afin que vous puissiez profiter de la soirée en toute sérénité.\n\nAvec nos salutations chaleureuses,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Expériences («Merci de nous signaler les allergies …», une même expérience par table), Équipe (Andrea Granzarolo)\nOffen: Küche bestätigt Allergien ausdrücklich, Tisch bestätigen"
+ },
+ {
+  "vor": [
+   1,
+   10,
+   48
+  ],
+  "art": "bankett",
+  "status": "gelesen",
+  "abteilung": "Gruppen",
+  "bild": "salle-gv",
+  "name": "Nicolas Héritier",
+  "kontakt": "n.heritier@example.com",
+  "datum": "vendredi 11 décembre 2026",
+  "uhrzeit": "19h00",
+  "personen": 12,
+  "allergene": [],
+  "sprache": "fr",
+  "anliegen": "Gruppe von 12 Personen, Jahresessen einer Kanzlei in Sion",
+  "web": true,
+  "an": "info@gillesvarone.ch",
+  "formular": "gruppe",
+  "seite": "/experiences.html",
+  "seite_name": "Expériences",
+  "nachricht": "Date: vendredi 11 décembre 2026\nHeure: 19h00\nConvives: 12\nOccasion: repas de fin d’année de notre étude\nMessage: Nous sommes une étude d’avocats à Sion et souhaiterions remercier notre équipe autour d’une belle table. Avez-vous une possibilité pour douze personnes ? Deux collaboratrices ne boivent pas d’alcool.",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Expériences): Date: vendredi 11 décembre 2026\nHeure: 19h00\nConvives: 12\nOccasion: repas de fin d’année de notre étude\nMessage: Nous sommes une étude d’avocats à Sion et souhaiterions remercier notre équipe autour d’une belle table. Avez-vous une possibilité pour douze personnes ? Deux collaboratrices ne boivent pas d’alcool."
+   ]
+  ],
+  "betreff": "Votre repas de fin d’année du vendredi 11 décembre · 12 convives",
+  "text": "Cher Monsieur Héritier,\n\nNous vous remercions pour votre demande et sommes très honorés que vous pensiez à notre maison pour remercier votre équipe.\n\nPour une table de douze personnes, l’expérience se prépare par le biais d’une demande spéciale, que nous étudions avec attention pour le vendredi 11 décembre à 19h00 [Groupe à confirmer]. Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table.\n\nNous vous proposons de choisir entre l’expérience en 5, 6 ou 7 services. Pour vos deux collaboratrices, les accords mets et créations sans alcool concoctés par nos soins accompagnent chaque plat avec la même attention que les accords mets et vins.\n\nAfin de préparer cette soirée au mieux, pourriez-vous nous préciser :\n- l’expérience souhaitée (5, 6 ou 7 services)\n- le nombre d’accords mets et vins et d’accords sans alcool\n- les allergies et les régimes alimentaires particuliers de votre table\n\nNous nous réjouissons de vous accueillir et de partager avec votre équipe un moment authentique.\n\nAvec nos salutations chaleureuses,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Expériences (Pour les groupes: plus de 8 personnes, demandes spéciales; une même expérience par table; accords sans alcool)\nOffen: Gruppe bestätigen (Freitagabend, 12 Personen), Expérience und Allergien erfragen",
+  "deutsch": {
+   "betreff": "Ihr Jahresessen am Freitag, 11. Dezember · 12 Gäste",
+   "text": "Sehr geehrter Herr Héritier\n\nVielen Dank für Ihre Anfrage. Es ehrt uns sehr, dass Sie an unser Haus denken, um Ihrem Team zu danken.\n\nFür einen Tisch mit zwölf Personen bereiten wir die Expérience über eine besondere Anfrage vor, die wir für Freitag, 11. Dezember, 19.00 Uhr, sorgfältig prüfen [Gruppe bestätigen]. Bitte beachten Sie, dass alle Gäste an einem Tisch dieselbe Expérience geniessen.\n\nWir schlagen Ihnen die Expérience mit 5, 6 oder 7 Gängen vor. Für Ihre zwei Mitarbeiterinnen begleiten die alkoholfreien Accords, von uns selbst zusammengestellt, jeden Teller mit derselben Sorgfalt wie die Weinbegleitung.\n\nDamit wir diesen Abend bestmöglich vorbereiten können, bitten wir Sie um folgende Angaben:\n- die gewünschte Expérience (5, 6 oder 7 Gänge)\n- die Anzahl Weinbegleitungen und alkoholfreie Begleitungen\n- Allergien und besondere Ernährungsweisen an Ihrem Tisch\n\nWir freuen uns, Sie zu empfangen und mit Ihrem Team einen echten Moment zu teilen.\n\nMit herzlichen Grüssen\n\n[Vorname Name]\nRestaurant Gilles Varone"
+  }
+ },
+ {
+  "vor": [
+   2,
+   15,
+   20
+  ],
+  "art": "gutschein",
+  "status": "erledigt",
+  "abteilung": "Bons cadeaux",
+  "bild": "dessert-holz",
+  "name": "Valérie Luyet",
+  "kontakt": "valerie.luyet@example.com",
+  "datum": "",
+  "personen": null,
+  "allergene": [],
+  "sprache": "fr",
+  "anliegen": "Bon cadeau über 500 CHF für den 60. Geburtstag des Vaters, auf Papier",
+  "web": true,
+  "an": "info@gillesvarone.ch",
+  "formular": "gutschein",
+  "seite": "/experiences.html",
+  "seite_name": "Expériences",
+  "nachricht": "Montant: 500 CHF\nFormat: physique, à retirer au restaurant\nPour: mon père, pour ses 60 ans\nMessage: Je passerai volontiers le chercher un jeudi après-midi. Est-il possible d’y ajouter quelques mots ?",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Expériences): Montant: 500 CHF\nFormat: physique, à retirer au restaurant\nPour: mon père, pour ses 60 ans\nMessage: Je passerai volontiers le chercher un jeudi après-midi. Est-il possible d’y ajouter quelques mots ?"
+   ]
+  ],
+  "betreff": "Votre bon cadeau pour les 60 ans de votre père",
+  "text": "Chère Madame Luyet,\n\nNous vous remercions pour votre message et sommes très touchés que vous choisissiez notre maison pour un si bel anniversaire.\n\nVotre bon cadeau d’un montant de 500 CHF sera préparé avec soin, avec les quelques mots que vous souhaitez y ajouter : il vous suffit de nous les transmettre par retour de message [Dédicace à reprendre].\n\nVous pourrez le retirer au restaurant le jeudi entre 10h et 17h, comme vous le souhaitez. Si cela vous convient mieux, nous sommes aussi présents le vendredi et le samedi entre 9h et 11h ou de 16h30 à 17h30, ainsi que le dimanche entre 9h et 11h.\n\nNous nous réjouissons d’accueillir bientôt votre père et de lui faire vivre un moment authentique.\n\nAvec nos salutations chaleureuses,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Bons cadeaux (montants à choix, format physique: jeudi 10h–17h, vendredi/samedi 9h–11h et 16h30–17h30, dimanche 9h–11h)\nOffen: Widmung übernehmen, Betrag bei Abholung"
+ },
+ {
+  "vor": [
+   0,
+   11,
+   6
+  ],
+  "art": "tisch",
+  "status": "neu",
+  "abteilung": "Reservation",
+  "bild": "salle-jour",
+  "name": "Thomas Germanier",
+  "kontakt": "thomas.germanier@example.com",
+  "datum": "samedi 28 novembre 2026, 12h30",
+  "personen": 2,
+  "allergene": [],
+  "sprache": "fr",
+  "an": "info@gillesvarone.ch",
+  "anliegen": "Samstagmittag, 2 Personen, kommen mit dem Auto aus Lausanne, fragen nach dem Parkplatz",
+  "betreff": "",
+  "text": "",
+  "team": "",
+  "verlauf": [
+   [
+    "user",
+    "Bonjour ! Nous venons de Lausanne en voiture le samedi 28 novembre pour déjeuner. Où peut-on se garer ?"
+   ],
+   [
+    "assistant",
+    "Un parking souterrain gratuit vous attend.\n- En voiture : montez à l’étage supérieur avec votre voiture, puis prenez l’ascenseur jusqu’à l’étage zéro.\nLa réservation en ligne affiche les tables libres pour le samedi midi."
+   ],
+   [
+    "user",
+    "Parfait. Pouvez-vous transmettre notre demande pour 2 personnes à 12h30 ? Thomas Germanier, thomas.germanier@example.com"
+   ],
+   [
+    "assistant",
+    "Merci. Ceci est une ébauche de Tasty Studios : votre demande n’est pas transmise au restaurant, elle est seulement conservée pour être consultée."
+   ]
+  ]
+ },
+ {
+  "vor": [
+   2,
+   9,
+   40
+  ],
+  "art": "tisch",
+  "status": "gelesen",
+  "abteilung": "Reservation",
+  "bild": "verse-1",
+  "name": "James Whitfield",
+  "kontakt": "james.whitfield@example.com",
+  "datum": "vendredi 4 décembre 2026",
+  "uhrzeit": "19h30",
+  "personen": 2,
+  "allergene": [],
+  "sprache": "en",
+  "anliegen": "Table for two, 7 services with wine pairing, knew Gilles from Bibendum",
+  "web": true,
+  "an": "info@gillesvarone.ch",
+  "formular": "reservation",
+  "seite": "/equipe.html",
+  "seite_name": "Équipe",
+  "nachricht": "Date: vendredi 4 décembre 2026\nHeure: 19h30\nConvives: 2\nExpérience: 7 services\nAccords: mets et vins\nMessage: I had the pleasure of dining at Bibendum when Gilles was second de cuisine there. My wife and I will be in Valais in early December and would love to come for the seven-course experience with the wine pairing.",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Équipe): Date: vendredi 4 décembre 2026\nHeure: 19h30\nConvives: 2\nExpérience: 7 services\nAccords: mets et vins\nMessage: I had the pleasure of dining at Bibendum when Gilles was second de cuisine there. My wife and I will be in Valais in early December and would love to come for the seven-course experience with the wine pairing."
+   ]
+  ],
+  "betreff": "Your evening with us on Friday, 4 December",
+  "text": "Dear Mr Whitfield,\n\nThank you very much for your kind message. It is a real pleasure to hear from a guest who remembers Gilles from his years at Bibendum.\n\nWe would be delighted to welcome you and your wife on Friday, 4 December at 7.30 pm [Table to confirm]. The seven-course experience changes with the quality and the season of the produce Gilles selects from producers in our region, and Lise Donier-Meroz, our head sommelier, will accompany each course with her wine pairing.\n\nAs always, Gilles will come to your table himself to share the details of each dish.\n\nMay we ask whether either of you has any allergies or dietary requirements?\n\nWe look forward to welcoming you to Savièse.\n\nWith warm regards,\n\n[First name Last name]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Accueil und Équipe (Bibendum, Second de Cuisine; Gilles serviert selbst), Expériences (7 services, Accords)\nOffen: Tisch bestätigen, Allergien erfragen",
+  "deutsch": {
+   "betreff": "Ihr Abend bei uns am Freitag, 4. Dezember",
+   "text": "Sehr geehrter Herr Whitfield\n\nVielen Dank für Ihre freundliche Nachricht. Es freut uns sehr, von einem Gast zu hören, der sich an Gilles aus seinen Jahren im Bibendum erinnert.\n\nGerne empfangen wir Sie und Ihre Frau am Freitag, 4. Dezember, um 19.30 Uhr [Tisch bestätigen]. Die Expérience mit sieben Gängen richtet sich nach Qualität und Saison der Produkte, die Gilles bei Produzenten unserer Region auswählt, und Lise Donier-Meroz, unsere Cheffe sommelière, begleitet jeden Gang mit ihrer Weinbegleitung.\n\nWie immer kommt Gilles selbst an Ihren Tisch und erzählt Ihnen von jedem Teller.\n\nDürfen wir fragen, ob jemand von Ihnen Allergien oder besondere Ernährungswünsche hat?\n\nWir freuen uns, Sie in Savièse zu empfangen.\n\nMit herzlichen Grüssen\n\n[Vorname Name]\nRestaurant Gilles Varone"
+  },
+  "verlauf_de": [
+   "Über ein Formular der Website (Seite Équipe): Date: vendredi 4 décembre 2026\nHeure: 19h30\nConvives: 2\nExpérience: 7 services\nAccords: mets et vins\nMessage: Ich hatte das Vergnügen, im Bibendum zu essen, als Gilles dort Second de cuisine war. Meine Frau und ich sind Anfang Dezember im Wallis und würden sehr gerne zur Expérience mit sieben Gängen und Weinbegleitung kommen."
+  ]
+ },
+ {
+  "vor": [
+   1,
+   20,
+   12
+  ],
+  "art": "nachricht",
+  "status": "neu",
+  "abteilung": "Reservation",
+  "bild": "verse-3",
+  "name": "Bernard Zufferey",
+  "kontakt": "b.zufferey@example.com",
+  "datum": "",
+  "personen": null,
+  "allergene": [],
+  "sprache": "fr",
+  "anliegen": "Dank für den Abend vom Samstag, fragt nach dem Wein zum Poisson",
+  "web": true,
+  "an": "info@gillesvarone.ch",
+  "formular": "allgemein",
+  "seite": "/index.html",
+  "seite_name": "Accueil",
+  "nachricht": "Objet: merci pour samedi soir\nMessage: Nous avons passé samedi une soirée inoubliable, merci à toute l’équipe. Le vin blanc servi avec le poisson nous a beaucoup plu : pourriez-vous nous en rappeler le nom et le vigneron ?",
+  "verlauf": [
+   [
+    "user",
+    "Über ein Formular der Website (Seite Accueil): Objet: merci pour samedi soir\nMessage: Nous avons passé samedi une soirée inoubliable, merci à toute l’équipe. Le vin blanc servi avec le poisson nous a beaucoup plu : pourriez-vous nous en rappeler le nom et le vigneron ?"
+   ]
+  ],
+  "betreff": "Merci pour votre message · le vin servi avec le poisson",
+  "text": "Cher Monsieur Zufferey,\n\nNous vous remercions chaleureusement pour votre message. Savoir que vous avez passé une si belle soirée parmi nous fait la joie de toute l’équipe, en cuisine comme en salle.\n\nLise Donier-Meroz, notre cheffe sommelière, aime mettre en avant le travail des vigneronnes et vignerons de Suisse et raconter leurs histoires. Elle vous transmet avec plaisir le nom du vin servi avec le poisson : [Nom du vin et du vigneron, à compléter par Lise].\n\nLa carte des vins évoluant régulièrement, nous vous conseillons de nous en parler lors de votre prochaine réservation : Lise sera heureuse de vous le faire découvrir à nouveau, ou de vous proposer une nouvelle trouvaille.\n\nAu plaisir de vous accueillir bientôt,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Expériences («Les accords», Zitat Lise Donier-Meroz; La carte des vins est régulièrement sujette à modifications)\nOffen: Wein und Weingut nennen (Lise), nichts erfinden"
+ }
+]

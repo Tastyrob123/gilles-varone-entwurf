@@ -1,0 +1,9 @@
+# name | Vorlage (läuft auf 8987) | Kontrollpanel Gilles Varone (9711); jede Ansicht bei 1440 und 390 (Handy)
+Empfang | http://127.0.0.1:8987/_werkzeuge/maison/?gruss=tag | /_werkzeuge/maison/?gruss=tag
+Saal 1 Website | http://127.0.0.1:8987/_werkzeuge/maison/#bureau | /_werkzeuge/maison/#bureau
+Saal 2 Karten | http://127.0.0.1:8987/_werkzeuge/maison/#carte | /_werkzeuge/maison/#carte
+Saal 3 Drucksachen | http://127.0.0.1:8987/_werkzeuge/maison/#imprimerie | /_werkzeuge/maison/#imprimerie
+Saal 4 Anfragen | http://127.0.0.1:8987/_werkzeuge/maison/#reception | /_werkzeuge/maison/#reception
+Saal 5 Marke | http://127.0.0.1:8987/_werkzeuge/maison/#livre | /_werkzeuge/maison/#livre
+Saal 6 Besucher | http://127.0.0.1:8987/_werkzeuge/maison/#registre | /_werkzeuge/maison/#registre
+Fuss | http://127.0.0.1:8987/_werkzeuge/maison/#fuss | /_werkzeuge/maison/#fuss

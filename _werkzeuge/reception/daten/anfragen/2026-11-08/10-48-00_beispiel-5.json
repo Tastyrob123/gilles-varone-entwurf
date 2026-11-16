@@ -1,0 +1,41 @@
+{
+ "zeit": "2026-11-08T10:48:00+01:00",
+ "art": "bankett",
+ "name": "Nicolas Héritier",
+ "kontakt": "n.heritier@example.com",
+ "datum": "vendredi 11 décembre 2026",
+ "personen": 12,
+ "anliegen": "Gruppe von 12 Personen, Jahresessen einer Kanzlei in Sion",
+ "sprache": "fr",
+ "gespraech": "beispiel-5",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Expériences): Date: vendredi 11 décembre 2026\nHeure: 19h00\nConvives: 12\nOccasion: repas de fin d’année de notre étude\nMessage: Nous sommes une étude d’avocats à Sion et souhaiterions remercier notre équipe autour d’une belle table. Avez-vous une possibilité pour douze personnes ? Deux collaboratrices ne boivent pas d’alcool."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "info@gillesvarone.ch",
+ "abteilung": "Gruppen",
+ "seite": "/experiences.html",
+ "seite_name": "Expériences",
+ "web": true,
+ "nachricht": "Date: vendredi 11 décembre 2026\nHeure: 19h00\nConvives: 12\nOccasion: repas de fin d’année de notre étude\nMessage: Nous sommes une étude d’avocats à Sion et souhaiterions remercier notre équipe autour d’une belle table. Avez-vous une possibilité pour douze personnes ? Deux collaboratrices ne boivent pas d’alcool.",
+ "formular": "gruppe",
+ "uhrzeit": "19h00",
+ "bild": "salle-gv",
+ "entwurf": {
+  "betreff": "Votre repas de fin d’année du vendredi 11 décembre · 12 convives",
+  "text": "Cher Monsieur Héritier,\n\nNous vous remercions pour votre demande et sommes très honorés que vous pensiez à notre maison pour remercier votre équipe.\n\nPour une table de douze personnes, l’expérience se prépare par le biais d’une demande spéciale, que nous étudions avec attention pour le vendredi 11 décembre à 19h00 [Groupe à confirmer]. Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table.\n\nNous vous proposons de choisir entre l’expérience en 5, 6 ou 7 services. Pour vos deux collaboratrices, les accords mets et créations sans alcool concoctés par nos soins accompagnent chaque plat avec la même attention que les accords mets et vins.\n\nAfin de préparer cette soirée au mieux, pourriez-vous nous préciser :\n- l’expérience souhaitée (5, 6 ou 7 services)\n- le nombre d’accords mets et vins et d’accords sans alcool\n- les allergies et les régimes alimentaires particuliers de votre table\n\nNous nous réjouissons de vous accueillir et de partager avec votre équipe un moment authentique.\n\nAvec nos salutations chaleureuses,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Expériences (Pour les groupes: plus de 8 personnes, demandes spéciales; une même expérience par table; accords sans alcool)\nOffen: Gruppe bestätigen (Freitagabend, 12 Personen), Expérience und Allergien erfragen",
+  "vorlage": "gruppe",
+  "absender": "info@gillesvarone.ch",
+  "zeit": "2026-11-08T10:48:00+01:00",
+  "deutsch": {
+   "betreff": "Ihr Jahresessen am Freitag, 11. Dezember · 12 Gäste",
+   "text": "Sehr geehrter Herr Héritier\n\nVielen Dank für Ihre Anfrage. Es ehrt uns sehr, dass Sie an unser Haus denken, um Ihrem Team zu danken.\n\nFür einen Tisch mit zwölf Personen bereiten wir die Expérience über eine besondere Anfrage vor, die wir für Freitag, 11. Dezember, 19.00 Uhr, sorgfältig prüfen [Gruppe bestätigen]. Bitte beachten Sie, dass alle Gäste an einem Tisch dieselbe Expérience geniessen.\n\nWir schlagen Ihnen die Expérience mit 5, 6 oder 7 Gängen vor. Für Ihre zwei Mitarbeiterinnen begleiten die alkoholfreien Accords, von uns selbst zusammengestellt, jeden Teller mit derselben Sorgfalt wie die Weinbegleitung.\n\nDamit wir diesen Abend bestmöglich vorbereiten können, bitten wir Sie um folgende Angaben:\n- die gewünschte Expérience (5, 6 oder 7 Gänge)\n- die Anzahl Weinbegleitungen und alkoholfreie Begleitungen\n- Allergien und besondere Ernährungsweisen an Ihrem Tisch\n\nWir freuen uns, Sie zu empfangen und mit Ihrem Team einen echten Moment zu teilen.\n\nMit herzlichen Grüssen\n\n[Vorname Name]\nRestaurant Gilles Varone",
+   "quelle": "edca2ed6d34c"
+  }
+ }
+}

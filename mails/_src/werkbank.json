@@ -1,0 +1,74 @@
+[
+ [
+  "01",
+  "01-demande",
+  "Votre demande",
+  "Kommt gleich nach der Anfrage: Tag, Uhrzeit, Gäste und Expérience zum Nachlesen, dazu die Bitte um Allergien."
+ ],
+ [
+  "02",
+  "02-confirmee",
+  "Réservation confirmée",
+  "Kommt, wenn der Tisch eingetragen ist: Tag, Uhrzeit, Gäste und Expérience, dazu der Weg in die Tiefgarage."
+ ],
+ [
+  "03",
+  "03-veille",
+  "À demain",
+  "Kommt am Tag vor dem Besuch: der Tisch, die Anfahrt mit dem Auto und mit dem Bus."
+ ],
+ [
+  "04",
+  "04-merci",
+  "Merci pour votre visite",
+  "Kommt am Tag nach dem Besuch: ein Dank, der Bon cadeau zum Weiterschenken und die Fermetures."
+ ],
+ [
+  "05",
+  "05-bon-cadeau",
+  "Votre bon cadeau",
+  "Kommt nach der Bestellung des Bon cadeau. Der Bon hängt als PDF an, dazu die Zeiten zum Abholen im Restaurant."
+ ],
+ [
+  "06",
+  "06-allergies",
+  "Allergies notées",
+  "Kommt, wenn bei der Reservation Allergien stehen: dass die Küche Bescheid weiss, bevor der Gast kommt."
+ ],
+ [
+  "07",
+  "07-groupe",
+  "Votre groupe",
+  "Kommt nach einer Anfrage für mehr als acht Personen: dass es eine demande spéciale ist und Letizia Varone sich meldet."
+ ],
+ [
+  "08",
+  "08-complet",
+  "Liste d’attente",
+  "Kommt, wenn am Wunschtag alle Tische vergeben sind: die Warteliste und der Vorschlag eines anderen Tages."
+ ],
+ [
+  "09",
+  "09-fermetures",
+  "Fermetures annuelles",
+  "Geht vor den Feiertagen an die Gäste: beide Daten der Fermetures, der Tag der Wiedereröffnung und der Bon cadeau."
+ ],
+ [
+  "10",
+  "10-vegetarienne",
+  "Expérience végétarienne",
+  "Kommt, wenn der Gast vorab eine vegetarische Expérience wünscht: dass sie so vorbereitet wird."
+ ],
+ [
+  "11",
+  "11-mobilite",
+  "Votre venue",
+  "Kommt, wenn ein Gast eingeschränkte Mobilität ankündigt: Tiefgarage, Lift und dass alles vorbereitet ist."
+ ],
+ [
+  "12",
+  "12-accords",
+  "Les accords",
+  "Kommt, wenn der Gast die Begleitung gewählt hat: mets et vins oder mets et créations sans alcool, ausgesucht von Lise Donier-Meroz."
+ ]
+]

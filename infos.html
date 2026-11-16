@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+<head><script data-wurzel>/* Wurzel-Weiche: Seite laeuft an der Wurzel einer Adresse oder in einem Unterordner (github.io/<repo>/) */(function(){var D=0,p=location.pathname.split('/');p.splice(p.length-1-D,D+1);var W=p.join('/')+'/';window.__W=W;if(W==='/')return;var O=location.origin;
+function f(u){if(typeof u!=='string')return u;if(u.indexOf(O+'/')===0)return O+f(u.slice(O.length));if(u.charAt(0)!=='/'||u.charAt(1)==='/'||u.indexOf(W)===0||u+'/'===W)return u;return W+u.slice(1)}
+function s(v){return typeof v!=='string'?v:v.replace(/(^|,)(\s*)(\S+)/g,function(m,a,b,u){return a+b+f(u)})}
+function c(v){return typeof v!=='string'?v:v.replace(/url\(\s*(['"]?)([^'")]+)/g,function(m,q,u){return 'url('+q+f(u)})}
+function h(v){return typeof v!=='string'?v:c(v.replace(/(\s(?:src|href|poster|action|data-src|data-href)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+f(u)+q}).replace(/(\s(?:srcset|imagesrcset|data-srcset)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+s(u)+q}))}
+function d(K,k,g){K=window[K];if(!K)return;var x=Object.getOwnPropertyDescriptor(K.prototype,k);if(!x||!x.set)return;Object.defineProperty(K.prototype,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,g(v))}})}
+[['HTMLImageElement','src'],['HTMLScriptElement','src'],['HTMLLinkElement','href'],['HTMLIFrameElement','src'],['HTMLSourceElement','src'],['HTMLMediaElement','src'],['HTMLVideoElement','poster'],['HTMLAnchorElement','href'],['HTMLAreaElement','href'],['HTMLFormElement','action'],['HTMLEmbedElement','src'],['HTMLObjectElement','data']].forEach(function(z){d(z[0],z[1],f)});
+[['HTMLImageElement','srcset'],['HTMLSourceElement','srcset'],['HTMLLinkElement','imageSrcset']].forEach(function(z){d(z[0],z[1],s)});
+d('Element','innerHTML',h);d('Element','outerHTML',h);var iah=Element.prototype.insertAdjacentHTML;Element.prototype.insertAdjacentHTML=function(w,v){return iah.call(this,w,h(v))};
+var sa=Element.prototype.setAttribute;Element.prototype.setAttribute=function(n,v){var l=String(n).toLowerCase();if(/^(src|href|poster|action|data|data-src|data-href)$/.test(l))v=f(v);else if(/srcset$/.test(l))v=s(v);else if(l==='style')v=c(v);return sa.call(this,n,v)};
+var st=CSSStyleDeclaration.prototype,sp=st.setProperty;st.setProperty=function(n,v,q){return sp.call(this,n,c(v),q)};['background','backgroundImage','cssText','maskImage','webkitMaskImage','listStyleImage','borderImageSource','content'].forEach(function(k){var x=Object.getOwnPropertyDescriptor(st,k);if(x&&x.set)Object.defineProperty(st,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,c(v))}})});
+var F=window.fetch;if(F)window.fetch=function(i,o){if(typeof i==='string')i=f(i);else if(i instanceof URL)i=f(i.href);return F.call(this,i,o)};
+var XO=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){var a=[].slice.call(arguments);a[1]=f(a[1] instanceof URL?a[1].href:a[1]);return XO.apply(this,a)};
+if(navigator.sendBeacon){var B=navigator.sendBeacon;navigator.sendBeacon=function(u,x){return B.call(navigator,f(u),x)}}
+var wo=window.open;window.open=function(u){var a=[].slice.call(arguments);a[0]=f(u);return wo.apply(window,a)};
+var dw=document.write,dl=document.writeln;document.write=function(){return dw.apply(document,[].map.call(arguments,h))};document.writeln=function(){return dl.apply(document,[].map.call(arguments,h))};
+['pushState','replaceState'].forEach(function(k){var o=history[k];history[k]=function(a,b,u){return o.call(history,a,b,u==null?u:f(String(u)))}});
+function e(el){if(!el||el.nodeType!==1)return;['src','href','poster','action'].forEach(function(a){var v=el.getAttribute(a);if(v&&v.charAt(0)==='/'){var z=f(v);if(z!==v)sa.call(el,a,z)}});var t=el.getAttribute('srcset');if(t&&/(^|,)\s*\/[^\/]/.test(t)){var z=s(t);if(z!==t)sa.call(el,'srcset',z)}t=el.getAttribute('style');if(t&&/url\(\s*['"]?\/[^\/]/.test(t)){z=c(t);if(z!==t)sa.call(el,'style',z)}}
+new MutationObserver(function(ms){ms.forEach(function(m){if(m.type==='attributes')e(m.target);else m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;e(n);var l=n.querySelectorAll('[src],[href],[srcset],[poster],[action],[style]');for(var i=0;i<l.length;i++)e(l[i])})})}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src','href','srcset','poster','action','style']})})();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Infos – Gilles Varone</title>
+<meta name="description" content="Horaires, accès et contact du Restaurant Gilles Varone, Rue du Stade 5B, 1965 Savièse.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="bilder/zeichen.svg">
+<link rel="preload" href="schrift/GillSansNova-Book.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="schrift/CaviarDreams.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/gv.css?v=68">
+<link rel="preload" as="image" imagesrcset="bilder/noir-2-m.webp?v=68 900w, bilder/noir-2.webp?v=68 2526w" imagesizes="100vw" fetchpriority="high">
+<script>(function(){var d=document.documentElement;d.classList.add('vor');d.setAttribute('data-h','45');d.setAttribute('data-v','1');d.setAttribute('data-g','2')})()</script>
+<script src="assets/gv.js?v=68" defer></script>
+<script src="besuch.js" defer></script>
+</head>
+<body>
+<header class="leiste" data-seite="infos">
+  <a class="leiste__gv" href="index.html" aria-label="Restaurant Gilles Varone, accueil"><img src="bilder/zeichen.svg" alt="" width="40" height="40"></a>
+  <nav class="leiste__nav" aria-label="Navigation"><a href="restaurant.html">Restaurant</a><a href="experiences.html">Expériences</a><a href="equipe.html">Équipe</a><a href="infos.html" aria-current="page">Infos</a></nav>
+  <div class="leiste__rechts">
+    <a class="knopf" href="https://bookings.zenchef.com/results?rid=360467" target="_blank" rel="noopener">Réserver</a>
+    <button class="leiste__menu" data-menu aria-label="Menu">Menu</button>
+  </div>
+</header>
+<div class="menu-voll" aria-hidden="true">
+  <button class="zu" data-menu>Fermer</button>
+  <a class="gross" href="index.html">Accueil</a><a class="gross" href="restaurant.html">Restaurant</a><a class="gross" href="experiences.html">Expériences</a><a class="gross" href="equipe.html">Équipe</a><a class="gross" href="infos.html">Infos</a>
+  <a class="knopf" href="https://bookings.zenchef.com/results?rid=360467" target="_blank" rel="noopener">Réserver une table</a>
+</div>
+<main>
+<section class="held held--seite" aria-label="Infos.">
+  <div class="held__flecht"></div><div class="held__film f-terre" style="--ab:#1b1712"><img data-src="film/terre.webp?v=68" data-srcset="film/terre-m.webp?v=68 1280w, film/terre.webp?v=68 1920w" sizes="100vw" width="1920" height="1080" alt=""><video muted playsinline loop preload="none" data-src="film/terre.mp4?v=68" data-src-m="film/terre-m.mp4?v=68" aria-hidden="true"></video></div><div class="held__film f-dressage" style="--ab:#1b1712"><img data-src="film/dressage.webp?v=68" data-srcset="film/dressage-m.webp?v=68 1280w, film/dressage.webp?v=68 1920w" sizes="100vw" width="1920" height="1080" alt=""><video muted playsinline loop preload="none" data-src="film/dressage.mp4?v=68" data-src-m="film/dressage-m.mp4?v=68" aria-hidden="true"></video></div><figure class="held__b s1" style="--ab:#585a55;--n:0"><img data-src="bilder/noir-2.webp?v=68" data-srcset="bilder/noir-2-m.webp?v=68 900w, bilder/noir-2.webp?v=68 2526w" sizes="100vw" width="2526" height="2526" alt="Assiette sur porcelaine noire" decoding="async"></figure><figure class="held__b s2" style="--ab:#5c493d;--n:1"><img data-src="bilder/cuisine.webp?v=68" data-srcset="bilder/cuisine-m.webp?v=68 900w, bilder/cuisine.webp?v=68 1920w" sizes="100vw" width="1920" height="1536" alt="La cuisine ouverte" decoding="async"></figure><figure class="held__b s3" style="--ab:#796854;--n:2"><img data-src="bilder/bougie-1.webp?v=68" data-srcset="bilder/bougie-1-m.webp?v=68 900w, bilder/bougie-1.webp?v=68 2000w" sizes="100vw" width="2000" height="2500" alt="Un plat à la lumière de la bougie" decoding="async"></figure><figure class="held__b s4" style="--ab:#a38b82;--n:0"><img data-src="bilder/verse-2.webp?v=68" data-srcset="bilder/verse-2-m.webp?v=68 900w, bilder/verse-2.webp?v=68 2048w" sizes="100vw" width="2048" height="2560" alt="La sauce versée sur la betterave" decoding="async"></figure><figure class="held__b s5" style="--ab:#6b594e;--n:1"><img data-src="bilder/verse-3.webp?v=68" data-srcset="bilder/verse-3-m.webp?v=68 900w, bilder/verse-3.webp?v=68 1707w" sizes="100vw" width="1707" height="2560" alt="La sauce versée sur l’assiette" decoding="async"></figure><figure class="held__b s6" style="--ab:#aaa69a;--n:2"><img data-src="bilder/verse-1.webp?v=68" data-srcset="bilder/verse-1-m.webp?v=68 900w, bilder/verse-1.webp?v=68 2048w" sizes="100vw" width="2048" height="2560" alt="La sauce versée sur le dessert" decoding="async"></figure><figure class="held__b s7" style="--ab:#5c493d;--n:0"><img data-src="bilder/cuisine-2.webp?v=68" data-srcset="bilder/cuisine-2-m.webp?v=68 900w, bilder/cuisine-2.webp?v=68 1920w" sizes="100vw" width="1920" height="1536" alt="La brigade en cuisine" decoding="async"></figure><figure class="held__b s8" style="--ab:#ada191;--n:1"><img data-src="bilder/jus.webp?v=68" data-srcset="bilder/jus-m.webp?v=68 900w, bilder/jus.webp?v=68 2560w" sizes="100vw" width="2560" height="2560" alt="Le jus coule sur l’assiette" decoding="async"></figure><div class="held__hof"></div><div class="held__linie"></div><div class="held__linie2"></div>
+  <div class="held__text"><img class="held__gv" src="bilder/zeichen.svg" alt="" width="60" height="60"><h1>Infos.</h1><p class="held__ort">Restaurant Gilles Varone · Saint-Germain, Savièse</p><p class="satz">Horaires, accès et contact.</p></div>
+</section>
+<section class="abschnitt papier geflecht">
+  <div class="innen">
+    <div class="infos" data-r="b">
+      <figure class="plan"><img data-src="bilder/plan-saviese.webp?v=68" data-srcset="bilder/plan-saviese-m.webp?v=68 900w, bilder/plan-saviese.webp?v=68 1669w" sizes="(max-width:860px) 100vw, 56vw" width="1669" height="1251" alt="Plan d’accès du restaurant à Saint Germain, Savièse" decoding="async"></figure>
+      <div class="infos__tafel">
+        <section><h3>Horaires</h3><dl class="zeiten"><dt>Lundi – Mercredi</dt><dd>Fermé</dd><dt>Jeudi</dt><dd>18h30 – 00h00</dd><dt>Vendredi &amp; Samedi</dt><dd>12h00 – 16h00<br>19h00 – 00h00</dd><dt>Dimanche</dt><dd>12h00 – 16h00</dd></dl></section>
+        <section><h3>Fermetures</h3><dl class="zeiten"><dt>Décembre 2026</dt><dd>du Lundi 21 Décembre 2026 au Jeudi 31 décembre 2026</dd><dt>Janvier 2027</dt><dd>Du vendredi 1e janvier au mercredi 6 janvier 2027</dd></dl></section>
+        <section><h3>Contact</h3><p>Restaurant Gilles Varone<br>Rue du Stade 5B, 1965 Savièse<br><a href="tel:+41275658920">027 565 89 20</a><br><a href="mailto:info@gillesvarone.ch">info@gillesvarone.ch</a></p>
+        <div class="knopfreihe"><a class="knopf" href="https://bookings.zenchef.com/results?rid=360467" target="_blank" rel="noopener">Réserver</a><a class="knopf knopf--nuit" href="https://maps.app.goo.gl/7ADj92AKZ7ZjTS318" target="_blank" rel="noopener">Itinéraire</a></div></section>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="abschnitt nacht geflecht">
+  <div class="innen zwei">
+    <div>
+      <h2>Accès.</h2>
+      <h3 class="gold" data-r="t" style="margin-top:28px;font-size:24px">En voiture</h3>
+      <p class="lauf" data-r="t">Profitez du parking sous terrain gratuit, montez à l’étage supérieur avec votre voiture et prenez l’ascenseur jusqu’à l’étage zero.</p>
+      <h3 class="gold" data-r="t" style="margin-top:28px;font-size:24px">En bus</h3>
+      <p class="lauf" data-r="t">Ligne de bus no 341 et 342 depuis Poste, Gare Sion jusqu’à Saint Germain centre Savièse.</p>
+      <p class="lauf" data-r="t" style="margin-top:28px;color:#d9cfbf">Le restaurant est également accessible pour les personnes à mobilité réduite pour des réservations jusqu’à 7 personnes, en nous en informant au préalable. Animaux non admis.</p>
+    </div>
+    <figure class="rahmen " data-r="b" style="--ab:#6f908e;"><img data-src="bilder/saal-alpen.webp?v=68" data-srcset="bilder/saal-alpen-m.webp?v=68 900w, bilder/saal-alpen.webp?v=68 1920w" sizes="(max-width:860px) 100vw, 46vw" width="1920" height="1280" alt="La salle et les Alpes valaisannes" decoding="async"></figure>
+  </div>
+</section>
+</main>
+<footer class="fuss geflecht">
+  <div class="innen">
+    <div class="fuss__kopf">
+      <img src="bilder/wortmarke.svg" alt="Restaurant Gilles Varone" width="414" height="154">
+      <p>Des saveurs &amp; des valeurs.</p>
+    </div>
+    <div class="fuss__spalten">
+      <div>
+        <h4 class="klein">Restaurant Gilles Varone</h4>
+        <p>Rue du Stade 5B<br>1965 Savièse</p>
+        <p><a href="tel:+41275658920">027 565 89 20</a><br><a href="mailto:info@gillesvarone.ch">info@gillesvarone.ch</a></p>
+      </div>
+      <div>
+        <h4 class="klein">Horaires</h4>
+        <p>Lundi – Mercredi : fermé<br>Jeudi : 18h30 – 00h00<br>Vendredi &amp; Samedi : 12h00 – 16h00, 19h00 – 00h00<br>Dimanche : 12h00 – 16h00</p>
+      </div>
+      <div>
+        <h4 class="klein">Découvrir</h4>
+        <ul><li><a href="index.html">Accueil</a></li><li><a href="restaurant.html">Restaurant</a></li><li><a href="experiences.html">Expériences</a></li><li><a href="equipe.html">Équipe</a></li><li><a href="infos.html">Infos</a></li><li><a href="https://shop.e-guma.ch/gillesvarone/fr/bons-cadeaux/50226/bon-valeur" target="_blank" rel="noopener">Bon cadeau</a></li>
+        <li><a href="https://www.instagram.com/gillesvarone/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/restaurantgillesvarone" target="_blank" rel="noopener">Facebook</a></li></ul>
+      </div>
+    </div>
+  </div>
+  <div class="fuss__unten"><span>© Restaurant Gilles Varone</span><span>Étude de design de Tasty Studios, ce n’est pas le site officiel du restaurant.</span></div>
+</footer>
+</body>
+</html>

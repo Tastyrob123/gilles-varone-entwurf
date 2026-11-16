@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="fr">
+<head><script data-wurzel>/* Wurzel-Weiche: Seite laeuft an der Wurzel einer Adresse oder in einem Unterordner (github.io/<repo>/) */(function(){var D=0,p=location.pathname.split('/');p.splice(p.length-1-D,D+1);var W=p.join('/')+'/';window.__W=W;if(W==='/')return;var O=location.origin;
+function f(u){if(typeof u!=='string')return u;if(u.indexOf(O+'/')===0)return O+f(u.slice(O.length));if(u.charAt(0)!=='/'||u.charAt(1)==='/'||u.indexOf(W)===0||u+'/'===W)return u;return W+u.slice(1)}
+function s(v){return typeof v!=='string'?v:v.replace(/(^|,)(\s*)(\S+)/g,function(m,a,b,u){return a+b+f(u)})}
+function c(v){return typeof v!=='string'?v:v.replace(/url\(\s*(['"]?)([^'")]+)/g,function(m,q,u){return 'url('+q+f(u)})}
+function h(v){return typeof v!=='string'?v:c(v.replace(/(\s(?:src|href|poster|action|data-src|data-href)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+f(u)+q}).replace(/(\s(?:srcset|imagesrcset|data-srcset)\s*=\s*)(["'])([^"']*)\2/gi,function(m,a,q,u){return a+q+s(u)+q}))}
+function d(K,k,g){K=window[K];if(!K)return;var x=Object.getOwnPropertyDescriptor(K.prototype,k);if(!x||!x.set)return;Object.defineProperty(K.prototype,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,g(v))}})}
+[['HTMLImageElement','src'],['HTMLScriptElement','src'],['HTMLLinkElement','href'],['HTMLIFrameElement','src'],['HTMLSourceElement','src'],['HTMLMediaElement','src'],['HTMLVideoElement','poster'],['HTMLAnchorElement','href'],['HTMLAreaElement','href'],['HTMLFormElement','action'],['HTMLEmbedElement','src'],['HTMLObjectElement','data']].forEach(function(z){d(z[0],z[1],f)});
+[['HTMLImageElement','srcset'],['HTMLSourceElement','srcset'],['HTMLLinkElement','imageSrcset']].forEach(function(z){d(z[0],z[1],s)});
+d('Element','innerHTML',h);d('Element','outerHTML',h);var iah=Element.prototype.insertAdjacentHTML;Element.prototype.insertAdjacentHTML=function(w,v){return iah.call(this,w,h(v))};
+var sa=Element.prototype.setAttribute;Element.prototype.setAttribute=function(n,v){var l=String(n).toLowerCase();if(/^(src|href|poster|action|data|data-src|data-href)$/.test(l))v=f(v);else if(/srcset$/.test(l))v=s(v);else if(l==='style')v=c(v);return sa.call(this,n,v)};
+var st=CSSStyleDeclaration.prototype,sp=st.setProperty;st.setProperty=function(n,v,q){return sp.call(this,n,c(v),q)};['background','backgroundImage','cssText','maskImage','webkitMaskImage','listStyleImage','borderImageSource','content'].forEach(function(k){var x=Object.getOwnPropertyDescriptor(st,k);if(x&&x.set)Object.defineProperty(st,k,{configurable:true,enumerable:x.enumerable,get:x.get,set:function(v){x.set.call(this,c(v))}})});
+var F=window.fetch;if(F)window.fetch=function(i,o){if(typeof i==='string')i=f(i);else if(i instanceof URL)i=f(i.href);return F.call(this,i,o)};
+var XO=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){var a=[].slice.call(arguments);a[1]=f(a[1] instanceof URL?a[1].href:a[1]);return XO.apply(this,a)};
+if(navigator.sendBeacon){var B=navigator.sendBeacon;navigator.sendBeacon=function(u,x){return B.call(navigator,f(u),x)}}
+var wo=window.open;window.open=function(u){var a=[].slice.call(arguments);a[0]=f(u);return wo.apply(window,a)};
+var dw=document.write,dl=document.writeln;document.write=function(){return dw.apply(document,[].map.call(arguments,h))};document.writeln=function(){return dl.apply(document,[].map.call(arguments,h))};
+['pushState','replaceState'].forEach(function(k){var o=history[k];history[k]=function(a,b,u){return o.call(history,a,b,u==null?u:f(String(u)))}});
+function e(el){if(!el||el.nodeType!==1)return;['src','href','poster','action'].forEach(function(a){var v=el.getAttribute(a);if(v&&v.charAt(0)==='/'){var z=f(v);if(z!==v)sa.call(el,a,z)}});var t=el.getAttribute('srcset');if(t&&/(^|,)\s*\/[^\/]/.test(t)){var z=s(t);if(z!==t)sa.call(el,'srcset',z)}t=el.getAttribute('style');if(t&&/url\(\s*['"]?\/[^\/]/.test(t)){z=c(t);if(z!==t)sa.call(el,'style',z)}}
+new MutationObserver(function(ms){ms.forEach(function(m){if(m.type==='attributes')e(m.target);else m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;e(n);var l=n.querySelectorAll('[src],[href],[srcset],[poster],[action],[style]');for(var i=0;i<l.length;i++)e(l[i])})})}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src','href','srcset','poster','action','style']})})();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gilles Varone – Des Saveurs et des Valeurs</title>
+<meta name="description" content="Restaurant Gilles Varone, Saint-Germain, Savièse. Deux étoiles au Guide Michelin, 18 points GaultMillau.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="bilder/zeichen.svg">
+<link rel="preload" href="schrift/GillSansNova-Book.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="schrift/CaviarDreams.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/gv.css?v=68">
+<link rel="preload" as="image" imagesrcset="bilder/noir-1-m.webp?v=68 900w, bilder/noir-1.webp?v=68 2560w" imagesizes="100vw" fetchpriority="high">
+<script>(function(){var d=document.documentElement;d.classList.add('vor');d.setAttribute('data-h','45');d.setAttribute('data-v','1');d.setAttribute('data-g','2')})()</script>
+<script src="assets/gv.js?v=68" defer></script>
+<script src="besuch.js" defer></script>
+</head>
+<body>
+<header class="leiste" data-seite="index">
+  <a class="leiste__gv" href="index.html" aria-label="Restaurant Gilles Varone, accueil"><img src="bilder/zeichen.svg" alt="" width="40" height="40"></a>
+  <nav class="leiste__nav" aria-label="Navigation"><a href="restaurant.html">Restaurant</a><a href="experiences.html">Expériences</a><a href="equipe.html">Équipe</a><a href="infos.html">Infos</a></nav>
+  <div class="leiste__rechts">
+    <a class="knopf" href="https://bookings.zenchef.com/results?rid=360467" target="_blank" rel="noopener">Réserver</a>
+    <button class="leiste__menu" data-menu aria-label="Menu">Menu</button>
+  </div>
+</header>
+<div class="menu-voll" aria-hidden="true">
+  <button class="zu" data-menu>Fermer</button>
+  <a class="gross" href="index.html">Accueil</a><a class="gross" href="restaurant.html">Restaurant</a><a class="gross" href="experiences.html">Expériences</a><a class="gross" href="equipe.html">Équipe</a><a class="gross" href="infos.html">Infos</a>
+  <a class="knopf" href="https://bookings.zenchef.com/results?rid=360467" target="_blank" rel="noopener">Réserver une table</a>
+</div>
+<main>
+<section class="held held--start" aria-label="Gilles Varone">
+  <div class="held__flecht"></div><div class="held__film f-terre" style="--ab:#1b1712"><img data-src="film/terre.webp?v=68" data-srcset="film/terre-m.webp?v=68 1280w, film/terre.webp?v=68 1920w" sizes="100vw" width="1920" height="1080" alt=""><video muted playsinline loop preload="none" data-src="film/terre.mp4?v=68" data-src-m="film/terre-m.mp4?v=68" aria-hidden="true"></video></div><div class="held__film f-dressage" style="--ab:#1b1712"><img data-src="film/dressage.webp?v=68" data-srcset="film/dressage-m.webp?v=68 1280w, film/dressage.webp?v=68 1920w" sizes="100vw" width="1920" height="1080" alt=""><video muted playsinline loop preload="none" data-src="film/dressage.mp4?v=68" data-src-m="film/dressage-m.mp4?v=68" aria-hidden="true"></video></div><figure class="held__b s1" style="--ab:#656962;--n:0"><img data-src="bilder/noir-1.webp?v=68" data-srcset="bilder/noir-1-m.webp?v=68 900w, bilder/noir-1.webp?v=68 2560w" sizes="100vw" width="2560" height="2560" alt="Assiette sur porcelaine noire, vue de dessus" decoding="async"></figure><figure class="held__b s2" style="--ab:#7c6754;--n:1"><img data-src="bilder/mains.webp?v=68" data-srcset="bilder/mains-m.webp?v=68 900w, bilder/mains.webp?v=68 2560w" sizes="100vw" width="2560" height="2048" alt="Les mains du chef dressent l’assiette" decoding="async"></figure><figure class="held__b s3" style="--ab:#796854;--n:2"><img data-src="bilder/bougie-1.webp?v=68" data-srcset="bilder/bougie-1-m.webp?v=68 900w, bilder/bougie-1.webp?v=68 2000w" sizes="100vw" width="2000" height="2500" alt="Un plat à la lumière de la bougie" decoding="async"></figure><figure class="held__b s4" style="--ab:#aaa69a;--n:0"><img data-src="bilder/verse-1.webp?v=68" data-srcset="bilder/verse-1-m.webp?v=68 900w, bilder/verse-1.webp?v=68 2048w" sizes="100vw" width="2048" height="2560" alt="La sauce versée sur le dessert" decoding="async"></figure><figure class="held__b s5" style="--ab:#a38b82;--n:1"><img data-src="bilder/verse-2.webp?v=68" data-srcset="bilder/verse-2-m.webp?v=68 900w, bilder/verse-2.webp?v=68 2048w" sizes="100vw" width="2048" height="2560" alt="La sauce versée sur la betterave" decoding="async"></figure><figure class="held__b s6" style="--ab:#6b594e;--n:2"><img data-src="bilder/verse-3.webp?v=68" data-srcset="bilder/verse-3-m.webp?v=68 900w, bilder/verse-3.webp?v=68 1707w" sizes="100vw" width="1707" height="2560" alt="La sauce versée sur l’assiette" decoding="async"></figure><figure class="held__b s7" style="--ab:#40454a;--n:0"><img data-src="bilder/brigade.webp?v=68" data-srcset="bilder/brigade-m.webp?v=68 900w, bilder/brigade.webp?v=68 1920w" sizes="100vw" width="1920" height="1280" alt="L’équipe du restaurant" decoding="async"></figure><figure class="held__b s8" style="--ab:#ada191;--n:1"><img data-src="bilder/jus.webp?v=68" data-srcset="bilder/jus-m.webp?v=68 900w, bilder/jus.webp?v=68 2560w" sizes="100vw" width="2560" height="2560" alt="Le jus coule sur l’assiette" decoding="async"></figure><figure class="held__b leit leit-41" style="--ab:#656962"><img data-src="bilder/noir-1.webp?v=68" data-srcset="bilder/noir-1-m.webp?v=68 900w, bilder/noir-1.webp?v=68 2560w" sizes="100vw" width="2560" height="2560" alt="Assiette sur porcelaine noire, vue de dessus" decoding="async" style="object-position:50% 50%"></figure><figure class="held__b leit leit-42" style="--ab:#7c6754"><img data-src="bilder/mains.webp?v=68" data-srcset="bilder/mains-m.webp?v=68 900w, bilder/mains.webp?v=68 2560w" sizes="100vw" width="2560" height="2048" alt="Les mains du chef dressent l’assiette" decoding="async" style="object-position:50% 62%"></figure><figure class="held__b leit leit-43" style="--ab:#ada191"><img data-src="bilder/jus.webp?v=68" data-srcset="bilder/jus-m.webp?v=68 900w, bilder/jus.webp?v=68 2560w" sizes="100vw" width="2560" height="2560" alt="Le jus coule sur l’assiette" decoding="async" style="object-position:50% 46%"></figure><figure class="held__b leit leit-44" style="--ab:#d5ccb4"><img data-src="bilder/teller-gross.webp?v=68" data-srcset="bilder/teller-gross-m.webp?v=68 900w, bilder/teller-gross.webp?v=68 2000w, bilder/teller-gross-xl.webp?v=68 3000w" sizes="100vw" width="2000" height="1600" alt="Assiette signature du chef" decoding="async" style="object-position:50% 50%"></figure><figure class="held__b leit leit-45" style="--ab:#5c493d"><img data-src="bilder/cuisine.webp?v=68" data-srcset="bilder/cuisine-m.webp?v=68 900w, bilder/cuisine.webp?v=68 1920w" sizes="100vw" width="1920" height="1536" alt="La cuisine ouverte" decoding="async" style="object-position:50% 55%"></figure><figure class="held__b leit leit-46" style="--ab:#796854"><img data-src="bilder/bougie-1.webp?v=68" data-srcset="bilder/bougie-1-m.webp?v=68 900w, bilder/bougie-1.webp?v=68 2000w" sizes="100vw" width="2000" height="2500" alt="Un plat à la lumière de la bougie" decoding="async" style="object-position:50% 58%"></figure><figure class="held__b leit leit-47" style="--ab:#8b8a84"><img data-src="bilder/assiette-table.webp?v=68" data-srcset="bilder/assiette-table-m.webp?v=68 900w, bilder/assiette-table.webp?v=68 2464w" sizes="100vw" width="2464" height="2464" alt="Une assiette sur la table en bois" decoding="async" style="object-position:50% 50%"></figure><figure class="held__b leit leit-48" style="--ab:#9c9180"><img data-src="bilder/poisson.webp?v=68" data-srcset="bilder/poisson-m.webp?v=68 900w, bilder/poisson.webp?v=68 2560w" sizes="100vw" width="2560" height="2560" alt="Le poisson et sa purée" decoding="async" style="object-position:50% 50%"></figure><figure class="held__b leit leit-49" style="--ab:#85654f"><img data-src="bilder/dessert-cuillere.webp?v=68" data-srcset="bilder/dessert-cuillere-m.webp?v=68 900w, bilder/dessert-cuillere.webp?v=68 2048w" sizes="100vw" width="2048" height="2560" alt="Le dessert servi à la cuillère" decoding="async" style="object-position:50% 55%"></figure><figure class="held__b leit leit-50" style="--ab:#585a55"><img data-src="bilder/noir-2.webp?v=68" data-srcset="bilder/noir-2-m.webp?v=68 900w, bilder/noir-2.webp?v=68 2526w" sizes="100vw" width="2526" height="2526" alt="Assiette sur porcelaine noire" decoding="async" style="object-position:50% 50%"></figure><figure class="held__b leit leit-51" style="--ab:#4a4642"><img data-src="bilder/comptoir-2.webp?v=68" data-srcset="bilder/comptoir-2-m.webp?v=68 900w, bilder/comptoir-2.webp?v=68 1920w" sizes="100vw" width="1920" height="1280" alt="Le comptoir face à la cuisine" decoding="async" style="object-position:50% 50%"></figure><figure class="held__b leit leit-52" style="--ab:#4a4b4a"><img data-src="bilder/salle-jour.webp?v=68" data-srcset="bilder/salle-jour-m.webp?v=68 900w, bilder/salle-jour.webp?v=68 1920w" sizes="100vw" width="1920" height="1280" alt="La salle du restaurant" decoding="async" style="object-position:50% 55%"></figure><figure class="held__b leit leit-70" style="--ab:#40454a"><img data-src="bilder/brigade.webp?v=68" data-srcset="bilder/brigade-m.webp?v=68 900w, bilder/brigade.webp?v=68 1920w" sizes="100vw" width="1920" height="1280" alt="L’équipe du restaurant" decoding="async" style="object-position:50% 38%"></figure><div class="held__hof"></div><div class="held__linie"></div><div class="held__linie2"></div>
+  <div class="held__text"><img class="held__gv" src="bilder/zeichen.svg" alt="" width="60" height="60"><p class="held__vor">Une expérience différente</p><h1>Gilles Varone</h1><p class="held__ort">Restaurant · Saint-Germain, Savièse</p><p class="satz">Une expérience différente. Découvrez une cuisine passionnée, mettant à l’honneur des saveurs les plus locales possibles.</p><div class="marken"><img class="mi" src="bilder/logo-michelin-rond.png" alt="Deux étoiles MICHELIN 2025" width="520" height="520"><img class="gm" src="bilder/logo-gaultmillau-original.svg" alt="GaultMillau 18 points" width="152" height="96"></div><div class="held__resa"><div class="resa__info"><span class="klein">Réservation</span><span>Jeudi soir · vendredi et samedi midi et soir · dimanche midi</span></div><a class="knopf" href="https://bookings.zenchef.com/results?rid=360467" target="_blank" rel="noopener">Réserver une table</a><a class="knopf knopf--nuit resa__zwei" href="experiences.html">Les expériences</a></div></div>
+</section>
+
+<section class="abschnitt papier geflecht" id="restaurant">
+  <div class="acc"><div class="a-innen a-zwei"><div class="at "><h2 class="">Une expérience fine, remarquable et différente.</h2></div><div class="at "><p class="lauf" data-r="t" style="--i:0">C’est niché en plein cœur du charmant village de Saint Germain, au centre de Savièse, que vous pourrez retrouver le Restaurant Gilles Varone dans son ambiance intimiste et décontractée.</p><p class="lauf" data-r="t" style="--i:1">Situé dans le nouveau quartier de Saint Germain centre, le restaurant au rez-de-chaussée vous offrira une vue imprenable sur les Alpes valaisannes et saura rapidement vous mettre à l’aise au sein de son atmosphère chaleureuse.</p></div></div><div class="wand aw a2-pano" data-r="b"><figure class="rahmen " style="--ab:#4c4643;"><img data-src="bilder/salle-gv.webp?v=68" data-srcset="bilder/salle-gv-m.webp?v=68 900w, bilder/salle-gv.webp?v=68 1770w" sizes="100vw" width="1770" height="1416" alt="La salle du restaurant et le monogramme GV" decoding="async"></figure></div><div class="wand aw a2-band" data-r="b"><figure class="rahmen " style="--ab:#74695d;"><img data-src="bilder/chef-saal.webp?v=68" data-srcset="bilder/chef-saal-m.webp?v=68 900w, bilder/chef-saal.webp?v=68 1380w" sizes="(max-width:860px) 50vw, 25vw" width="1380" height="921" alt="Gilles Varone dans la salle du restaurant" decoding="async"></figure><div class="at a2-zitat"><blockquote class="zitat " data-r="t" style="--i:2">«&#8239;Plus qu’un simple repas, mon ambition en tant que Chef est de vous offrir un moment authentique, orienté autour du partage de mon amour pour la cuisine.&#8239;»<span class="von klein">Gilles Varone · Chef &amp; patron</span></blockquote></div><figure class="rahmen " style="--ab:#978778;"><img data-src="bilder/teller-5.webp?v=68" data-srcset="bilder/teller-5-m.webp?v=68 900w, bilder/teller-5.webp?v=68 724w" sizes="(max-width:860px) 50vw, 25vw" width="724" height="1086" alt="Assiette dressée" decoding="async"></figure><figure class="rahmen " style="--ab:#4a4642;"><img data-src="bilder/comptoir-2.webp?v=68" data-srcset="bilder/comptoir-2-m.webp?v=68 900w, bilder/comptoir-2.webp?v=68 1920w" sizes="(max-width:860px) 50vw, 25vw" width="1920" height="1280" alt="Le comptoir face à la cuisine ouverte" decoding="async"></figure></div></div>
+  <div class="gest" id="geste" aria-label="Le geste"><div class="gx-l"><div class="wand gx-wand gx-w8a" data-r="b"><figure class="rahmen " style="--ab:#aaa69a;"><img data-src="bilder/verse-1.webp?v=68" data-srcset="bilder/verse-1-m.webp?v=68 900w, bilder/verse-1.webp?v=68 2048w" sizes="(max-width:860px) 100vw, 46vw" width="2048" height="2560" alt="La sauce versée à table sur le dessert" decoding="async"></figure></div><div class="gx-l-rechts"><div class="gx-text "><h2>Je viendrai vous servir personnellement à votre table.</h2><p class="lauf" data-r="t">Il me tient à cœur de vous dévoiler moi‑même les subtilités présentes dans chacun de mes plats.</p><div class="gx-von" data-r="t" style="--i:1"><span class="von klein">Gilles Varone · Chef &amp; patron</span></div></div><div class="wand gx-wand gx-w8b" data-r="b"><figure class="rahmen " style="--ab:#6b594e;"><img data-src="bilder/verse-3.webp?v=68" data-srcset="bilder/verse-3-m.webp?v=68 900w, bilder/verse-3.webp?v=68 1707w" sizes="(max-width:860px) 50vw, 24vw" width="1707" height="2560" alt="La sauce versée à la lueur des bougies" decoding="async"></figure><figure class="rahmen " style="--ab:#8b7a71;"><img data-src="bilder/chef-anrichten.webp?v=68" data-srcset="bilder/chef-anrichten-m.webp?v=68 900w, bilder/chef-anrichten.webp?v=68 1380w" sizes="(max-width:860px) 50vw, 24vw" width="1380" height="921" alt="La sauce versée sur l’assiette" decoding="async"></figure></div></div></div></div>
+</section>
+
+<section class="abschnitt sable" id="experiences">
+  <div class="innen">
+    <div class="kopfzeile">
+      <img class="zeichen-gv" src="bilder/zeichen.svg" alt="" width="46" height="46">
+      <h2>Des expériences riches &amp; variées.</h2>
+      <p data-r="t">En cinq, six ou sept services et toujours servies par l’équipe de cuisine. Les expériences que je vous propose se différencient par le nombre de services qu’elles incluent.</p>
+    </div>
+    <div class="menus"><article class="menu" data-r="b" style="--i:0"><i class="glanz"></i><div class="menu__in">
+<h3>L’expérience en 5 services</h3><div class="preis">199<small>CHF</small></div>
+<img class="zierde" src="bilder/zierde.svg" alt="" width="63" height="13"><ol><li>Amuse-Bouche</li><li>Première Entrée</li><li>Deuxième Entrée</li><li>Plat Principal</li><li>Dessert</li></ol></div></article><article class="menu" data-r="b" style="--i:1"><i class="glanz"></i><div class="menu__in">
+<h3>L’expérience en 6 services</h3><div class="preis">229<small>CHF</small></div>
+<img class="zierde" src="bilder/zierde.svg" alt="" width="63" height="13"><ol><li>Amuse-Bouche</li><li>Entrée</li><li>Poisson</li><li>Plat Principal</li><li>Pré-Dessert</li><li>Dessert</li></ol></div></article><article class="menu" data-r="b" style="--i:2"><i class="glanz"></i><div class="menu__in">
+<h3>L’expérience en 7 services</h3><div class="preis">259<small>CHF</small></div>
+<img class="zierde" src="bilder/zierde.svg" alt="" width="63" height="13"><ol><li>Amuse-Bouche</li><li>Première Entrée</li><li>Deuxième Entrée</li><li>Poisson</li><li>Plat Principal</li><li>Pré-Dessert</li><li>Dessert</li></ol></div></article></div><div class="hinweise" data-r="b"><div><h3>L’expérience chasse locale</h3><div class="preis-k">299 CHF</div><p>Uniquement durant le mois d’octobre, selon les disponibilités</p></div><div><h3>Les expériences végétariennes</h3><p>Sur demande préalable uniquement, retrouvez toutes les expériences dans leurs versions végétariennes</p></div><div><h3>Pour les groupes</h3><p>Les expériences destinées à plus de 8 personnes s’effectuent par le biais de demandes spéciales</p></div></div>
+    <p class="notiz" data-r="t">Veuillez noter que l’expérience choisie sera identique pour tous les convives assis au sein d’une même table. Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences.</p>
+    <div class="knopfreihe mitte" data-r="t"><a class="knopf" href="https://bookings.zenchef.com/results?rid=360467" target="_blank" rel="noopener">Réserver une table</a><a class="knopf knopf--nuit" href="experiences.html">Toutes les expériences</a></div>
+  </div>
+  <div class="streifen" aria-label="Assiettes du restaurant">
+    <div class="streifen__spur">
+      <figure style="--ab:#797060"><img data-src="bilder/chef-herd.webp?v=68" data-srcset="bilder/chef-herd-m.webp?v=68 900w, bilder/chef-herd.webp?v=68 1380w" sizes="40vw" width="1380" height="921" alt="Gilles Varone en cuisine" decoding="async"></figure><figure style="--ab:#887562"><img data-src="bilder/teller-1.webp?v=68" data-srcset="bilder/teller-1-m.webp?v=68 900w, bilder/teller-1.webp?v=68 793w" sizes="40vw" width="793" height="991" alt="Assiette et pain maison" decoding="async"></figure><figure style="--ab:#5b4e41"><img data-src="bilder/chef-glas.webp?v=68" data-srcset="bilder/chef-glas-m.webp?v=68 900w, bilder/chef-glas.webp?v=68 1380w" sizes="40vw" width="1380" height="921" alt="Le chef et ses conserves maison" decoding="async"></figure><figure style="--ab:#ae7d53"><img data-src="bilder/teller-6.webp?v=68" data-srcset="bilder/teller-6-m.webp?v=68 900w, bilder/teller-6.webp?v=68 793w" sizes="40vw" width="793" height="991" alt="Poisson et sauce, verre d’accord" decoding="async"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="abschnitt nacht2 parcours" id="parcours">
+  <div class="parcours__gitter">
+    <div class="wand parcours__wand" data-r="b">
+      <figure class="rahmen gross" style="--ab:#59534b"><img data-src="bilder/chef-schwarz.webp?v=68" data-srcset="bilder/chef-schwarz-m.webp?v=68 900w, bilder/chef-schwarz.webp?v=68 1376w" sizes="(max-width:860px) 100vw, 56vw" width="1376" height="921" alt="Gilles Varone" decoding="async"></figure>
+      <figure class="rahmen" style="--ab:#595048"><img data-src="bilder/chef-dunkel.webp?v=68" data-srcset="bilder/chef-dunkel-m.webp?v=68 900w, bilder/chef-dunkel.webp?v=68 1514w" sizes="(max-width:860px) 50vw, 28vw" width="1514" height="1100" alt="Gilles Varone en veste de cuisine" decoding="async"></figure>
+      <figure class="rahmen" style="--ab:#ded8d1"><img data-src="bilder/teller-8.webp?v=68" data-srcset="bilder/teller-8-m.webp?v=68 900w, bilder/teller-8.webp?v=68 1376w" sizes="(max-width:860px) 50vw, 28vw" width="1376" height="921" alt="Assiette dressée sur porcelaine blanche" decoding="async"></figure>
+    </div>
+    <div class="parcours__text">
+      <h2>Sur mes terres natales.</h2>
+      <p class="lauf" data-r="t">Ma relation à la cuisine a commencé par un apprentissage à la CRR SUVA de Sion. Afin de parfaire mon art, j’ai ensuite pris mon envol pour l’Angleterre où j’ai notamment pu y obtenir le titre de Meilleur Jeune Chef du pays octroyé par The Craft Guilds of Chefs.</p>
+      <div class="laufbahn laufbahn--staffel"><div data-r="t" style="--i:0"><span>Mosimann’s Private Club</span><span>Chef de Partie</span></div><div data-r="t" style="--i:1"><span>Pétrus (*) de Gordon Ramsay</span><span>Senior Chef de Partie</span></div><div data-r="t" style="--i:2"><span>Trivet (*) de Johny Lake</span><span>Senior Chef de Partie</span></div><div data-r="t" style="--i:3"><span>Bibendum (**) de Claude Bosi</span><span>Second de Cuisine</span></div></div>
+      <p class="lauf" data-r="t" style="margin-top:26px">J’ai ainsi décidé de lancer mon premier restaurant sur mes terres natales, afin de partager avec vous mes découvertes et mon savoir-faire.</p>
+      <div class="knopfreihe" data-r="t" style="margin-top:30px"><a class="knopf" href="equipe.html">Son parcours</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="abschnitt nacht geflecht" id="valeurs">
+  <div class="innen werte">
+    <div>
+      <h2>Des saveurs &amp; des valeurs.</h2>
+      <div class="werte__wahl" role="tablist" data-r="t">
+        <button class="wert" role="tab" data-k="terroir" aria-selected="true"><img src="bilder/wert-terroir.svg" alt="" width="200" height="100"><span>Le terroir</span></button><button class="wert" role="tab" data-k="haute-cuisine" aria-selected="false"><img src="bilder/wert-haute-cuisine.svg" alt="" width="200" height="100"><span>La haute cuisine</span></button><button class="wert" role="tab" data-k="partage" aria-selected="false"><img src="bilder/wert-partage.svg" alt="" width="200" height="100"><span>Le partage</span></button>
+      </div>
+      <div class="wert__texte"><p data-k="terroir" class="an">Des plats de saison et des ingrédients que je sélectionne finement auprès des producteurs de la région, tout en accordant une attention toute particulière à la valorisation du terroir. Je m’applique à tisser des liens solides avec de nombreux acteurs; du producteur au client, en passant par mon équipe.</p><p data-k="haute-cuisine" class="">J’honore l’héritage que m’ont légué les chefs étoilés par la recherche de l’équilibre parfait des saveurs, l’attention particulière aux détails, au travail sur l’esthétisme de mes plats et en surprenant autant que possible vos cinq sens.</p><p data-k="partage" class="">Je vous accueillerai chaleureusement afin de vous faire découvrir, au travers de mes expériences, le monde culinaire qui me passionne tant. De plus, il me tient à cœur de vous dévoiler moi-même les subtilités présentes dans chacun de mes plats, c’est pourquoi je viendrai vous servir personnellement à votre table.</p></div>
+      <div class="wert-mobil">
+        <article><figure class="rahmen " data-r="b" style="--ab:#a7907d;"><img data-src="bilder/teller-7.webp?v=68" data-srcset="bilder/teller-7-m.webp?v=68 900w, bilder/teller-7.webp?v=68 793w" sizes="100vw" width="793" height="991" alt="Assiette de saison, légumes et fleurs de la région" decoding="async"></figure><img class="z" src="bilder/wert-terroir.svg" alt="" width="200" height="100"><h3>Le terroir</h3><p>Des plats de saison et des ingrédients que je sélectionne finement auprès des producteurs de la région, tout en accordant une attention toute particulière à la valorisation du terroir. Je m’applique à tisser des liens solides avec de nombreux acteurs; du producteur au client, en passant par mon équipe.</p></article><article><figure class="rahmen " data-r="b" style="--ab:#cbbfaf;"><img data-src="bilder/teller-2.webp?v=68" data-srcset="bilder/teller-2-m.webp?v=68 900w, bilder/teller-2.webp?v=68 793w" sizes="100vw" width="793" height="991" alt="Assiette dressée par le chef" decoding="async"></figure><img class="z" src="bilder/wert-haute-cuisine.svg" alt="" width="200" height="100"><h3>La haute cuisine</h3><p>J’honore l’héritage que m’ont légué les chefs étoilés par la recherche de l’équilibre parfait des saveurs, l’attention particulière aux détails, au travail sur l’esthétisme de mes plats et en surprenant autant que possible vos cinq sens.</p></article><article><figure class="rahmen " data-r="b" style="--ab:#7c7167;"><img data-src="bilder/chef-pass.webp?v=68" data-srcset="bilder/chef-pass-m.webp?v=68 900w, bilder/chef-pass.webp?v=68 1376w" sizes="100vw" width="1376" height="921" alt="Gilles Varone au passe, devant la cuisine ouverte" decoding="async"></figure><img class="z" src="bilder/wert-partage.svg" alt="" width="200" height="100"><h3>Le partage</h3><p>Je vous accueillerai chaleureusement afin de vous faire découvrir, au travers de mes expériences, le monde culinaire qui me passionne tant. De plus, il me tient à cœur de vous dévoiler moi-même les subtilités présentes dans chacun de mes plats, c’est pourquoi je viendrai vous servir personnellement à votre table.</p></article>
+      </div>
+    </div>
+    <div class="werte__bilder" data-r="b">
+      <figure data-k="terroir" class="an" style="background:#a7907d"><img data-src="bilder/teller-7.webp?v=68" data-srcset="bilder/teller-7-m.webp?v=68 900w, bilder/teller-7.webp?v=68 793w" sizes="46vw" width="793" height="991" alt="Assiette de saison, légumes et fleurs de la région" decoding="async"></figure><figure data-k="haute-cuisine" class="" style="background:#cbbfaf"><img data-src="bilder/teller-2.webp?v=68" data-srcset="bilder/teller-2-m.webp?v=68 900w, bilder/teller-2.webp?v=68 793w" sizes="46vw" width="793" height="991" alt="Assiette dressée par le chef" decoding="async"></figure><figure data-k="partage" class="" style="background:#7c7167"><img data-src="bilder/chef-pass.webp?v=68" data-srcset="bilder/chef-pass-m.webp?v=68 900w, bilder/chef-pass.webp?v=68 1376w" sizes="46vw" width="1376" height="921" alt="Gilles Varone au passe, devant la cuisine ouverte" decoding="async"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="abschnitt nacht2" id="equipe">
+  <div class="innen">
+    <div class="kopfzeile">
+      <img class="zeichen-gv" src="bilder/zeichen.svg" alt="" width="46" height="46">
+      <h2>Une équipe jeune &amp; dynamique.</h2>
+    </div>
+  </div>
+  <div class="equipe__wand" data-r="b">
+      <figure><div class="rahmen" style="--ab:#c6bcb6"><img data-src="bilder/p-gilles.webp?v=68" data-srcset="bilder/p-gilles-m.webp?v=68 900w, bilder/p-gilles.webp?v=68 690w" sizes="(max-width:860px) 50vw, 16vw" width="690" height="1227" alt="Gilles Varone" decoding="async"></div><figcaption><b>Gilles Varone</b><span class="klein">Chef &amp; patron</span></figcaption></figure><figure><div class="rahmen" style="--ab:#7a7273"><img data-src="bilder/p-letizia.webp?v=68" data-srcset="bilder/p-letizia-m.webp?v=68 900w, bilder/p-letizia.webp?v=68 690w" sizes="(max-width:860px) 50vw, 16vw" width="690" height="1227" alt="Letizia Varone" decoding="async"></div><figcaption><b>Letizia Varone</b><span class="klein">Cogérante</span></figcaption></figure><figure><div class="rahmen" style="--ab:#a89b93"><img data-src="bilder/p-andrea.webp?v=68" data-srcset="bilder/p-andrea-m.webp?v=68 900w, bilder/p-andrea.webp?v=68 572w" sizes="(max-width:860px) 50vw, 16vw" width="572" height="1024" alt="Andrea Granzarolo" decoding="async"></div><figcaption><b>Andrea Granzarolo</b><span class="klein">Chef de cuisine</span></figcaption></figure><figure><div class="rahmen" style="--ab:#afa7a7"><img data-src="bilder/p-wesley.webp?v=68" data-srcset="bilder/p-wesley-m.webp?v=68 900w, bilder/p-wesley.webp?v=68 572w" sizes="(max-width:860px) 50vw, 16vw" width="572" height="1024" alt="Wesley Broden" decoding="async"></div><figcaption><b>Wesley Broden</b><span class="klein">Chef pâtissier</span></figcaption></figure><figure><div class="rahmen" style="--ab:#645c5d"><img data-src="bilder/p-lise.webp?v=68" data-srcset="bilder/p-lise-m.webp?v=68 900w, bilder/p-lise.webp?v=68 572w" sizes="(max-width:860px) 50vw, 16vw" width="572" height="1024" alt="Lise Donier-Meroz" decoding="async"></div><figcaption><b>Lise Donier-Meroz</b><span class="klein">Cheffe sommelière</span></figcaption></figure><figure><div class="rahmen" style="--ab:#605452"><img data-src="bilder/p-ana.webp?v=68" data-srcset="bilder/p-ana-m.webp?v=68 900w, bilder/p-ana.webp?v=68 572w" sizes="(max-width:860px) 50vw, 16vw" width="572" height="1024" alt="Ana Suarez" decoding="async"></div><figcaption><b>Ana Suarez</b><span class="klein">Restaurant manager</span></figcaption></figure>
+  </div>
+  <div class="innen">
+    <div class="equipe__fuss" data-r="t">
+      <p>Nous sommes toujours à la recherche de talents, en salle et en cuisine.</p>
+      <div class="knopfreihe"><a class="knopf" href="equipe.html">L’équipe</a><a class="knopf knopf--nuit" href="equipe.html#postuler">Postuler</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="abschnitt nacht" id="distinctions">
+  <div class="innen">
+    <div class="kopfzeile">
+      <img class="zeichen-gv" src="bilder/zeichen.svg" alt="" width="46" height="46">
+      <h2>Le restaurant et son équipe obtiennent leur deuxième étoile.</h2>
+    </div>
+    <div class="preise" data-r="b" style="margin-top:clamp(54px,6vw,84px)">
+      <figure class="rahmen" style="--ab:#925952"><img data-src="bilder/award-zu-dritt.webp?v=68" data-srcset="bilder/award-zu-dritt-m.webp?v=68 900w, bilder/award-zu-dritt.webp?v=68 1500w" sizes="(max-width:860px) 100vw, 56vw" width="1500" height="919" alt="Gilles Varone reçoit le Michelin Young Chef Award 2024" decoding="async"></figure>
+      <div class="ehren">
+        <div class="ehre"><div class="logo"><img src="bilder/logo-michelin.png" alt="Deux étoiles MICHELIN 2025" width="620" height="439"></div><div><h3>Deux étoiles au Guide Michelin</h3><p>Le restaurant et son équipe obtiennent leur deuxième étoile au Guide Michelin.</p></div></div>
+        <div class="ehre"><div class="zahl" data-zahl="18">18</div><div><h3>18 points au GaultMillau</h3><p>Depuis début octobre 2026, le restaurant Gilles Varone est noté 18 points au GaultMillau.</p></div></div>
+        <div class="ehre"><div class="logo"><img src="bilder/logo-young-chef.png" alt="2024 Young Chef Award Winner" width="420" height="478"></div><div><h3>Michelin young chef award</h3><p>A l’occasion de la nouvelle édition du Guide Michelin 2024, le restaurant s’est vu décerner le prix du Meilleur Jeune Chef Suisse 2024.</p></div></div>
+        <div class="ehre"><div class="logo"><img src="bilder/logo-gaultmillau.png" alt="GaultMillau" width="520" height="351"></div><div><h3>Découverte romande de l’année</h3><p>Après seulement 3 mois d’ouverture, le restaurant et son équipe obtiennent leur premier titre au Gault &amp; Millau.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="vue durchblick" aria-label="Le menu">
+  <div class="vue__h"><div class="vue__b" style="--ab:#4e4234"><img data-src="bilder/dessert-holz.webp?v=68" data-srcset="bilder/dessert-holz-m.webp?v=68 900w, bilder/dessert-holz.webp?v=68 1920w" sizes="100vw" width="1920" height="1280" alt="Dessert sur bois à la lumière du soir" decoding="async"></div><div class="vue__t"><div class="vue__in"><div class="vue__hof"></div><p class="vue__satz">Un menu unique, changeant au gré de la qualité et de la saisonnalité des produits.</p></div></div></div>
+</section>
+
+<section class="abschnitt nacht geflecht" id="bon-cadeau">
+  <div class="innen cadeau">
+    <div class="bon" data-r="b" aria-hidden="true"><i class="glanz"></i>
+      <div class="bon__streif"></div>
+      <div class="bon__in">
+        <img class="wm" src="bilder/wortmarke.svg" alt="" width="414" height="154">
+        <div><div class="titel">Bon cadeau</div><div class="klein" style="margin-top:12px">Montants à choix</div></div>
+      </div>
+    </div>
+    <div class="cadeau__text">
+      <h2>Bons cadeaux.</h2>
+      <p data-r="t">Il est possible de commander des bons cadeaux personnalisés avec des montants à choix.</p>
+      <ul data-r="t" style="--i:1">
+        <li>Format physique : vous pouvez passer au restaurant le jeudi entre 10h et 17h, vendredi/samedi entre 9h et 11h, 16h30-17h30 et le dimanche entre 9h et 11h</li>
+        <li>Format électronique : directement via notre boutique en ligne</li>
+      </ul>
+      <div class="knopfreihe" data-r="t" style="--i:2"><a class="knopf" href="https://shop.e-guma.ch/gillesvarone/fr/bons-cadeaux/50226/bon-valeur" target="_blank" rel="noopener">Faire un bon cadeau</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="abschnitt nacht2" id="infos">
+  <div class="innen">
+    <div class="kopfzeile">
+      <img class="zeichen-gv" src="bilder/zeichen.svg" alt="" width="46" height="46">
+      <h2>Saint Germain, Savièse.</h2>
+    </div>
+    <div class="infos" data-r="b" style="margin-top:clamp(54px,6vw,84px)">
+      <figure class="plan"><img data-src="bilder/plan-saviese.webp?v=68" data-srcset="bilder/plan-saviese-m.webp?v=68 900w, bilder/plan-saviese.webp?v=68 1669w" sizes="(max-width:860px) 100vw, 56vw" width="1669" height="1251" alt="Plan d’accès du restaurant à Saint Germain, Savièse" decoding="async"></figure>
+      <div class="infos__tafel">
+        <section><h3>Horaires</h3><dl class="zeiten"><dt>Lundi – Mercredi</dt><dd>Fermé</dd><dt>Jeudi</dt><dd>18h30 – 00h00</dd><dt>Vendredi &amp; Samedi</dt><dd>12h00 – 16h00<br>19h00 – 00h00</dd><dt>Dimanche</dt><dd>12h00 – 16h00</dd></dl></section>
+        <section><h3>Accès</h3><p>Profitez du parking sous terrain gratuit, montez à l’étage supérieur avec votre voiture et prenez l’ascenseur jusqu’à l’étage zero.</p><p>Ligne de bus no 341 et 342 depuis Poste, Gare Sion jusqu’à Saint Germain centre Savièse.</p></section>
+        <section><h3>Contact</h3><p>Rue du Stade 5B, 1965 Savièse<br><a href="tel:+41275658920">027 565 89 20</a> · <a href="mailto:info@gillesvarone.ch">info@gillesvarone.ch</a></p>
+        <div class="knopfreihe"><a class="knopf" href="https://bookings.zenchef.com/results?rid=360467" target="_blank" rel="noopener">Réserver</a><a class="knopf knopf--nuit" href="infos.html">Toutes les infos</a></div></section>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="fuss geflecht">
+  <div class="innen">
+    <div class="fuss__kopf">
+      <img src="bilder/wortmarke.svg" alt="Restaurant Gilles Varone" width="414" height="154">
+      <p>Des saveurs &amp; des valeurs.</p>
+    </div>
+    <div class="fuss__spalten">
+      <div>
+        <h4 class="klein">Restaurant Gilles Varone</h4>
+        <p>Rue du Stade 5B<br>1965 Savièse</p>
+        <p><a href="tel:+41275658920">027 565 89 20</a><br><a href="mailto:info@gillesvarone.ch">info@gillesvarone.ch</a></p>
+      </div>
+      <div>
+        <h4 class="klein">Horaires</h4>
+        <p>Lundi – Mercredi : fermé<br>Jeudi : 18h30 – 00h00<br>Vendredi &amp; Samedi : 12h00 – 16h00, 19h00 – 00h00<br>Dimanche : 12h00 – 16h00</p>
+      </div>
+      <div>
+        <h4 class="klein">Découvrir</h4>
+        <ul><li><a href="index.html">Accueil</a></li><li><a href="restaurant.html">Restaurant</a></li><li><a href="experiences.html">Expériences</a></li><li><a href="equipe.html">Équipe</a></li><li><a href="infos.html">Infos</a></li><li><a href="https://shop.e-guma.ch/gillesvarone/fr/bons-cadeaux/50226/bon-valeur" target="_blank" rel="noopener">Bon cadeau</a></li>
+        <li><a href="https://www.instagram.com/gillesvarone/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/restaurantgillesvarone" target="_blank" rel="noopener">Facebook</a></li></ul>
+      </div>
+    </div>
+  </div>
+  <div class="fuss__unten"><span>© Restaurant Gilles Varone</span><span>Étude de design de Tasty Studios, ce n’est pas le site officiel du restaurant.</span></div>
+</footer>
+</body>
+</html>

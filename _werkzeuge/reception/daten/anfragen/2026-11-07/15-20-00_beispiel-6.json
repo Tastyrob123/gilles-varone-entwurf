@@ -1,0 +1,35 @@
+{
+ "zeit": "2026-11-07T15:20:00+01:00",
+ "art": "gutschein",
+ "name": "Valérie Luyet",
+ "kontakt": "valerie.luyet@example.com",
+ "datum": "",
+ "personen": null,
+ "anliegen": "Bon cadeau über 500 CHF für den 60. Geburtstag des Vaters, auf Papier",
+ "sprache": "fr",
+ "gespraech": "beispiel-6",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Expériences): Montant: 500 CHF\nFormat: physique, à retirer au restaurant\nPour: mon père, pour ses 60 ans\nMessage: Je passerai volontiers le chercher un jeudi après-midi. Est-il possible d’y ajouter quelques mots ?"
+  }
+ ],
+ "status": "erledigt",
+ "beispiel": true,
+ "an": "info@gillesvarone.ch",
+ "abteilung": "Bons cadeaux",
+ "seite": "/experiences.html",
+ "seite_name": "Expériences",
+ "web": true,
+ "nachricht": "Montant: 500 CHF\nFormat: physique, à retirer au restaurant\nPour: mon père, pour ses 60 ans\nMessage: Je passerai volontiers le chercher un jeudi après-midi. Est-il possible d’y ajouter quelques mots ?",
+ "formular": "gutschein",
+ "bild": "dessert-holz",
+ "entwurf": {
+  "betreff": "Votre bon cadeau pour les 60 ans de votre père",
+  "text": "Chère Madame Luyet,\n\nNous vous remercions pour votre message et sommes très touchés que vous choisissiez notre maison pour un si bel anniversaire.\n\nVotre bon cadeau d’un montant de 500 CHF sera préparé avec soin, avec les quelques mots que vous souhaitez y ajouter : il vous suffit de nous les transmettre par retour de message [Dédicace à reprendre].\n\nVous pourrez le retirer au restaurant le jeudi entre 10h et 17h, comme vous le souhaitez. Si cela vous convient mieux, nous sommes aussi présents le vendredi et le samedi entre 9h et 11h ou de 16h30 à 17h30, ainsi que le dimanche entre 9h et 11h.\n\nNous nous réjouissons d’accueillir bientôt votre père et de lui faire vivre un moment authentique.\n\nAvec nos salutations chaleureuses,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Bons cadeaux (montants à choix, format physique: jeudi 10h–17h, vendredi/samedi 9h–11h et 16h30–17h30, dimanche 9h–11h)\nOffen: Widmung übernehmen, Betrag bei Abholung",
+  "vorlage": "gutschein",
+  "absender": "info@gillesvarone.ch",
+  "zeit": "2026-11-07T15:20:00+01:00"
+ }
+}

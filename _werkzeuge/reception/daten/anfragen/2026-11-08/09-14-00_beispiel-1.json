@@ -1,0 +1,36 @@
+{
+ "zeit": "2026-11-08T09:14:00+01:00",
+ "art": "tisch",
+ "name": "Claire Rey",
+ "kontakt": "claire.rey@example.com",
+ "datum": "samedi 21 novembre 2026",
+ "personen": 2,
+ "anliegen": "Tisch für zwei, 10. Hochzeitstag, 7 services mit Accords",
+ "sprache": "fr",
+ "gespraech": "beispiel-1",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Accueil): Date: samedi 21 novembre 2026\nHeure: 19h30\nConvives: 2\nExpérience: 7 services\nAccords: mets et vins\nMessage: Nous fêtons nos dix ans de mariage. Nous avions dîné chez vous il y a deux ans et en gardons un souvenir merveilleux. Serait-il possible d’avoir une table un peu au calme ?"
+  }
+ ],
+ "status": "neu",
+ "beispiel": true,
+ "an": "info@gillesvarone.ch",
+ "abteilung": "Reservation",
+ "seite": "/index.html",
+ "seite_name": "Accueil",
+ "web": true,
+ "nachricht": "Date: samedi 21 novembre 2026\nHeure: 19h30\nConvives: 2\nExpérience: 7 services\nAccords: mets et vins\nMessage: Nous fêtons nos dix ans de mariage. Nous avions dîné chez vous il y a deux ans et en gardons un souvenir merveilleux. Serait-il possible d’avoir une table un peu au calme ?",
+ "formular": "reservation",
+ "uhrzeit": "19h30",
+ "bild": "bougie-1",
+ "entwurf": {
+  "betreff": "Votre soirée du samedi 21 novembre · dix ans de mariage",
+  "text": "Chère Madame Rey,\n\nNous vous remercions de tout cœur pour votre message et pour la fidélité que vous nous témoignez. Savoir que votre première soirée chez nous vous a laissé un si beau souvenir nous touche beaucoup.\n\nC’est avec une joie particulière que nous préparerons votre table pour le samedi 21 novembre à 19h30, afin de célébrer vos dix ans de mariage [Table à confirmer]. Nous veillerons à vous installer dans un coin plus calme de la salle [Table au calme à attribuer].\n\nVous avez choisi l’expérience en 7 services, accompagnée des accords mets et vins concoctés par Lise Donier-Meroz, notre cheffe sommelière. Comme toujours, Gilles viendra vous servir personnellement à votre table et vous dévoiler les subtilités de chacun de ses plats.\n\nAfin que tout soit parfait, pourriez-vous nous indiquer si l’un de vous a une allergie ou un régime alimentaire particulier ?\n\nNous nous réjouissons de vous accueillir à nouveau et de partager avec vous ce moment authentique.\n\nAvec nos salutations chaleureuses,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Accueil und Expériences (7 services, Accords mets et vins, Gilles serviert selbst am Tisch)\nOffen: Tisch bestätigen, ruhigen Tisch zuteilen; Allergien noch nicht genannt",
+  "vorlage": "reservation",
+  "absender": "info@gillesvarone.ch",
+  "zeit": "2026-11-08T09:14:00+01:00"
+ }
+}

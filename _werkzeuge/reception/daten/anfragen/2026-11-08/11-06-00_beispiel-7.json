@@ -1,0 +1,35 @@
+{
+ "zeit": "2026-11-08T11:06:00+01:00",
+ "art": "tisch",
+ "name": "Thomas Germanier",
+ "kontakt": "thomas.germanier@example.com",
+ "datum": "samedi 28 novembre 2026, 12h30",
+ "personen": 2,
+ "anliegen": "Samstagmittag, 2 Personen, kommen mit dem Auto aus Lausanne, fragen nach dem Parkplatz",
+ "sprache": "fr",
+ "gespraech": "beispiel-7",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Bonjour ! Nous venons de Lausanne en voiture le samedi 28 novembre pour déjeuner. Où peut-on se garer ?"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Un parking souterrain gratuit vous attend.\n- En voiture : montez à l’étage supérieur avec votre voiture, puis prenez l’ascenseur jusqu’à l’étage zéro.\nLa réservation en ligne affiche les tables libres pour le samedi midi."
+  },
+  {
+   "rolle": "user",
+   "text": "Parfait. Pouvez-vous transmettre notre demande pour 2 personnes à 12h30 ? Thomas Germanier, thomas.germanier@example.com"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Merci. Ceci est une ébauche de Tasty Studios : votre demande n’est pas transmise au restaurant, elle est seulement conservée pour être consultée."
+  }
+ ],
+ "status": "neu",
+ "beispiel": true,
+ "an": "info@gillesvarone.ch",
+ "abteilung": "Reservation",
+ "bild": "salle-jour",
+ "entwurf": null
+}

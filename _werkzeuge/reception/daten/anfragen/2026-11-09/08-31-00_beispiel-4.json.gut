@@ -1,0 +1,40 @@
+{
+ "zeit": "2026-11-09T08:31:00+01:00",
+ "art": "tisch",
+ "name": "Isabelle Fournier",
+ "kontakt": "isabelle.fournier@example.com",
+ "datum": "jeudi 3 décembre 2026",
+ "personen": 3,
+ "anliegen": "Tisch für drei, schwere Allergie auf Nüsse und Krebstiere",
+ "sprache": "fr",
+ "gespraech": "beispiel-4",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über ein Formular der Website (Seite Infos): Date: jeudi 3 décembre 2026\nHeure: 19h00\nConvives: 3\nAllergies et régimes: fruits à coque, crustacés\nMessage: Ma fille de seize ans a une allergie sévère aux fruits à coque et aux crustacés. Nous aimerions beaucoup lui faire découvrir votre restaurant. La cuisine peut-elle en tenir compte pour toute l’expérience ?"
+  }
+ ],
+ "status": "neu",
+ "beispiel": true,
+ "an": "info@gillesvarone.ch",
+ "abteilung": "Reservation",
+ "seite": "/infos.html",
+ "seite_name": "Infos",
+ "web": true,
+ "nachricht": "Date: jeudi 3 décembre 2026\nHeure: 19h00\nConvives: 3\nAllergies et régimes: fruits à coque, crustacés\nMessage: Ma fille de seize ans a une allergie sévère aux fruits à coque et aux crustacés. Nous aimerions beaucoup lui faire découvrir votre restaurant. La cuisine peut-elle en tenir compte pour toute l’expérience ?",
+ "formular": "reservation",
+ "allergene": [
+  "fruits-a-coque",
+  "crustaces"
+ ],
+ "uhrzeit": "19h00",
+ "bild": "cuisine",
+ "entwurf": {
+  "betreff": "Votre table du jeudi 3 décembre · allergies de votre fille",
+  "text": "Chère Madame Fournier,\n\nNous vous remercions pour votre message et pour la confiance que vous nous accordez.\n\nNous avons bien pris note de l’allergie sévère de votre fille aux fruits à coque et aux crustacés. Notre chef de cuisine, Andrea Granzarolo, en est informé et l’expérience sera préparée pour elle en tenant compte de chacune de ces allergies, du premier amuse-bouche au dessert [Informer la cuisine] [Confirmation de la cuisine].\n\nNous serons heureux de vous accueillir tous les trois le jeudi 3 décembre à 19h00 [Table à confirmer]. Veuillez noter que l’expérience choisie sera identique pour tous les convives assis à une même table : nous vous proposons de la choisir ensemble le soir même.\n\nÀ votre arrivée, notre équipe en salle reviendra encore une fois avec vous sur les allergies, afin que vous puissiez profiter de la soirée en toute sérénité.\n\nAvec nos salutations chaleureuses,\n\n[Prénom Nom]\nRestaurant Gilles Varone",
+  "team": "Grundlage: Expériences («Merci de nous signaler les allergies …», une même expérience par table), Équipe (Andrea Granzarolo)\nOffen: Küche bestätigt Allergien ausdrücklich, Tisch bestätigen",
+  "vorlage": "reservation",
+  "absender": "info@gillesvarone.ch",
+  "zeit": "2026-11-09T08:31:00+01:00"
+ }
+}

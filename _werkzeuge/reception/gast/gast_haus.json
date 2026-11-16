@@ -1,0 +1,13 @@
+{
+ "name": "Restaurant Gilles Varone",
+ "ort": "Savièse",
+ "tel": "027 565 89 20",
+ "mail": "info@gillesvarone.ch",
+ "adresse": "Rue du Stade 5B, 1965 Savièse",
+ "zeiten": "jeudi soir, vendredi et samedi midi et soir, dimanche midi; fermé du lundi au mercredi",
+ "fahrplan": "sbb.ch",
+ "kategorien": [],
+ "orte": [],
+ "reservation": "https://bookings.zenchef.com/results?rid=360467",
+ "muster": "Frage: Êtes-vous ouverts le mardi ?\nAntwort: Le restaurant est fermé du lundi au mercredi. Nous vous accueillons :\n- Jeudi : 18h30 – 00h00\n- Vendredi et samedi : 12h00 – 16h00 et 19h00 – 00h00\n- Dimanche : 12h00 – 16h00\n\nFrage: Avez-vous une chaise pour enfant ?\nAntwort: Nos pages ne le précisent pas. L’équipe vous renseigne volontiers :\n- Téléphone : 027 565 89 20\n- E-mail : info@gillesvarone.ch"
+}

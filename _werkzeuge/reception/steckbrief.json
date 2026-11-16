@@ -1,0 +1,449 @@
+{
+ "stand": 1794207912.2270844,
+ "bereiche": [
+  {
+   "bereich": "Das Haus",
+   "gruppen": [
+    {
+     "gruppe": "Auf einen Blick",
+     "zeilen": [
+      {
+       "fid": "ebd4b78067",
+       "was": "Adresse",
+       "angabe": "Rue du Stade 5B, 1965 Savièse (Saint-Germain centre)",
+       "beleg": "Rue du Stade 5B, 1965 Savièse",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "b75f262d66",
+       "was": "Telefon und E-Mail",
+       "angabe": "027 565 89 20, info@gillesvarone.ch",
+       "beleg": "027 565 89 20",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "info@gillesvarone.ch"
+       ]
+      },
+      {
+       "fid": "2440fcc729",
+       "was": "Lage",
+       "angabe": "im neuen Quartier von Saint-Germain centre, im Erdgeschoss, mit Blick auf die Walliser Alpen",
+       "beleg": "Situé dans le nouveau quartier de Saint Germain centre, le restaurant au rez-de-chaussée vous offrira une vue imprenable sur les Alpes valaisannes",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "2f6815b9e8",
+       "was": "Stimmung",
+       "angabe": "«ambiance intimiste et décontractée», «atmosphère chaleureuse»",
+       "beleg": "dans son ambiance intimiste et décontractée",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "0c00e02810",
+       "was": "Am Tisch",
+       "angabe": "Gilles Varone serviert seine Teller persönlich am Tisch",
+       "beleg": "c’est pourquoi je viendrai vous servir personnellement à votre table",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "9ab41984fd",
+       "was": "Werte",
+       "angabe": "Le terroir · La haute cuisine · Le partage",
+       "beleg": "Le terroir La haute cuisine Le partage",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Öffnungszeiten & Reservation",
+   "gruppen": [
+    {
+     "gruppe": "Horaires",
+     "zeilen": [
+      {
+       "fid": "ba6a7f2e43",
+       "was": "Montag bis Mittwoch",
+       "angabe": "geschlossen",
+       "beleg": "Lundi – Mercredi Fermé",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "b3ea27fdd7",
+       "was": "Donnerstag",
+       "angabe": "abends, 18h30 bis 00h00",
+       "beleg": "Jeudi 18h30 – 00h00",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "02246350f4",
+       "was": "Freitag und Samstag",
+       "angabe": "mittags 12h00 bis 16h00, abends 19h00 bis 00h00",
+       "beleg": "Vendredi & Samedi 12h00 – 16h00 19h00 – 00h00",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "bfb6e15eb4",
+       "was": "Sonntag",
+       "angabe": "mittags, 12h00 bis 16h00",
+       "beleg": "Dimanche 12h00 – 16h00",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Fermetures",
+     "zeilen": [
+      {
+       "fid": "5d19d3b426",
+       "was": "Dezember 2026",
+       "angabe": "Montag 21. bis Donnerstag 31. Dezember 2026",
+       "beleg": "du Lundi 21 Décembre 2026 au Jeudi 31 décembre 2026",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "e658c1dcf8",
+       "was": "Januar 2027",
+       "angabe": "Freitag 1. bis Mittwoch 6. Januar 2027",
+       "beleg": "Du vendredi 1e janvier au mercredi 6 janvier 2027",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Réserver",
+     "zeilen": [
+      {
+       "fid": "297b835f0e",
+       "was": "Online",
+       "angabe": "über Zenchef (Restaurant 360467)",
+       "beleg": "https://bookings.zenchef.com/results?rid=360467",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "ee77e7b8ec",
+       "was": "Allergien und Régimes",
+       "angabe": "bitte bei der Reservation für den ganzen Tisch angeben",
+       "beleg": "Merci de nous signaler les allergies et les régimes alimentaires particuliers de votre table lors de votre réservation",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "2f757fae8b",
+       "was": "Gruppen",
+       "angabe": "mehr als 8 Personen: über eine besondere Anfrage",
+       "beleg": "Les expériences destinées à plus de 8 personnes s’effectuent par le biais de demandes spéciales",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Expériences & Accords",
+   "gruppen": [
+    {
+     "gruppe": "Les expériences",
+     "zeilen": [
+      {
+       "fid": "eec7e34332",
+       "was": "Grundsatz",
+       "angabe": "ein einziges Menü, das sich nach Qualität und Saison der Produkte richtet",
+       "beleg": "Un menu unique, changeant au gré de la qualité et de la saisonnalité des produits.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "94c8a7755b",
+       "was": "5 services",
+       "angabe": "199 CHF · Amuse-Bouche, Première Entrée, Deuxième Entrée, Plat Principal, Dessert",
+       "beleg": "L’expérience en 5 services 199 CHF Amuse-Bouche Première Entrée Deuxième Entrée Plat Principal Dessert",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "8559b4e794",
+       "was": "6 services",
+       "angabe": "229 CHF · Amuse-Bouche, Entrée, Poisson, Plat Principal, Pré-Dessert, Dessert",
+       "beleg": "L’expérience en 6 services 229 CHF Amuse-Bouche Entrée Poisson Plat Principal Pré-Dessert Dessert",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "6316cbfd40",
+       "was": "7 services",
+       "angabe": "259 CHF · mit Poisson und Pré-Dessert",
+       "beleg": "L’expérience en 7 services 259 CHF Amuse-Bouche Première Entrée Deuxième Entrée Poisson Plat Principal Pré-Dessert Dessert",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "cf33c6da36",
+       "was": "Chasse locale",
+       "angabe": "299 CHF, nur im Oktober, je nach Verfügbarkeit",
+       "beleg": "L’expérience chasse locale 299 CHF Uniquement durant le mois d’octobre, selon les disponibilités",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "eff329eaaf",
+       "was": "Végétarien",
+       "angabe": "alle Expériences auch vegetarisch, nur auf Anfrage im Voraus",
+       "beleg": "Sur demande préalable uniquement, retrouvez toutes les expériences dans leurs versions végétariennes",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "9e3c5c274b",
+       "was": "Ein Tisch, ein Menü",
+       "angabe": "alle Gäste eines Tisches nehmen dieselbe Expérience",
+       "beleg": "l’expérience choisie sera identique pour tous les convives assis au sein d’une même table",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Les accords",
+     "zeilen": [
+      {
+       "fid": "477f6055fc",
+       "was": "Accords",
+       "angabe": "mets et vins oder mets et créations sans alcool, zu jeder Expérience",
+       "beleg": "Je vous propose des accords mets et vins et des accords mets et créations sans alcool concoctés par nos soins avec chacune de mes expériences.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "32e0ccdabe",
+       "was": "Weinkarte",
+       "angabe": "wechselt regelmässig, deshalb nicht veröffentlicht",
+       "beleg": "La carte des vins est régulièrement sujette à modifications.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Das Team",
+   "gruppen": [
+    {
+     "gruppe": "L’équipe",
+     "zeilen": [
+      {
+       "fid": "e4a508d810",
+       "was": "Chef & patron",
+       "angabe": "Gilles Varone",
+       "beleg": "Gilles Varone Chef & patron",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "7ced0497a8",
+       "was": "Cogérante",
+       "angabe": "Letizia Varone",
+       "beleg": "Letizia Varone Cogérante",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "0cb243e978",
+       "was": "Chef de cuisine",
+       "angabe": "Andrea Granzarolo",
+       "beleg": "Andrea Granzarolo Chef de cuisine",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "479374e313",
+       "was": "Chef pâtissier",
+       "angabe": "Wesley Broden",
+       "beleg": "Wesley Broden Chef pâtissier",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "3552d0cde0",
+       "was": "Cheffe sommelière",
+       "angabe": "Lise Donier-Meroz",
+       "beleg": "Lise Donier-Meroz Cheffe sommelière",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "b606c09e07",
+       "was": "Restaurant manager",
+       "angabe": "Ana Suarez",
+       "beleg": "Ana Suarez Restaurant manager",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Stellen",
+     "zeilen": [
+      {
+       "fid": "160d65fb28",
+       "was": "Gesucht",
+       "angabe": "Chef(fe) de partie in der Küche, Chef(fe) de rang im Saal",
+       "beleg": "En cuisine Chef(fe) de partie En salle Chef(fe) de rang",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "c71359e0db",
+       "was": "Bewerbung",
+       "angabe": "per E-Mail an restaurantgillesvarone@gmail.com",
+       "beleg": "restaurantgillesvarone@gmail.com",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Auszeichnungen",
+   "gruppen": [
+    {
+     "gruppe": "Distinctions",
+     "zeilen": [
+      {
+       "fid": "a4febad106",
+       "was": "Guide Michelin",
+       "angabe": "zwei Sterne",
+       "beleg": "Le restaurant et son équipe obtiennent leur deuxième étoile au Guide Michelin.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "49696cafca",
+       "was": "GaultMillau",
+       "angabe": "18 Punkte seit Anfang Oktober 2026",
+       "beleg": "Depuis début octobre 2026, le restaurant Gilles Varone est noté 18 points au GaultMillau.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "e197358aa5",
+       "was": "Michelin Young Chef Award",
+       "angabe": "Meilleur Jeune Chef Suisse 2024",
+       "beleg": "le restaurant s’est vu décerner le prix du Meilleur Jeune Chef Suisse 2024",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "8d83435105",
+       "was": "Étoile verte",
+       "angabe": "für die öko-verantwortlichen Initiativen des Hauses",
+       "beleg": "Cette dernière récompense les initiatives éco-responsables mises en place par l’établissement",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "dbd0615873",
+       "was": "Découverte romande",
+       "angabe": "GaultMillau, Découverte romande de l’année 2023",
+       "beleg": "« Découverte romande de l’année 2023 »",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Bons cadeaux",
+   "gruppen": [
+    {
+     "gruppe": "Bons cadeaux",
+     "zeilen": [
+      {
+       "fid": "171039e032",
+       "was": "Betrag",
+       "angabe": "persönliche Gutscheine mit frei wählbarem Betrag",
+       "beleg": "Il est possible de commander des bons cadeaux personnalisés avec des montants à choix.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "fa25e22f44",
+       "was": "Auf Papier",
+       "angabe": "im Restaurant: Donnerstag 10h bis 17h, Freitag/Samstag 9h bis 11h und 16h30 bis 17h30, Sonntag 9h bis 11h",
+       "beleg": "Format physique : vous pouvez passer au restaurant le jeudi entre 10h et 17h, vendredi/samedi entre 9h et 11h, 16h30-17h30 et le dimanche entre 9h et 11h",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "70fddc32fb",
+       "was": "Elektronisch",
+       "angabe": "in der Boutique en ligne (e-guma)",
+       "beleg": "Format électronique : directement via notre boutique en ligne",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Lage & Anreise",
+   "gruppen": [
+    {
+     "gruppe": "Accès",
+     "zeilen": [
+      {
+       "fid": "f495adbf03",
+       "was": "Mit dem Auto",
+       "angabe": "Gratis-Tiefgarage, mit dem Auto ins obere Geschoss, dann mit dem Lift bis Étage zéro",
+       "beleg": "Profitez du parking sous terrain gratuit, montez à l’étage supérieur avec votre voiture et prenez l’ascenseur jusqu’à l’étage zero.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "58a89c8b1e",
+       "was": "Mit dem Bus",
+       "angabe": "Linien 341 und 342 ab Poste/Gare Sion bis Saint-Germain centre Savièse",
+       "beleg": "Ligne de bus no 341 et 342 depuis Poste, Gare Sion jusqu’à Saint Germain centre Savièse.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "d358b973ab",
+       "was": "Eingeschränkte Mobilität",
+       "angabe": "zugänglich für Reservationen bis 7 Personen, bitte vorher melden",
+       "beleg": "accessible pour les personnes à mobilité réduite pour des réservations jusqu’à 7 personnes, en nous en informant au préalable",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "80032858d2",
+       "was": "Tiere",
+       "angabe": "nicht erlaubt (auch Hunde nicht)",
+       "beleg": "Animaux non admis.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
