@@ -1314,3 +1314,15 @@ html.auf[data-h="45"] .held .zeile>span{transition:transform .9s var(--ein);tran
 .leiste:not(.fest):not([data-ton="hell"]):not([data-ton="dunkel"]) .leiste__menu{text-shadow:0 1px 3px rgba(4,6,7,.9),0 0 16px rgba(4,6,7,.7)}
 .leiste:not(.fest):not([data-ton="hell"]):not([data-ton="dunkel"]) .leiste__gv img{filter:drop-shadow(0 1px 4px rgba(4,6,7,.8))}
 @media (max-width:860px){.leiste.seite[data-ton="held"]{background:var(--nuit)}}
+
+/* Prüfung 20.11.2026: Ortszeile beginnt unter dem Schlitz des grossen Titels (beim Einflug kreuzt nichts); Gutschein-Karte endet oben und unten mit dem Text */
+:is([data-h="41"],[data-h="43"],[data-h="45"],[data-h="47"],[data-h="49"],[data-h="51"]) .held:not(.held--seite) .held__ort{margin-top:max(22px,calc(clamp(58px,8.6vw,150px)*.2 + 4px))}
+@media (min-width:861px){.cadeau .bon{align-self:stretch;aspect-ratio:auto;min-height:min(340px,100%)}}
+/* Prüfung 20.11.2026, Équipe: Bild und Text jeder Person enden auf einer Linie (Leerraum-Regel); das Bild nimmt die Höhe des Textes, mindestens 560 px, der Text steht dann mittig */
+@media (min-width:861px){
+  .person{align-items:stretch}
+  .person__bild{position:relative;top:auto}
+  .person__bild .rahmen{aspect-ratio:auto;height:100%;min-height:560px}
+  .person__bild .rahmen img{position:absolute;inset:0;object-position:50% 22%}
+  .person>:not(.person__bild){align-self:center}
+}
