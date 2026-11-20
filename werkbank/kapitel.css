@@ -535,3 +535,6 @@ html.ins-ruhe :is(.stapel .tel,.runter i,.zeile__z,.namenzug div,.wb-band__zug,.
 
 /* Prüfung 20.11.2026: Beschriftung der Fächer im Fuss bricht am Handy um statt über die Karte zu laufen (Prüfpunkt 37) */
 @media(max-width:600px){.blattk>span{white-space:normal!important;overflow-wrap:anywhere}}
+
+/* Prüfung 20.11.2026: Kapitel Karten bei 1200–1439 px, Blätter-Spalte breiter, damit die Blätter die Höhe neben dem Text füllen (Prüfpunkt 15) */
+@media(min-width:1200px) and (max-width:1439px){#unterlagen .karten{grid-template-columns:minmax(0,.6fr) minmax(0,1fr)!important}}
