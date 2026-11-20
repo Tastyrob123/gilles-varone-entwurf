@@ -532,3 +532,6 @@ html.ins-ruhe :is(.stapel .tel,.runter i,.zeile__z,.namenzug div,.wb-band__zug,.
 
 /* Prüfung 20.11.2026, KI-Seite bis 1360 px: Laptop über der Karte statt klein daneben, «Ohne KI» 2 + 2 (Prüfpunkte 10 und 20) */
 @media(min-width:1001px) and (max-width:1360px){.ki-st{grid-template-columns:1fr!important}.ki-st--um .ki-st__b,.ki-st--um .ki-geraet{order:0!important}.ki-st .ki-geraet img{max-width:760px;margin:0 auto}.ki-ohne{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+
+/* Prüfung 20.11.2026: Beschriftung der Fächer im Fuss bricht am Handy um statt über die Karte zu laufen (Prüfpunkt 37) */
+@media(max-width:600px){.blattk>span{white-space:normal!important;overflow-wrap:anywhere}}
