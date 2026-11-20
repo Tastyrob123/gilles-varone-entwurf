@@ -92,3 +92,6 @@
 /* Besuche, Karte eines kurzen Wegs (bis drei Seiten, Fotos füllen die Karte, Vorlage 09.11.2026): bei Gilles Varone sind kurze Wege häufig; mit 150 px je Seite war die
    Karte bei 1440 × 900 höher als der Platz zwischen Kopf und Leiste (Abnahme I08). Mindestens 100 px je Seite, sie wachsen weiter mit der Karte mit. */
 @media (min-width:1181px){ .detail .weg--gross{grid-auto-rows:minmax(100px,1fr)} }
+
+/* Prüfung 20.11.2026: Ort und Besuchszeile werden nicht mit «…» gekürzt, sie brechen um (Robert: abgeschnittene Texte im Registre) */
+.besuch__n b,.besuch__n small{white-space:normal;overflow:visible;text-overflow:clip}
