@@ -638,3 +638,6 @@ body.ma{font-size:17.5px;line-height:1.6}
 #livre .m-schirme--zwei{padding-bottom:clamp(38px,4.79vw,86px)}
 #registre .m-schirme--zwei{padding-bottom:clamp(176px,22.22vw,400px)}}
 /* ---- Ende Spaltenhöhe je Saal ---- */
+
+/* Prüfung 20.11.2026: Knopf-Namen im Text mindestens 13 px */
+.m-ui{font-size:max(13px,.86em)!important}
