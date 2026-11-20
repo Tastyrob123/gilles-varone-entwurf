@@ -641,3 +641,8 @@ body.ma{font-size:17.5px;line-height:1.6}
 
 /* Prüfung 20.11.2026: Knopf-Namen im Text mindestens 13 px */
 .m-ui{font-size:max(13px,.86em)!important}
+
+/* Prüfung 20.11.2026 (wie roots): Saal-Felder gleich hoch; Inselnamen 13 px; Fenstertitel am Handy umbrechen statt «…» */
+.m-saal__feld{align-items:stretch!important}
+.m-insel__p{font-size:13px!important;letter-spacing:.14em!important}
+@media (max-width:440px){.m-schirm__leiste{height:auto!important;min-height:32px;padding-top:7px!important;padding-bottom:7px!important}.m-schirm__leiste span{white-space:normal!important;overflow:visible!important;text-overflow:clip!important;line-height:1.35!important}}
