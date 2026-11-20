@@ -69,7 +69,7 @@
   },
   {
    "source": "/werkzeuge/imprimerie/haeuser/varone/bilder/:pfad*",
-   "destination": "https://gilles-varone-werkstatt.vercel.app/werkzeuge/imprimerie/haeuser/varone/bilder/:pfad*"
+   "destination": "https://tastyrob123.github.io/gilles-varone-entwurf/_werkzeuge/imprimerie/haeuser/varone/bilder/:pfad*"
   }
  ],
  "stand": "",
